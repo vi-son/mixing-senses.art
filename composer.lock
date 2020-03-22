@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "904eae1ad1df8921b7d88e4780e86008",
+    "content-hash": "d6b68dae5b78a86d6b7625832566f2f8",
     "packages": [
         {
             "name": "claviska/simpleimage",
@@ -629,6 +629,46 @@
                 "shim"
             ],
             "time": "2020-01-13T11:15:53+00:00"
+        },
+        {
+            "name": "timoetting/kirby-builder",
+            "version": "2.0.13",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TimOetting/kirby-builder.git",
+                "reference": "75e6987991b7f186662da3cd9b8169937506b094"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TimOetting/kirby-builder/zipball/75e6987991b7f186662da3cd9b8169937506b094",
+                "reference": "75e6987991b7f186662da3cd9b8169937506b094",
+                "shasum": ""
+            },
+            "require": {
+                "getkirby/composer-installer": "^1.1",
+                "php": ">=7.1.0"
+            },
+            "type": "kirby-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim Ötting",
+                    "email": "email@tim-oetting.de"
+                }
+            ],
+            "description": "This versatile plugin for Kirby CMS (v3) lets you predefine content blocks with different field sets that can then be added, edited and arranged inside Kirby's panel.",
+            "keywords": [
+                "builder",
+                "kirby-builder",
+                "kirby3",
+                "kirby3-cms",
+                "kirby3-plugin",
+                "page-builder"
+            ],
+            "time": "2019-08-14T23:52:51+00:00"
         },
         {
             "name": "true/punycode",
