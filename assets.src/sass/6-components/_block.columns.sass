@@ -1,0 +1,17 @@
+.columns
+  display: grid
+  grid-gap: 60px
+  +from($tablets)
+    &[data-column-count="1"]
+      grid-template-columns: 1fr
+      text-align: center
+
+    &[data-column-count="2"]
+      grid-template-columns: repeat(2, 1fr)
+
+    &[data-column-count="3"]
+      grid-template-columns: repeat(3, 1fr)
+
+  .infos-links
+    margin-top: 20px
+    line-height: 2.6

@@ -1,0 +1,13 @@
+{
+  "name": "kirby.guidoschmidt.cc",
+  "version": "1.0.0",
+  "description": "Kirby is a file-based CMS. Easy to setup. Easy to use. Flexible as hell.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "(php -S 127.0.0.1:8888 kirby/router.php)",
+    "dev:css": "npx sass --watch assets.src/sass/style.sass assets/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

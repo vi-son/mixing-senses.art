@@ -1,0 +1,30 @@
+.textblock-image
+  .cols
+    display: grid
+    grid-template-columns: 1fr 1fr
+    grid-template-areas: "left right"
+    grid-gap: 60px
+    .text
+      line-height: 2.0
+      [data-columns="one"]
+        column-count: 1
+      [data-columns="two"]
+        column-count: 2
+        column-gap: 2em
+      [data-columns="three"]
+        column-count: 3
+        column-gap: 2em
+    .picture
+      justify-self: center
+      img
+        max-height: 60vh
+  &[data-layout="left"]
+    .textblock
+      grid-area: right
+    .picture
+      grid-area: left
+  &[data-layout="right"]
+    .textblock
+      grid-area: left
+    .picture
+      grid-area: right

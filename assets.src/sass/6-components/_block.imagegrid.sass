@@ -1,0 +1,12 @@
+.image-grid
+  column-gap: 2em
+  column-count: 2
+  +from($tablets)
+    column-count: 3
+  +from($desktops)
+    column-count: 4
+  .grid-item
+    background-color: #eee
+    display: inline-block
+    margin: 0 0 1em
+    width: 100%

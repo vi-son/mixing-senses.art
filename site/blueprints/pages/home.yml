@@ -1,0 +1,149 @@
+title: Home
+
+sections:
+  content:
+    type: fields
+    fields:
+      files:
+        type: files
+        width: 1/4
+
+      headline:
+        label: Headline
+        type: text
+        width: 3/4
+
+      blocks:
+        label: Content
+        type: builder
+        columns: 1
+        fieldsets:
+
+          textblock:
+            label: Textblock
+            fields:
+              visible:
+                extends: fields/blockstatus
+              columns:
+                label: Spalten
+                type: select
+                options:
+                  one: 1
+                  two: 2
+                  three: 3
+              preheadline:
+                label: Überüberschrift
+                type: text
+              headline:
+                label: Überschrift
+                type: text
+              text:
+                label: Textblock
+                type: textarea
+                size: large
+
+          textblock-image:
+            label: Textblock + Bild
+            fields:
+              visible:
+                extends: fields/blockstatus
+              columns:
+                type: select
+                label: Spalten
+                options:
+                  one: 1
+                  two: 2
+                  three: 3
+              preheadline:
+                label: Überüberschrift
+                type: text
+              headline:
+                label: Überschrift
+                type: text
+              text:
+                label: Textblock
+                type: textarea
+                size: large
+              image_position:
+                label: Position Bild
+                type: select
+                options:
+                  left: Links
+                  right: Rechts
+              image:
+                label: Bild
+                type: files
+                max: 1
+
+          image-grid:
+            label: Bilder-Raster
+            fields:
+              visible:
+                extends: fields/blockstatus
+              columns:
+                type: select
+                label: Spalten
+                options:
+                  one: 1
+                  two: 2
+                  three: 3
+              images:
+                label: Bild
+                type: files
+                max: 12
+
+          list:
+            label: List
+            fields:
+              visible:
+                extends: fields/blockstatus
+              listitems:
+                label: List
+                type: structure
+                fields:
+                  heading:
+                    label: Titel
+                    type: text
+                    width: 1/2
+                  text:
+                    label: Text
+                    type: text
+                    width: 1/2
+
+          columns:
+            label: Spalten
+            fields:
+              visible:
+                extends: fields/blockstatus
+              superheading:
+                label: Überschrift Block
+                type: text
+              columns:
+                label: Spalten
+                type: builder
+                columns: 3
+                max: 3
+                fieldsets:
+                  column:
+                    label: Spalte
+                    fields:
+                      preheading:
+                        label: Kleine Überschrift
+                        type: text
+                      heading:
+                        label: Überschrift
+                        type: text
+                      text:
+                        label: Text
+                        type: textarea
+                        size: medium
+                      infos:
+                        label: Links/Infos
+                        type: structure
+                        fields:
+                          text:
+                            label: Text
+                            type: text
+                          url:
+                            label: Link-URL
+                            type: url
