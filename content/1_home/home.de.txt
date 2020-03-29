@@ -22,13 +22,21 @@ Blocks:
   text: |
     Musik ist eine gängige Art und Weise, Eindrücke, Emotionen und Stimmungen zu kodieren und damit zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Ein mehrdimensionales multisensorisches Datengefüge wird bei der Übersetzung von Emotionen in Musik auf eine Dimension – die auditive Ebene – beschränkt.
     
-    Die Installation soll die Übersetzung visueller, auditiver und emotionaler Reize durch Mensch und Maschine aufgreifen und auf verschiedene Arten und Weisen thematisieren. Die Exponate reichen dabei von rein datengetriebener Übersetzung bis hin zu offenen, assoziativ geprägten Übersetzungen.
-    
-    Musik ist eine gängige Art und Weise, Eindrücke, Emotionen und Stimmungen zu kodieren und damit zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Ein mehrdimensionales multisensorisches Datengefüge wird bei der Übersetzung von Emotionen in Musik auf eine Dimension – die auditive Ebene – beschränkt.
-    
     **Die Installation soll die Übersetzung visueller, auditiver und emotionaler Reize durch Mensch und Maschine aufgreifen und auf verschiedene Arten und Weisen thematisieren**. Die Exponate reichen dabei von rein datengetriebener Übersetzung bis hin zu offenen, assoziativ geprägten Übersetzungen.
   _key: textblock
   _uid: textblock_1583077809843_281
+- 
+  visible: 'true'
+  columns: ""
+  images:
+    - 2020.02.09-17.14.00.png
+    - 2020.02.22-17.36-0009.jpg
+    - 2020.03.15-22.40.31-0061.png
+    - 2020.02.22-18.01-0005.png
+    - 2020.03.15-22.40.31-0055.png
+    - 2020.02.09-17.13.00.png
+  _key: image-grid
+  _uid: image-grid_1584979500487_1147
 - 
   visible: 'true'
   superheading: ""
@@ -38,7 +46,7 @@ Blocks:
       heading: Kalangu
       text: |
         *KALANGU* ist ein  Künstler-Pseudonym unter dem seit 2015 verschiedene überwiegend musikalische Projekte entstehen. Dahinter stecken wechselnde Studio- oder Livebesetzungen.
-        Die Musik ist meist durch einen synthesizerlastigen Sounds geprägt. Stilistisch variiert sie je nach Projekt, pendelt sich jedoch meist zwischen Pop und experimentellem Lounge-Sound ein.
+        Die Musik ist meist durch einen synthesizerlastigen Sound geprägt. Stilistisch variiert sie je nach Projekt, pendelt sich jedoch meist zwischen Pop und experimentellem Lounge-Sound ein.
       infos: [ ]
       _key: column
       _uid: column_1584909902661_1395
@@ -71,7 +79,7 @@ Blocks:
     - 
       preheading: 'Infos & neues'
       heading: Updates
-      text: ""
+      text: Bald erfahrt ihr mehr...
       infos: [ ]
       _key: column
       _uid: column_1584905712500_330
