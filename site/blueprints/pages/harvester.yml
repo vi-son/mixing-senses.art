@@ -1,0 +1,71 @@
+title: Harvester
+icon:
+
+tabs:
+  faqtab:
+    label: FAQ
+    icon: text
+    fields:
+      headline:
+        label: Headline
+        type: text
+      subheadline:
+        label: Subheadline
+        type: text
+      questions:
+        type: builder
+        columns: 2
+        fieldsets:
+          topic:
+            label: "{{heading}}"
+            fields:
+              toggle:
+                label: Published
+                type: toggle
+              heading:
+                label: Question/Heading
+                type: text
+              paragraph:
+                label: Text
+                type: textarea
+                size: medium
+
+  factstab:
+    label: Facts
+    icon: text
+    fields:
+      info:
+        label: Info
+        type: info
+        text: |
+          Dear editor,
+      facts:
+        type: builder
+        columns: 3
+        fieldsets:
+          topic:
+            label: "{{ heading }} ({{ category }})"
+            fields:
+              toggle:
+                label: Published
+                type: toggle
+              heading:
+                label: Question/Heading
+                type: text
+              paragraph:
+                label: Text
+                type: textarea
+                size: medium
+              category:
+                label: Category
+                type: radio
+                columns: 2
+                options:
+                  - value: color2sound
+                    text: Farbe zu Sound
+                  - value: sound2color
+                    text: Sound zu Farbe
+                  - value: feeling2sound
+                    text: Gefühl zu Sound
+                  - value: brightness2sound
+                    text: Helligkeit zu Sound
