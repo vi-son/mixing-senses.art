@@ -15,21 +15,23 @@ endif;
           content="width=device-width,initial-scale=1.0">
     <?= css("assets/css/style.css") ?>
 
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
     <?= js("assets/js/vendor/p5.min.js") ?>
     <?= js("assets/js/vendor/p5.sound.min.js") ?>
     <?= js("assets/js/vendor/poisson-disk-sampling.min.js") ?>
     <?= js("assets/js/logo.js") ?>
+    <?= js("assets/js/home.js") ?>
   </head>
   <body>
 
     <header>
       <div class="audio-permission">
         <?= $page->usemicrophonetext()->kt() ?>
-        <form>
-          <button >
+        <div>
+          <button id="allow-mic">
             <?= $page->allowmicbuttontext()->kt() ?>
           </button>
-        </form>
+        </div>
       </div>
 
       <div class="buttons">

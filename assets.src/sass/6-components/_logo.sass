@@ -1,3 +1,10 @@
+@keyframes fadein
+  0%
+    opacity: 0
+  100%
+    opacity: 1
+
+
 .buttons
   z-index: 99
   position: absolute
@@ -15,6 +22,8 @@
   .button
     padding: 10px 40px 10px 10px
     border-radius: 2px
+    &.active
+      background: var(--color-peacock) !important
 
   #button-mic,
   #button-song
@@ -44,6 +53,9 @@
   margin: 0 auto
   display: flex
   flex-direction: column
+  opacity: 0
+  animation: fadein 3s 1500ms linear
+  animation-fill-mode: forwards
   +until($tablets)
     top: 280px
     transform: scale(0.6)
