@@ -1,14 +1,54 @@
+<?php
+if ($page->song()->toFile()):
+  $song = $page->song()->toFile()->url();
+else:
+  $song = "";
+endif;
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>Document</title>
+    <title><?= $page->title() ?></title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0">
     <?= css("assets/css/style.css") ?>
+
+    <?= js("assets/js/vendor/p5.min.js") ?>
+    <?= js("assets/js/vendor/p5.sound.min.js") ?>
+    <?= js("assets/js/vendor/poisson-disk-sampling.min.js") ?>
+    <?= js("assets/js/logo.js") ?>
   </head>
   <body>
+
     <header>
-      <h1 class="title"><?= $page->title() ?></h1>
-      <h2 class="title-subline"><?= $page->headline() ?></h2>
+      <div class="audio-permission">
+        <?= $page->usemicrophonetext()->kt() ?>
+        <form>
+          <button >
+            <?= $page->allowmicbuttontext()->kt() ?>
+          </button>
+        </form>
+      </div>
+
+      <div class="buttons">
+        <button class="button" id="button-song">
+          <?= svg("assets/svg/icons/song.svg") ?>
+          <?= $page->songbuttontext()->kt() ?>
+        </button>
+        <button class="button" id="button-mic">
+          <?= svg("assets/svg/icons/microphone.svg") ?>
+          <?= $page->micbuttontext()->kt() ?>
+        </button>
+      </div>
+      <div id="logo-canvas-wrapper"
+           data-song="<?= $song ?>">
+      </div>
+      <div class="logo-wrapper">
+        <div class="logo"><?= svg("assets/svg/logo.svg") ?></div>
+        <div class="subline"><?= svg("assets/svg/subline.svg") ?></div>
+      </div>
     </header>
 
     <?php foreach($page->blocks()->toBuilderBlocks() as $block): ?>

@@ -10,11 +10,7 @@ Song:
 
 ----
 
-Usemicrophonetext: **Herzlich willkommen** - schön, dass du da bist. Du bist im Begriff Kunst zu machen! Bitte gib uns die Erlaubnis, auf dein Mikrofon zuzugreifen - und dann kann es auch schon los gehen. Mehr Infos findest du in unserem FAQ-Bereich.
-
-----
-
-Allowmicbuttontext: Erlauben
+Usemicrophonetext: **Welcome**, we're glad you're here. You are about to make art! Please give us permission to access your microphone - and then we're good to go. More information can be found in our FAQ section.
 
 ----
 
@@ -22,7 +18,7 @@ Songbuttontext: Song
 
 ----
 
-Micbuttontext: Microfon
+Micbuttontext: Microphone
 
 ----
 
@@ -132,3 +128,7 @@ Blocks:
 ----
 
 Files: 
+
+----
+
+Allowmicbuttontext: Allow

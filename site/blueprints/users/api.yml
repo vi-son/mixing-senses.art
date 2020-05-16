@@ -1,0 +1,42 @@
+title: API
+permissions:
+  access:
+    panel: true
+    site: true
+    settings: false
+    users: false
+  files:
+    create: false
+    changeName: false
+    delete: false
+    replace: false
+    update: false
+  site:
+    update: false
+  pages:
+    create: false
+    changeTemplate: false
+    changeTitle: false
+    changeSlug: false
+    delete: false
+    hide: false
+    sort: false
+    update: false
+  user:
+    create: false
+    changeName: false
+    changeEmail: false
+    changeLanguage: false
+    changePassword: false
+    changeRole: false
+    delete: false
+    update: false
+  users:
+    create: false
+    changeEmail: false
+    changeLanguage: false
+    changeName: false
+    changePassword: false
+    changeRole: false
+    delete: false
+    update: false

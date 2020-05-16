@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="492px" height="123px" viewBox="0 0 492 123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-Copy" transform="translate(28.000000, 20.000000)" stroke="#323045">
+            <circle id="Oval-Copy-3" stroke-width="9.6" fill="#323045" cx="300" cy="41.6" r="35.2"></circle>
+            <polyline id="N" stroke-width="9.6" stroke-linejoin="bevel" fill-rule="nonzero" transform="translate(400.800000, 42.400000) scale(-1, 1) translate(-400.800000, -42.400000) " points="435.2 80 435.2 4.8 366.525319 80 366.4 4.8"></polyline>
+            <polygon id="Path-8" stroke-width="4.8" fill="#323045" stroke-linejoin="bevel" points="432 74.0436218 403.2 43.2 432 6.4"></polygon>
+            <path d="M232,9.64288716 C228.261456,6.63706859 223.259704,4.8 217.764047,4.8 C206.185924,4.8 196.8,12.9538458 196.8,23.0121244 C196.8,33.0704029 208.93708,37.2304963 214.478749,40" id="Path" stroke-width="9.6" fill="#323045" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M196.8,71.147292 C200.552954,75.5579851 206.446473,78.4 213.073493,78.4 C224.40997,78.4 233.6,70.0833951 233.6,59.824343 C233.6,49.5652909 224.172491,44.6260982 214.178131,40" id="Path" stroke-width="9.6" fill="#323045" stroke-linecap="square" stroke-linejoin="round"></path>
+            <line x1="197.6" y1="66.325" x2="232.8" y2="12.075" id="Path-7" stroke-width="4.8" fill="#323045" stroke-linecap="round" stroke-linejoin="round"></line>
+            <polyline id="Path" stroke-width="9.6" transform="translate(42.400000, 37.341010) scale(1, -1) translate(-42.400000, -37.341010) " points="0 71.48202 41.6 4.25944189e-13 84.8 74.68202"></polyline>
+            <polyline id="Path-7" stroke-width="4.8" fill="#323045" stroke-linecap="round" stroke-linejoin="round" points="4 4.8 41.6 70.4 64.8 31.2 4 4"></polyline>
+            <path d="M88.8,0 C88.8,64.2789282 88.8,91.3122379 88.8,81.0999291" id="Path-6" stroke-width="9.6" stroke-linejoin="bevel"></path>
+        </g>
+    </g>
+</svg>

@@ -2,6 +2,36 @@ Title: Harvester
 
 ----
 
+Sendbuttontext: Weiter
+
+----
+
+Usemicrophonetext: Herzlich willkommen - schön, dass du da bist. Du bist im Begriff Kunst zu machen! Bitte gib uns die Erlaubnis, auf dein Mikrofon zuzugreifen - und dann kann es auch schon los gehen. Mehr Infos findest du in unserem FAQ-Bereich.
+
+----
+
+Allowbuttontext: Erlauben
+
+----
+
+Scenarios:
+
+- 
+  question: Was is los?
+  mapping_from: color
+  mapping_to: tone
+  _key: scenario
+  _uid: scenario_1586785330229_851
+- 
+  question: Was geht ab?
+  mapping_from: tone
+  mapping_to: feeling
+  _key: scenario
+  isnew: true
+  _uid: scenario_1586785331067_945
+
+----
+
 Headline: FAQ
 
 ----
@@ -13,15 +43,26 @@ Subheadline: Was soll das?
 Questions:
 
 - 
-  toggle: 'false'
+  toggle: 'true'
   heading: Was soll das hier?
-  paragraph: ""
+  paragraph: '**Musik** ist eine gängige Art und Weise, Eindrücke, Emotionen und Stimmungen zu kodieren und damit zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Ein mehrdimensionales multisensorisches Datengefüge wird bei der Übersetzung von Emotionen in Musik auf eine Dimension – die (link: https://mixing-senses.art text: auditive Ebene) – beschränkt.'
   _key: topic
   _uid: topic_1585485201679_164
 - 
-  toggle: 'false'
-  heading: ""
-  paragraph: ""
+  toggle: 'true'
+  heading: "Darum geht's"
+  paragraph: >
+    Musik ist eine gängige Art und Weise,
+    Eindrücke, Emotionen und Stimmungen zu
+    kodieren und damit zu kommunizieren. Bei
+    dieser gehen jedoch Informationen
+    verloren, Aspekte werden akzentuiert,
+    andere vernachlässigt. Ein
+    mehrdimensionales multisensorisches
+    Datengefüge wird bei der Übersetzung
+    von Emotionen in Musik auf eine
+    Dimension – die auditive Ebene –
+    beschränkt.
   _key: topic
   _uid: topic_1585485202597_342
 - 

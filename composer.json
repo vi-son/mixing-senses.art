@@ -20,7 +20,9 @@
     "require": {
         "php": ">=7.1.0",
         "getkirby/cms": "^3.0",
-        "timoetting/kirby-builder": "^2.0"
+        "timoetting/kirby-builder": "^2.0",
+        "bnomei/kirby3-janitor": "^2.5",
+        "lukaskleinschmidt/kirby-resolve": "^1.0"
     },
     "config": {
         "optimize-autoloader": true

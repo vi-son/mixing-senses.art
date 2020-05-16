@@ -2,7 +2,46 @@ Title: Harvester
 
 ----
 
-Headline: FAQ
+Sendbuttontext: Next
+
+----
+
+Usemicrophonetext: Welcome, we're glad you're here. You are about to make art! Please give us permission to access your microphone - and then we're good to go. More information can be found in our (link: /#about text: FAQ) section.
+
+----
+
+Scenarios:
+
+- 
+  question: Welche Farbe hat dieser Ton?
+  mapping_from: tone
+  mapping_to: color
+  _key: scenario
+  _uid: scenario_1586287285560_123
+- 
+  question: >
+    Welches Gefühl empfindest du bei diesem
+    Ton?
+  mapping_from: tone
+  mapping_to: feeling
+  _key: scenario
+  _uid: scenario_1586287681477_170
+- 
+  question: Wie hell empfindest du diesen Ton?
+  mapping_from: tone
+  mapping_to: brightness
+  _key: scenario
+  _uid: scenario_1586441935228_450
+- 
+  question: Welcher Ton ist diese Farbe für dich?
+  mapping_from: color
+  mapping_to: tone
+  _key: scenario
+  _uid: scenario_1586442674448_570
+
+----
+
+Headline: Background
 
 ----
 
@@ -13,44 +52,55 @@ Subheadline: What's that?
 Questions:
 
 - 
-  toggle: 'false'
-  heading: Was soll das hier?
-  paragraph: ""
+  toggle: 'true'
+  heading: Whats up with that
+  paragraph: '**Musik** ist eine gängige Art und (email: info@mixing-senses.art text: Weise), Eindrücke, Emotionen und Stimmungen zu kodieren und damit zu kommunizieren. Bei *dieser* Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. **Ein mehrdimensionales multisensorisches Datengefüge** wird bei der Übersetzung von **Emotionen** in Musik auf eine Dimension – die (link: https://mixing-senses.art text: auditive Ebene) – beschränkt.'
   _key: topic
   _uid: topic_1585485201679_164
 - 
-  toggle: 'false'
-  heading: ""
-  paragraph: ""
+  toggle: 'true'
+  heading: "Dude what's going on?"
+  paragraph: 'Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind. Ich lese nicht sehr viele Zeitungen, aber ich habe gehört viele Situationen. Erstens: wir haben nicht offensiv gespielt. Es gibt keine deutsche Mannschaft spielt offensiv und die Name offensiv wie Bayern. Letzte Spiel hatten'
   _key: topic
   _uid: topic_1585485202597_342
 - 
-  toggle: 'false'
-  heading: ""
-  paragraph: ""
-  _key: topic
-  isnew: true
-  _uid: topic_1585485203316_520
-- 
-  toggle: 'false'
-  heading: ""
-  paragraph: ""
-  _key: topic
-  _uid: topic_1585485509971_813
-- 
-  toggle: 'false'
-  heading: ""
-  paragraph: ""
-  _key: topic
-  _uid: topic_1585485510763_991
-- 
-  toggle: 'false'
-  heading: ""
-  paragraph: ""
+  toggle: 'true'
+  heading: Kafka ist ein Teil
+  paragraph: 'Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet. »Wie ein Hund!« sagte er, es war, als sollte die Scham: ihn überleben. Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt. Und es war ihnen wie eine Bestätigung ihrer neuen Träume und guten Absichten, als am Ziele ihrer Fahrt die Tochter als erste sich erhob und ihren jungen Körper'
   _key: topic
   isnew: true
   _uid: topic_1585485511691_1169
+- 
+  toggle: 'true'
+  heading: Yet another question...
+  paragraph: "I'm assuming #13 sorted this? If so, some docs would be great. Even if someone can explain to me briefly here how this is now done properly I'll write and PR the docs myself."
+  _key: topic
+  _uid: topic_1586036393065_4130
 
 ----
 
-Facts: 
+Facts:
+
+- 
+  toggle: 'true'
+  heading: Whoop Whoop
+  paragraph: Yet another fact
+  category: color, audiosample
+  _key: topic
+  isnew: true
+  _uid: topic_1585865107940_1838
+- 
+  toggle: 'true'
+  heading: Ce good people have fun at work
+  paragraph: Did you know?
+  category: color, feeling
+  _key: topic
+  _uid: topic_1586102684663_793
+
+----
+
+Allowbuttontext: Allow
+
+----
+
+Audiosamples: 
