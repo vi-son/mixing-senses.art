@@ -1,0 +1,62 @@
+.buttons
+  z-index: 99
+  position: absolute
+  top: 20px
+  left: 20px
+  display: flex
+  flex-direction: column
+  +until($tablets)
+    flex-direction: row
+    width: calc(100% - 2* 20px)
+
+  .icon
+    transform: scale(0.7)
+
+  .button
+    padding: 10px 40px 10px 10px
+    border-radius: 2px
+
+  #button-mic,
+  #button-song
+    background-color: var(--color-darkness)
+    color: var(--color-snow)
+    border: 0
+    margin: 0
+    margin-bottom: 2px
+    display: inline-flex
+    justify-content: flex-start
+    align-items: center
+    +until($tablets)
+      margin-left: 2px
+      font-size: 0.8rem
+      flex-grow: 1
+    &:hover
+      box-shadow: none
+      background-color: var(--color-curacao)
+
+#logo-canvas-wrapper
+  height: 800px
+  width: 100vw
+  top: 0
+
+.logo-wrapper
+  position: absolute
+  margin: 0 auto
+  display: flex
+  flex-direction: column
+  +until($tablets)
+    top: 280px
+    transform: scale(0.6)
+  +from($tablets)
+    top: 295px
+  +until($tablets)
+    .logo
+      transform: translate(20px)
+    .subline
+      transform: translate(-20px, 80px)
+
+  +from($tablets)
+    .logo
+      transform: translate(50px)
+    .subline
+      transform: translate(200px, 50px)

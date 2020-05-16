@@ -1,28 +1,46 @@
-/*** 1. Settings - variables, config-switches
-@import 1-settings/_fonts
-@import 1-settings/_breakpoints
+$font-root: "../../assets/fonts"
+
+/* 1. Settings - variables, config-switches
+@import ./vi.son-rouge/1-settings/_colors.sass
+@import ./vi.son-rouge/1-settings/_fonts.sass
+@import ./vi.son-rouge/1-settings/_variables.sass
+@import ./vi.son-rouge/1-settings/_breakpoints.sass
+@import ./vi.son-rouge/1-settings/_typograhpy.sass
 
 /*** 2. Tools - mixins and functions
-@import 2-tools/_responsive-fontsize
-@import 2-tools/_media-queries
+@import ./vi.son-rouge/2-tools/_responsive-font-size.sass
+@import ./vi.son-rouge/2-tools/_media-queries.sass
 
-/*** 3. Generic - ground-zero styling (normalize, reset)
-@import 3-generic/_reset
+/* 3. Generic - ground-zero styling (normalize, reset)
+@import ./vi.son-rouge/3-generic/_reset.sass
 
-/*** 4. Base - unclassed HTML element styles
-@import 4-base/_document
-@import 4-base/_images
-@import 4-base/_text
+/* 4. Base - unclassed HTML element styles
+@import ./vi.son-rouge/4-base/_button.sass
+@import ./vi.son-rouge/4-base/_document.sass
+@import ./vi.son-rouge/4-base/_headings.sass
+@import ./vi.son-rouge/4-base/_images.sass
+@import ./vi.son-rouge/4-base/_input.range.sass
+@import ./vi.son-rouge/4-base/_input.text.sass
+@import ./vi.son-rouge/4-base/_input.text.sass
+@import ./vi.son-rouge/4-base/_links.sass
+@import ./vi.son-rouge/4-base/_text.sass
+
+/* 5. Objects - cosmetic-free design patterns
+@import ./vi.son-rouge/5-objects/_button.send.sass
+
+/*** ----------- LOCAL STYLES --------------------------------------------------
+/* 4. Base - unclassed HTML element styles
 @import 4-base/_layout
-@import 4-base/_links
 
-/*** 5. Objects - cosmetic-free design patterns
+/* 5. Objects - cosmetic-free design patterns
 @import 5-objects/_textstyles
 
-/*** 6. Components - UI-chunks (more complex components)
+/* 6. Components - UI-chunks (more complex components)
 @import 6-components/_block.imagegrid
 @import 6-components/_block.textblock
 @import 6-components/_block.textblock-image
 @import 6-components/_block.columns
+@import 6-components/_logo.sass
+@import ./vi.son-rouge/6-components/_input.audio.sass
 
-/*** 7. Helpers - helpers, overrides
+/* 7. Helpers - helpers, overrides
