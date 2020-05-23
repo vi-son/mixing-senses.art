@@ -45,6 +45,10 @@ Blocks:
   _uid: textblock_1583077809843_281
 - 
   visible: 'true'
+  media:
+    - 2020.05.23-13-03.png
+    - 2020.05.23-13-09.png
+    - 2020.05.23-13.24.web.mp4
   columns: ""
   images:
     - 2020.02.09-17.14.00.png

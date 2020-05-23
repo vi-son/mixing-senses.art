@@ -12,10 +12,10 @@
         <source src="<?= $m->url() ?>" type="<?= $m->mime() ?>">
       </video>
     <?php } elseif ($m->type() == 'image') { ?>
-      <img
-        class="grid-item"
-        srcset="<?= $m->srcset([300, 800, 1024]) ?>"
-        alt="">
+      <div class="grid-item">
+        <img srcset="<?= $m->srcset([300, 800, 1024]) ?>"
+             alt="">
+      </div>
     <?php } ?>
   <?php endforeach ?>
 </section>
