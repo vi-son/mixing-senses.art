@@ -7,6 +7,8 @@
   justify-content: center
   margin-top: 80px
   margin-bottom: 80px
+  width: 100vw
+  max-width: 200ch
   +until($tablets)
     grid-template-columns: repeat(1, 1fr)
     grid-gap: 5px
@@ -15,10 +17,11 @@
     background-color: #eee
     width: 100%
     margin: 0
-    display: flex
+    /* display: flex
     img
-      flex-grow: 1
-      object-fit: cover
-      height: 100%
-      max-width: 100vw
+      /* flex-grow: 1
+      /* object-fit: cover
+      width: 100%
       margin: 0
+      +until($tablets)
+        max-width: 100vw
