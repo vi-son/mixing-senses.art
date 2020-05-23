@@ -1,12 +1,15 @@
 .image-grid
-  column-gap: 2em
-  column-count: 2
-  +from($tablets)
-    column-count: 3
-  +from($desktops)
-    column-count: 4
+  display: grid
+  grid-template-columns: repeat(3, 1fr)
+  grid-gap: 20px
+  width: 100vw
+  align-items: center
+  margin-top: 80px
+  margin-bottom: 80px
+  +until($tablets)
+    grid-template-columns: repeat(1, 1fr)
   .grid-item
     background-color: #eee
     display: inline-block
-    margin: 0 0 1em
     width: 100%
+    margin: 0
