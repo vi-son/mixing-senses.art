@@ -1,13 +1,6 @@
 title: Home
 
 tabs:
-  songs:
-    sections:
-      songfiles:
-        label: Songs
-        type: files
-        template: audio
-
   content:
     sections:
       logo:
@@ -126,17 +119,10 @@ tabs:
                 fields:
                   visible:
                     extends: fields/blockstatus
-                  columns:
-                    type: select
-                    label: Spalten
-                    options:
-                      one: 1
-                      two: 2
-                      three: 3
-                  images:
-                    label: Bild
+                  media:
+                    label: Media
                     type: files
-                    max: 12
+                    max: 3
 
               list:
                 label: List
@@ -193,3 +179,26 @@ tabs:
                               url:
                                 label: Link-URL
                                 type: url
+
+  videos:
+    sections:
+      videofiles:
+        label: Videos
+        type: files
+        layout: cards
+        template: video
+
+  images:
+    sections:
+      imagefiles:
+        label: Images
+        type: files
+        layout: cards
+        template: image
+
+  songs:
+    sections:
+      songfiles:
+        label: Songs
+        type: files
+        template: audio
