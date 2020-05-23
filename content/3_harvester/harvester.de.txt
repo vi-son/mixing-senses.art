@@ -6,7 +6,7 @@ Sendbuttontext: Weiter
 
 ----
 
-Usemicrophonetext: Herzlich willkommen - schön, dass du da bist. Du bist im Begriff Kunst zu machen! Bitte gib uns die Erlaubnis, auf dein Mikrofon zuzugreifen - und dann kann es auch schon los gehen. Mehr Infos findest du in unserem FAQ-Bereich.
+Usemicrophonetext: Herzlich willkommen - schön, dass du da bist. Du bist im Begriff Kunst zu machen! Bitte gib uns die Erlaubnis, auf dein Mikrofon zuzugreifen - und dann kann es auch schon los gehen. Mehr Infos findest du in unserem (link: /#about text: FAQ-Bereich).
 
 ----
 
@@ -17,26 +17,39 @@ Allowbuttontext: Erlauben
 Scenarios:
 
 - 
-  question: Was is los?
+  question: Welche Farbe hat dieser Ton für dich?
+  mapping_from: tone
+  mapping_to: color
+  _key: scenario
+  _uid: scenario_1586802288858_455
+- 
+  question: >
+    Welchen Ton würdest du dieser Farbe
+    zuordnen?
   mapping_from: color
   mapping_to: tone
   _key: scenario
-  _uid: scenario_1586785330229_851
+  _uid: scenario_1586802290355_549
 - 
-  question: Was geht ab?
-  mapping_from: tone
+  question: Was verbindest du hiermit?
+  mapping_from: audiosample
   mapping_to: feeling
   _key: scenario
-  isnew: true
-  _uid: scenario_1586785331067_945
+  _uid: scenario_1586802351121_645
+- 
+  question: Wie hell empfindest du diesen Ton?
+  mapping_from: tone
+  mapping_to: brightness
+  _key: scenario
+  _uid: scenario_1586802386883_740
 
 ----
 
-Headline: FAQ
+Headline: Hintergrund / FAQ
 
 ----
 
-Subheadline: Was soll das?
+Subheadline: was soll das?
 
 ----
 
@@ -44,53 +57,73 @@ Questions:
 
 - 
   toggle: 'true'
-  heading: Was soll das hier?
-  paragraph: '**Musik** ist eine gängige Art und Weise, Eindrücke, Emotionen und Stimmungen zu kodieren und damit zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Ein mehrdimensionales multisensorisches Datengefüge wird bei der Übersetzung von Emotionen in Musik auf eine Dimension – die (link: https://mixing-senses.art text: auditive Ebene) – beschränkt.'
+  heading: was ist hier los?
+  paragraph: 'Herzlich willkommen, du bist im Begriff Kunst zu machen. In den nächsten Minuten kannst du uns helfen, kreativ zu sein. Kreativität braucht eine Grundlage, eine Inspiration. Und diese Grundlage wollen wir hier schaffen. Der Mixing Senses-Harvester ist ein freundliches Datensammeltool. Wir lassen dich Dinge hören und sehen - und du kannst uns sagen, was du dazu fühlst. Das machst du, indem du einen Farbwert auswählst oder ein passendes Wort schreibst. Später werden diese Eingaben eine Datenbasis ergeben, die wir zur Visualisierung verwenden können; in welcher Form auch immer (verfremdend, inspirierend, erschütternd, faszinierend). Während unserer Ausstellung zeigen wir unsere Ergebnisse in spannenden Exponaten. Yeah!'
   _key: topic
-  _uid: topic_1585485201679_164
+  _uid: topic_1586698763797_1340
 - 
   toggle: 'true'
-  heading: "Darum geht's"
+  heading: was ist vi•son?
+  paragraph: '**vi•son ist eine audioreaktive Digitalkunst-Performance.** Im Projekt thematisieren wir verschiedene Phänomene rund um die multisensorische Wahrnehmung. Dabei interessieren wir uns insbesondere für Musik. Musik nämlich ist eine gängige Art und Weise, Emotionen und Stimmungen zu kodieren und zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Die mehrdimensionale Emotionen wird durch Musik auf eine Dimension – die auditive Ebene – beschränkt. Wir wollen u.a. versuchen, den eindimensionalen Code der Musik wieder aufzufächern. Wir wollen erfahren, was sich Menschen vorstellen, was sie denken, tun, sehen und fühlen, wenn sie etwas bestimmtes hören - und umgekehrt. An der Schnittstelle zwischen Creative Coding, elektronischer Musik sowie Sozialwissenschaft wollen wir auf dieser Basis ästhetische und inspirierende, multisensorische Darstellungsweisen von Klang und Emotion erkunden. Wenn du dieses Tool benutzt, kannst du uns auf dieser Entdeckungsreise unterstützen.'
+  _key: topic
+  _uid: topic_1585487579586_1914
+- 
+  toggle: 'true'
+  heading: wer steckt dahinter?
+  paragraph: 'vi•son ist ein Kooperationsprojekt zwischen KALANGU und Pendeloque. KALANGU ist ein Künstler-Pseudonym unter dem überwiegend musikalische Projekte entstehen. Die Lichtkunstgruppe Pendeloque setzt sich mit Licht im Raum sowie der Kombination von Lichtkunst mit anderen Ausdrucksformen wie Theater, Musik, Tanz und Medieninstallationen auseinander. Du kannst (link: http://mixing-senses.art text: hier alles zu vi•son und der Motivation der Beteiligten erfahren).'
+  _key: topic
+  _uid: topic_1586699224169_1545
+- 
+  toggle: 'true'
+  heading: 'das ist toll - wie kann ich euch helfen?'
+  paragraph: 'Indem du den *Mixing Senses*-Harvester benutzt! Außerdem solltest du dir den Termin für unsere Ausstellung aufschreiben, die wir in Kürze ankündigen werden. Am besten schaust du regelmäßig auf unsere Website, dort stellen wir weitere Infos bereit. Du kannst dir die Seite gerne ansehen und weiterverbreiten. Du findest dort ebenfalls unsere individuellen Social Media-Accounts, auf denen wir immer wieder Posts zum aktuellen Stand der Dinge teilen. Andererseits stellen wir eine stetig wachsende Sammlung an Bildern, Videos und Texten bereit, die sich an deiner Aufmerksamkeit freuen. Weitere Kanäle und Materialien werden ggf. folgen.'
+  _key: topic
+  _uid: topic_1586699355414_2108
+- 
+  toggle: 'true'
+  heading: wie benutze ich den harvester?
+  paragraph: 'Wir haben versucht den Harvester so einfach wie möglich zu halten. Am besten versuchst du zunächst spielerisch zu erkunden, wie der Harvester funktioniert. Keine Sorge - es gibt keine "falschen" Antworten. Der Harvester besteht aus Szenen. Jede Szene beginnt mit einem Trigger-Beispiel (Töne, Sätze, Farben, ...) und einer kleinen Aufgabe, die wir dir stellen: z.B. eine Farbe oder ein Gefühl auswählen. Bei der Farbauswahl kannst du vier verschiedene Werte mit den großen Reglern manipulieren. Bei der Gefühlsauswahl haben wir einige Optionen hinzugefügt, von denen andere glauben, dass sie den Trigger gut beschreiben. Auch die anderen Aufgaben kannst du per Klicken und Schieben bedienen. Du bestätigst per Klick auf den Button. Wenn ein kleiner Faktentext erscheint, ist die Eingabe gespeichert. Super! Du kannst den Harvester beliebig lange benutzen - irgendwann jedoch wirst du Beispiele wiedererkennen, denn wir haben nur endlich viele eingebaut.'
+  _key: topic
+  _uid: topic_1586699315494_1743
+- 
+  toggle: 'true'
+  heading: was bringt das?
   paragraph: >
-    Musik ist eine gängige Art und Weise,
-    Eindrücke, Emotionen und Stimmungen zu
-    kodieren und damit zu kommunizieren. Bei
-    dieser gehen jedoch Informationen
-    verloren, Aspekte werden akzentuiert,
-    andere vernachlässigt. Ein
-    mehrdimensionales multisensorisches
-    Datengefüge wird bei der Übersetzung
-    von Emotionen in Musik auf eine
-    Dimension – die auditive Ebene –
-    beschränkt.
+    Du wirst lernen, reflektieren und etwas
+    Gutes tun! Denn du hilfst erstens mit
+    deinen Eingaben einem unabhängigen,
+    nicht-kommerziellen Kunstprojekt.
+    Zweitens glauben wir, dass die
+    Auseinandersetzung mit deiner eigenen
+    Wahrnehmung ein Moment der Ruhe und der
+    Meditation im Alltagstrubel schaffen
+    kann. Drittens kannst du weitere
+    Einzelheiten zu digitalen
+    Darstellungsformen, Musiktheorie und
+    multisensorischer Wahrnehmung lernen,
+    denn wir haben einige Heuristiken,
+    Beispiele und Fakten recherchiert, die
+    wir dir nach jeder Szene einblenden.
   _key: topic
-  _uid: topic_1585485202597_342
+  _uid: topic_1586703958911_2800
 - 
-  toggle: 'false'
-  heading: ""
-  paragraph: ""
+  toggle: 'true'
+  heading: was passiert mit meinen daten?
+  paragraph: 'Die Benutzung des Mixing Senses-Harvesters läuft vollkommen anonym - außer deinem Eindruck, den du von Tönen, Bildern und Fragen hast, möchten wir nichts von dir. Personenbezogene Daten werden nicht gespeichert - deine Eingaben werden unter einer Codenummer abgelegt, die sich nicht zurückverfolgen lässt. Deine Daten gehören dir, wir freuen uns aber, wenn du sie uns spendest. Du kannst uns deine E-Mail Adresse da lassen, dann schicken wir die hin und wieder eine Nachricht, wenn es etwas Neues gibt. Deine Adresse wir unabhängig von deinen Eingaben aufbewahrt.'
   _key: topic
-  isnew: true
-  _uid: topic_1585485203316_520
+  _uid: topic_1586702981730_2494
 - 
-  toggle: 'false'
-  heading: ""
-  paragraph: ""
+  toggle: 'true'
+  heading: und wenn ich nicht mehr weiter weiß?
+  paragraph: 'Versuch ganz intuitiv vorzugehen - wie ist deine Stimmung gerade? Geht es dir gut? Bist du genervt von einem Klang, einer Frage oder dem Lärm von der Baustelle nebenan? Jetzt bewege mit der Maus einen Regler und mache an der Stelle Halt, an der eine Farbe zu deiner aktuellen Stimmung zu passen scheint. Bei den Klangbeispielen kannst du die Augen schließen und dir einen Ort vorstellen, an den dich der Ton entführt. Was ist die dominante Farbe? Versuche nicht in Wörtern zu denken, sondern in Stimmungen, Orten und Formen.'
   _key: topic
-  _uid: topic_1585485509971_813
+  _uid: topic_1586699331291_1929
 - 
-  toggle: 'false'
-  heading: ""
-  paragraph: ""
+  toggle: 'true'
+  heading: ich habe noch eine andere frage.
+  paragraph: 'Deine Fragen kannst du uns unter (email: hello@mixing-senses.art text: hello@mixing-senses.art) stellen.'
   _key: topic
-  _uid: topic_1585485510763_991
-- 
-  toggle: 'false'
-  heading: ""
-  paragraph: ""
-  _key: topic
-  isnew: true
-  _uid: topic_1585485511691_1169
+  _uid: topic_1586702231772_2288
 
 ----
 

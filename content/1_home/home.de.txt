@@ -10,7 +10,7 @@ Song:
 
 ----
 
-Usemicrophonetext: **Herzlich willkommen** - schön, dass du da bist. Du bist im Begriff Kunst zu machen! Bitte gib uns die Erlaubnis, auf dein Mikrofon zuzugreifen - und dann kann es auch schon los gehen. Mehr Infos findest du in unserem FAQ-Bereich.
+Usemicrophonetext: Herzlich willkommen - schön, dass du da bist. Du bist im Begriff Kunst zu machen! Bitte gib uns die Erlaubnis, auf dein Mikrofon zuzugreifen - und dann kann es auch schon los gehen.
 
 ----
 
@@ -22,7 +22,7 @@ Songbuttontext: Song
 
 ----
 
-Micbuttontext: Microfon
+Micbuttontext: Mircofon
 
 ----
 
@@ -36,7 +36,7 @@ Blocks:
   visible: 'true'
   columns: two
   preheadline: idee
-  headline: audioviselles erleben
+  headline: audiovisuelles erleben
   text: |
     Musik ist eine gängige Art und Weise, Eindrücke, Emotionen und Stimmungen zu kodieren und damit zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Ein mehrdimensionales multisensorisches Datengefüge wird bei der Übersetzung von Emotionen in Musik auf eine Dimension – die auditive Ebene – beschränkt.
     
@@ -44,7 +44,7 @@ Blocks:
   _key: textblock
   _uid: textblock_1583077809843_281
 - 
-  visible: 'false'
+  visible: 'true'
   columns: ""
   images:
     - 2020.02.09-17.14.00.png
@@ -56,7 +56,7 @@ Blocks:
   _key: image-grid
   _uid: image-grid_1584979500487_1147
 - 
-  visible: 'false'
+  visible: 'true'
   superheading: ""
   columns:
     - 
@@ -91,7 +91,7 @@ Blocks:
   _key: columns
   _uid: columns_1584909900961_1329
 - 
-  visible: 'false'
+  visible: 'true'
   superheading: ""
   columns:
     - 
@@ -111,7 +111,7 @@ Blocks:
   _key: columns
   _uid: columns_1584905711662_284
 - 
-  visible: 'false'
+  visible: 'true'
   superheading: ""
   columns:
     - 
@@ -124,7 +124,7 @@ Blocks:
   _key: columns
   _uid: columns_1584909809951_876
 - 
-  visible: 'false'
+  visible: 'true'
   listitems: [ ]
   _key: list
   _uid: list_1584909884140_1214

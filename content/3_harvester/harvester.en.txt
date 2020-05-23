@@ -10,42 +10,53 @@ Usemicrophonetext: Welcome, we're glad you're here. You are about to make art! P
 
 ----
 
+Allowbuttontext: Allow
+
+----
+
 Scenarios:
 
 - 
-  question: Welche Farbe hat dieser Ton?
+  question: >
+    Which color do you associate with the
+    given sound?
   mapping_from: tone
   mapping_to: color
   _key: scenario
-  _uid: scenario_1586287285560_123
+  _uid: scenario_1586444050950_304
 - 
   question: >
-    Welches Gefühl empfindest du bei diesem
-    Ton?
-  mapping_from: tone
-  mapping_to: feeling
-  _key: scenario
-  _uid: scenario_1586287681477_170
-- 
-  question: Wie hell empfindest du diesen Ton?
-  mapping_from: tone
-  mapping_to: brightness
-  _key: scenario
-  _uid: scenario_1586441935228_450
-- 
-  question: Welcher Ton ist diese Farbe für dich?
+    Which sound would you link to the given
+    color?
   mapping_from: color
   mapping_to: tone
   _key: scenario
-  _uid: scenario_1586442674448_570
+  _uid: scenario_1586444060113_399
+- 
+  question: >
+    Which keywords would you associate with
+    the given sample?
+  mapping_from: audiosample
+  mapping_to: feeling
+  _key: scenario
+  _uid: scenario_1586444073567_494
+- 
+  question: >
+    Which brightness would you link to the
+    given sound?
+  mapping_from: tone
+  mapping_to: brightness
+  _key: scenario
+  isnew: true
+  _uid: scenario_1586802597660_2816
 
 ----
 
-Headline: Background
+Headline: Background / FAQ
 
 ----
 
-Subheadline: What's that?
+Subheadline: What's this all about?
 
 ----
 
@@ -53,54 +64,74 @@ Questions:
 
 - 
   toggle: 'true'
-  heading: Whats up with that
-  paragraph: '**Musik** ist eine gängige Art und (email: info@mixing-senses.art text: Weise), Eindrücke, Emotionen und Stimmungen zu kodieren und damit zu kommunizieren. Bei *dieser* Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. **Ein mehrdimensionales multisensorisches Datengefüge** wird bei der Übersetzung von **Emotionen** in Musik auf eine Dimension – die (link: https://mixing-senses.art text: auditive Ebene) – beschränkt.'
+  heading: "what's happening here?"
+  paragraph: 'Welcome, you are about to make art! In the next few minutes you can help us to be creative. Creativity needs a foundation, an inspiration. And we want to create this foundation here. The Mixing Senses-Harvester is a friendly data collection tool. We let you hear and see things - and you can tell us how you feel about them. You do this by choosing a colour value or writing a suitable word. Later, these inputs will result in a database that we can use for visualisation in various forms (alienating, inspiring, shocking, fascinating, ...?). During our exhibition we show our results in exciting artworks. Yeah!'
   _key: topic
   _uid: topic_1585485201679_164
 - 
   toggle: 'true'
-  heading: "Dude what's going on?"
-  paragraph: 'Es gibt im Moment in diese Mannschaft, oh, einige Spieler vergessen ihnen Profi was sie sind. Ich lese nicht sehr viele Zeitungen, aber ich habe gehört viele Situationen. Erstens: wir haben nicht offensiv gespielt. Es gibt keine deutsche Mannschaft spielt offensiv und die Name offensiv wie Bayern. Letzte Spiel hatten'
+  heading: what is vi•son?
+  paragraph: 'vi•son is an audioreactive digital art performance. In the project we focus on various phenomena related to multisensory perception. We are especially interested in music. Music is a common way to encode and communicate emotions and moods. In this translation, however, information is lost, aspects are accentuated, others are neglected. The multidimensional emotions are limited by music to one aspect - the auditory level. Among other things, we want to try to unfold the one-dimensional code of music again. We want to experience what people imagine, think, do, see and feel when they hear something specific - and vice versa. At the crossway between creative coding, electronic music and social sciences, we want to explore aesthetic, inspiring and multi-sensory ways of representing sound and emotion. If you use this tool, you can support us on this journey.'
   _key: topic
-  _uid: topic_1585485202597_342
+  _uid: topic_1586706002655_25986
 - 
   toggle: 'true'
-  heading: Kafka ist ein Teil
-  paragraph: 'Jemand musste Josef K. verleumdet haben, denn ohne dass er etwas Böses getan hätte, wurde er eines Morgens verhaftet. »Wie ein Hund!« sagte er, es war, als sollte die Scham: ihn überleben. Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt. Und es war ihnen wie eine Bestätigung ihrer neuen Träume und guten Absichten, als am Ziele ihrer Fahrt die Tochter als erste sich erhob und ihren jungen Körper'
+  heading: "who's behind this crazyness?"
+  paragraph: 'vi•son is a cooperation project between KALANGU and Pendeloque. KALANGU is an artist pseudonym under which mainly musical projects are developed. The light art group Pendeloque occupies itself with light in spaces and the combination of light art with other forms of expression such as theatre, music, dance and media installations. (link: https://www.mixing-senses.art/de text: Here you can find out everything about the project and the motivation of the participants) *(currently only in german)*.'
   _key: topic
-  isnew: true
-  _uid: topic_1585485511691_1169
+  _uid: topic_1586038468331_1553
 - 
   toggle: 'true'
-  heading: Yet another question...
-  paragraph: "I'm assuming #13 sorted this? If so, some docs would be great. Even if someone can explain to me briefly here how this is now done properly I'll write and PR the docs myself."
+  heading: "that's great - how can I help?"
+  paragraph: "By using the Mixing Senses Harvester! You should also save the date for our exhibition, which we will announce shortly. It's best to check our website regularly for more information. Feel free to browse the site and spread the word. You will also find our individual social media accounts, where we share posts about the current state of affairs. On the other hand, we provide a constantly growing collection of pictures, videos and texts, which will be glad about your attention. More channels and materials will follow if necessary. Thank you in advance, your help will be tremendously appreciated!"
   _key: topic
-  _uid: topic_1586036393065_4130
+  _uid: topic_1586706799858_29919
+- 
+  toggle: 'true'
+  heading: how to use the harvester
+  paragraph: |
+    We have tried to keep the harvester as simple as possible. At first, it's probably best to try to playfully explore how the tool works. Don't worry - there are no "wrong" answers. The experience is divided into scenes. Each scene contains a triggering example and a little task for you, for example a colour selection. For the colour selection can manipulate four different values with the big knobs. For the feeling selection we have added some options that others think describe the trigger well. The other tasks can also be manipulated by clicking and dragging. You confirm by clicking on the button. When a small fact text appears, the input is saved. Great! You can use the harvester for as long as you want - but at some point you will encounter examples that seem familiar, cause we have only added a finite number of them.
+  _key: topic
+  _uid: topic_1586707256136_30131
+- 
+  toggle: 'true'
+  heading: "what's in it for me?"
+  paragraph: >
+    You will learn, reflect and do something
+    good! Because first of all you will help
+    an independent, non-commercial art
+    project with your entries. Secondly, we
+    believe that the examination of your own
+    perception can create a moment of peace
+    and meditation in the hustle and bustle
+    of everyday life. Third, you can learn
+    more details about digital
+    representation, music theory and
+    multi-sensory perception because we have
+    researched some heuristics, examples and
+    facts that we will show you after each
+    scene.
+  _key: topic
+  _uid: topic_1586707430174_30336
+- 
+  toggle: 'true'
+  heading: what about privacy?
+  paragraph: 'Using the *Mixing Senses*-Harvester is completely anonymous - apart from your impression of sounds, images and questions, we want nothing from you. Personal data is not stored - your entries are stored under a code number that cannot be traced. Your data belongs to you, but we would be happy if you would donate it to us. You can after all leave us your e-mail address, and we will send you a message every now and then if there are news to talk about. Your address will be kept independent of your entries.'
+  _key: topic
+  _uid: topic_1586707983603_38069
+- 
+  toggle: 'true'
+  heading: "what if I don't know what to do?"
+  paragraph: 'Try to proceed intuitively - what is your mood right now? Are you feeling well? Are you annoyed by a sound, a question or the noise from the construction site next door? Now move a slider with the mouse and stop at the point where a colour seems to match your current mood. You can close your eyes and imagine a place where the sound will take you. What is the dominant colour? Try not to think in words, but in moods, places and shapes.'
+  _key: topic
+  _uid: topic_1586708060857_41832
+- 
+  toggle: 'true'
+  heading: i have one more question.
+  paragraph: 'You are welcome to send all of your questions to us at (email: hello@mixing-senses.art text:hello@mixing-senses.art).'
+  _key: topic
+  _uid: topic_1586708154192_42030
 
 ----
 
-Facts:
-
-- 
-  toggle: 'true'
-  heading: Whoop Whoop
-  paragraph: Yet another fact
-  category: color, audiosample
-  _key: topic
-  isnew: true
-  _uid: topic_1585865107940_1838
-- 
-  toggle: 'true'
-  heading: Ce good people have fun at work
-  paragraph: Did you know?
-  category: color, feeling
-  _key: topic
-  _uid: topic_1586102684663_793
-
-----
-
-Allowbuttontext: Allow
-
-----
-
-Audiosamples: 
+Facts: 
