@@ -9,14 +9,10 @@ tabs:
         type: files
         template: audio
 
-  scenariostab:
-    label: Scenarios
+  landingpagetab:
+    label: Startseite
     icon: text
     fields:
-      sendbuttontext:
-        label: Label Bestätigungs-Button
-        type: text
-        width: 1/3
       usemicrophonetext:
         label: Text Verwendung Microphon
         type: textarea
@@ -30,11 +26,30 @@ tabs:
       allowbuttontext:
         label: Label Erlauben-Button
         type: text
+        width: 1/3
+      welcometext:
+        label: Willkommens Text
+        type: textarea
         width: 2/3
+        buttons:
+          - bold
+          - italic
+          - '|'
+          - link
+          - email
+      sendbuttontext:
+        label: Label Bestätigungs-Button
+        type: text
+        width: 1/3
+
+  scenariostab:
+    label: Scenarios
+    icon: text
+    fields:
       scenarios:
         type: builder
         label: Szenarien
-        width: 2/3
+        columns: 2
         fieldsets:
           scenario:
             label: "{{ question }}"
