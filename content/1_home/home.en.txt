@@ -45,134 +45,18 @@ Blocks:
   _uid: textblock_1583077809843_281
 - 
   visible: 'true'
-  columns: ""
   media:
-    - 2020.05.23-13.24.web.mp4
     - 2020.05.23-13-03.png
+    - 2020.05.23-13.24.web.mp4
     - 2020.05.23-13-09.png
+  columns: ""
   images:
-    - 
-      filename: 2020.05.23-13-03.png
-      dragText: '(image: 2020.05.23-13-03.png)'
-      icon:
-        type: file-image
-        ratio: 3/2
-        back: pattern
-        color: '#de935f'
-        cover: false
-        url: >
-          http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020.05.23-13-03.png
-        cards:
-          url: >
-            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
-          srcset: >
-            http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020-05-23-13-03-352x.png
-            352w,
-            http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020-05-23-13-03-864x.png
-            864w,
-            http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020-05-23-13-03-1408x.png
-            1408w
-        list:
-          url: >
-            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
-          srcset: >
-            http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020-05-23-13-03-38x38.png
-            1x,
-            http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020-05-23-13-03-76x76.png
-            2x
-      id: home/2020.05.23-13-03.png
-      image:
-        ratio: 3/2
-        back: pattern
-        cover: false
-        url: >
-          http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020.05.23-13-03.png
-        cards:
-          url: >
-            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
-          srcset: >
-            http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020-05-23-13-03-352x.png
-            352w,
-            http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020-05-23-13-03-864x.png
-            864w,
-            http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020-05-23-13-03-1408x.png
-            1408w
-        list:
-          url: >
-            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
-          srcset: >
-            http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020-05-23-13-03-38x38.png
-            1x,
-            http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020-05-23-13-03-76x76.png
-            2x
-      info: ""
-      link: /pages/home/files/2020.05.23-13-03.png
-      text: 2020.05.23-13-03.png
-      type: image
-      url: >
-        http://192.168.2.20:8888/media/pages/home/1774660679-1590242120/2020.05.23-13-03.png
-      uuid: 2020.05.23-13-03.png
-    - 
-      filename: 2020.05.23-13-09.png
-      dragText: '(image: 2020.05.23-13-09.png)'
-      icon:
-        type: file-image
-        ratio: 3/2
-        back: pattern
-        color: '#de935f'
-        cover: false
-        url: >
-          http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020.05.23-13-09.png
-        cards:
-          url: >
-            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
-          srcset: >
-            http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020-05-23-13-09-352x.png
-            352w,
-            http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020-05-23-13-09-864x.png
-            864w,
-            http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020-05-23-13-09-1408x.png
-            1408w
-        list:
-          url: >
-            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
-          srcset: >
-            http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020-05-23-13-09-38x38.png
-            1x,
-            http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020-05-23-13-09-76x76.png
-            2x
-      id: home/2020.05.23-13-09.png
-      image:
-        ratio: 3/2
-        back: pattern
-        cover: false
-        url: >
-          http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020.05.23-13-09.png
-        cards:
-          url: >
-            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
-          srcset: >
-            http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020-05-23-13-09-352x.png
-            352w,
-            http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020-05-23-13-09-864x.png
-            864w,
-            http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020-05-23-13-09-1408x.png
-            1408w
-        list:
-          url: >
-            data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
-          srcset: >
-            http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020-05-23-13-09-38x38.png
-            1x,
-            http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020-05-23-13-09-76x76.png
-            2x
-      info: ""
-      link: /pages/home/files/2020.05.23-13-09.png
-      text: 2020.05.23-13-09.png
-      type: image
-      url: >
-        http://192.168.2.20:8888/media/pages/home/595014886-1590242137/2020.05.23-13-09.png
-      uuid: 2020.05.23-13-09.png
+    - 2020.02.09-17.14.00.png
+    - 2020.02.22-17.36-0009.jpg
+    - 2020.03.15-22.40.31-0061.png
+    - 2020.02.22-18.01-0005.png
+    - 2020.03.15-22.40.31-0055.png
+    - 2020.02.09-17.13.00.png
   _key: image-grid
   _uid: image-grid_1584979500487_1147
 - 
@@ -212,26 +96,34 @@ Blocks:
   _uid: columns_1584909900961_1329
 - 
   visible: 'true'
+  media:
+    - 2020.05.23-14.26.png
+    - 2020.05.23-16.13.web.mp4
+    - 2020.05.23-14.35.png
+  _key: image-grid
+  _uid: image-grid_1590246913498_3603
+- 
+  visible: 'true'
   superheading: ""
   columns:
     - 
       preheading: 'Infos & neues'
       heading: Updates
-      text: Bald erfahrt ihr mehr...
+      text: Soon there will be more...
       infos: [ ]
       _key: column
       _uid: column_1584905712500_330
     - 
-      preheading: ""
-      heading: Kontakt
-      text: ""
+      preheading: Drop us a line
+      heading: Contact
+      text: "You got ideas, questions or anything else related to ***mixing senses***? Maybe you want to share your ideas or add something to the project right from your cerative mind? Just send us a mail at (email: hello { at } mixing-senses.art text: hello@mixing-senses.art). We're happy to hear from you!"
       infos: [ ]
       _key: column
       _uid: column_1584905808607_316
   _key: columns
   _uid: columns_1584905711662_284
 - 
-  visible: 'true'
+  visible: 'false'
   superheading: ""
   columns:
     - 

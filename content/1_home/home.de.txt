@@ -4,9 +4,7 @@ vi ⋅ son
 
 ----
 
-Song:
-
-- dmutr.mp3
+Song: - dmutr.mp3
 
 ----
 
@@ -46,17 +44,14 @@ Blocks:
 - 
   visible: 'true'
   media:
+    - 2020.05.23-13.24.web.mp4
     - 2020.05.23-13-03.png
     - 2020.05.23-13-09.png
-    - 2020.05.23-13.24.web.mp4
   columns: ""
   images:
-    - 2020.02.09-17.14.00.png
-    - 2020.02.22-17.36-0009.jpg
-    - 2020.03.15-22.40.31-0061.png
-    - 2020.02.22-18.01-0005.png
-    - 2020.03.15-22.40.31-0055.png
-    - 2020.02.09-17.13.00.png
+    - 2020.05.23-13-20.png
+    - 2020.05.23-13-03.png
+    - 2020.05.23-13-09.png
   _key: image-grid
   _uid: image-grid_1584979500487_1147
 - 
@@ -96,6 +91,14 @@ Blocks:
   _uid: columns_1584909900961_1329
 - 
   visible: 'true'
+  media:
+    - 2020.05.23-14.35.png
+    - 2020.05.23-14.26.png
+    - 2020.05.23-16.13.web.mp4
+  _key: image-grid
+  _uid: image-grid_1590245041265_4590
+- 
+  visible: 'true'
   superheading: ""
   columns:
     - 
@@ -106,16 +109,16 @@ Blocks:
       _key: column
       _uid: column_1584905712500_330
     - 
-      preheading: ""
+      preheading: Schreib uns
       heading: Kontakt
-      text: ""
+      text: 'Habt ihr Anregungen, Fragen oder andere Ideen bezüglich ***mixing senses***? Vielleicht wollt ihr euren kerativen Kopf mit ins Projekt einbingen? Wir sind am Besten erreichbar per Mail an (email: hello { at } mixing-senses.art text: hello@mixing-senses.art). Wir freuen uns auf deine Nachricht!'
       infos: [ ]
       _key: column
       _uid: column_1584905808607_316
   _key: columns
   _uid: columns_1584905711662_284
 - 
-  visible: 'true'
+  visible: 'false'
   superheading: ""
   columns:
     - 
