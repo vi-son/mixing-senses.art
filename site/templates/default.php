@@ -2,8 +2,7 @@
 
 <section class="page-logo">
   <a href="/">
-    <div class="logo"><?= svg("assets/svg/logo.svg") ?></div>
-    <div class="subline"><?= svg("assets/svg/subline.svg") ?></div>
+    <div class="logo"><?= svg("assets/svg/logo.full.svg") ?></div>
   </a>
 </section>
 
