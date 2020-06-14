@@ -19,11 +19,11 @@ endif;
   <div class="audio-permission">
     <?= $page->usemicrophonetext()->kt() ?>
     <div class="permission-buttons">
-      <button class="button" id="button-song">
+      <button class="button" id="cookie-button-song">
         <?= svg("assets/svg/icons/song.svg") ?>
         <?= $page->songbuttontext()->kt() ?>
       </button>
-      <button class="button" id="button-mic">
+      <button class="button" id="cookie-button-mic">
         <?= svg("assets/svg/icons/microphone.svg") ?>
         <?= $page->micbuttontext()->kt() ?>
       </button>

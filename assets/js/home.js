@@ -15,11 +15,11 @@ window.onload = function() {
     audioPermission.style.display = "none";
     return;
   } else {
-    const allowMicButton = document.getElementById("button-mic");
-    const allowSongButton = document.getElementById("button-song");
+    const allowMicButtonCookie = document.getElementById("cookie-button-mic");
+    const allowSongButtonCookie = document.getElementById("cookie-button-song");
     audioPermission.style.display = "inline";
     // listen for on click
-    allowMicButton.addEventListener("click", setCookie);
-    allowSongButton.addEventListener("click", setCookie);
+    allowMicButtonCookie.addEventListener("click", setCookie);
+    allowSongButtonCookie.addEventListener("click", setCookie);
   }
 };
