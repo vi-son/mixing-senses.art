@@ -2,7 +2,7 @@
   <?php $media =  $data->media()->toFiles(); ?>
   <?php foreach($media as $m): ?>
     <?php if ($m->type() == 'video') { ?>
-      <video src="<?= $m->url() ?>"
+      <video data-src="<?= $m->url() ?>"
              class="grid-item"
              muted=""
              loop=""
