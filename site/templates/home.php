@@ -18,9 +18,14 @@ endif;
 <header>
   <div class="audio-permission">
     <?= $page->usemicrophonetext()->kt() ?>
-    <div>
-      <button id="allow-mic">
-        <?= $page->allowmicbuttontext()->kt() ?>
+    <div class="permission-buttons">
+      <button class="button" id="button-song">
+        <?= svg("assets/svg/icons/song.svg") ?>
+        <?= $page->songbuttontext()->kt() ?>
+      </button>
+      <button class="button" id="button-mic">
+        <?= svg("assets/svg/icons/microphone.svg") ?>
+        <?= $page->micbuttontext()->kt() ?>
       </button>
     </div>
   </div>

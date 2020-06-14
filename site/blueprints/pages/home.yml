@@ -124,6 +124,29 @@ tabs:
                     type: files
                     max: 3
 
+              logolist:
+                label: Logoliste
+                fields:
+                  visible:
+                    extends: fields/blockstatus
+                  headline:
+                    label: Überschrift
+                    type: text
+                  logos:
+                    type: structure
+                    label: Logo
+                    fields:
+                      link:
+                        label: Link
+                        type: url
+                      logo:
+                        label: Logo
+                        type: files
+                        max: 1
+                      description:
+                        type: text
+                        label: Kurzbeschreibung
+
               list:
                 label: List
                 fields:
