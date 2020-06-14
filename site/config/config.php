@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 }
     
 return [
-    'url' => 'http://192.168.2.20:8888',
+    'url' => 'http://127.0.0.1:8888',
     'debug' => true,
     'languages' => true,
     'api' => [
