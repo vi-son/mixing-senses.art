@@ -4,11 +4,13 @@ vi ⋅ son
 
 ----
 
-Song: - dmutr.mp3
+Song:
+
+- dmutr_20200604.mp3
 
 ----
 
-Usemicrophonetext: Herzlich willkommen - schön, dass du da bist. Du bist im Begriff Kunst zu machen! Bitte gib uns die Erlaubnis, auf dein Mikrofon zuzugreifen - und dann kann es auch schon los gehen.
+Usemicrophonetext: Herzlich willkommen - schön, dass du da bist. vi·son ist ein Digitalkunst-Projekt. Unsere Website ist audioreaktiv! Du kannst uns dein Mikrofon freigeben; oder alternativ einen Song auswählen.
 
 ----
 
@@ -20,7 +22,7 @@ Songbuttontext: Song
 
 ----
 
-Micbuttontext: Mircofon
+Micbuttontext: Mikrofon
 
 ----
 
@@ -36,9 +38,10 @@ Blocks:
   preheadline: idee
   headline: audiovisuelles erleben
   text: |
-    Musik ist eine gängige Art und Weise, Eindrücke, Emotionen und Stimmungen zu kodieren und damit zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Ein mehrdimensionales multisensorisches Datengefüge wird bei der Übersetzung von Emotionen in Musik auf eine Dimension – die auditive Ebene – beschränkt.
-    
-    **Die Installation soll die Übersetzung visueller, auditiver und emotionaler Reize durch Mensch und Maschine aufgreifen und auf verschiedene Arten und Weisen thematisieren**. Die Exponate reichen dabei von rein datengetriebener Übersetzung bis hin zu offenen, assoziativ geprägten Übersetzungen.
+    **vi•son ist eine audioreaktive Digitalkunst-Performance.** Im Projekt werden verschiedene Phänomene rund um die multisensorische Wahrnehmung thematisiert. Dabei liegt der Fokus auf der Visualisierung von Musik.
+    Im November 2020 werden wir eine Online-Ausstellung gestalten, aus der dann im Frühjahr 2021 in der Region Rhein-Neckar und Frankfurt physisch umgesetzt werden soll.
+    <br><br><br><br>
+    Musik nämlich ist eine gängige Weise, Emotionen und Stimmungen zu kodieren und zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Mehrdimensionale Emotion wird durch Musik auf eine Ebene (*Audio*) verdichtet. **Wir versuchen, den Code der Musik wieder aufzufächern.** Wir wollen erfahren, was Menschen tun, sehen und fühlen, wenn sie etwas bestimmtes hören - und umgekehrt. **An der Schnittstelle von *Creative Coding*, Musikproduktion und Sozialwissenschaft wollen wir intensive Darstellungsweisen von Klang und Emotion erkunden.**
   _key: textblock
   _uid: textblock_1583077809843_281
 - 
@@ -59,12 +62,78 @@ Blocks:
   superheading: ""
   columns:
     - 
+      preheading: 'Infos & neues'
+      heading: Updates
+      text: >
+        Aktuelle Neuigkeiten, Einblick in den
+        Projektstand, Hintergrundinfos,
+        Textbeiträge und Visualisierungen
+      infos:
+        - 
+          text: >
+            📻 Playlist "looking at" auf
+            Soundcloud
+          url: >
+            https://soundcloud.com/mixing-senses/sets/looking-at
+        - 
+          text: 📥 Download Projektpräsentation
+          url: >
+            https://drive.google.com/file/d/1_WMDScDfd9zg2Hp5lfnwb4uc_dSaefqu/view
+      _key: column
+      _uid: column_1584905712500_330
+    - 
+      preheading: Schreib uns
+      heading: Kontakt
+      text: 'Habt ihr Anregungen, Fragen oder andere Ideen bezüglich ***mixing senses***? Vielleicht wollt ihr euren kerativen Kopf mit ins Projekt einbingen? Wir sind am Besten erreichbar per Mail an (email: hello { at } mixing-senses.art text: hello@mixing-senses.art). Wir freuen uns auf deine Nachricht!'
+      infos: [ ]
+      _key: column
+      _uid: column_1584905808607_316
+  _key: columns
+  _uid: columns_1584905711662_284
+- 
+  visible: 'true'
+  media:
+    - keagan-henman-5ptwaufiacy-unsplash.jpg
+    - david-anderson-fahhgnl16im-unsplash.jpg
+    - jason-leung-wmye5ibiomo-unsplash.jpg
+  _key: image-grid
+  _uid: image-grid_1591441443104_1354
+- 
+  visible: 'true'
+  superheading: ""
+  columns:
+    - 
+      preheading: Digitale Ausstellung
+      heading: Herbst 2020
+      text: '*Social Distancing*, Gesellschaft auf Distanz, ist eine Herausforderung, der wir uns ebenfalls stellen. Daher soll mit den Ergebnissen eine ansprechende, interaktive Online-Ausstellung gestaltet werden. Außerdem lassen wir uns von den Methoden moderner Softwareentwicklung leiten: neben frei zugänglichem Code werden wir im Entwicklungsprozess auch Zwischenergebnisse - sozusagen Beta-Versionen unserer Exponate - präsentieren.'
+      infos: [ ]
+      _key: column
+      _uid: column_1584909812537_942
+  _key: columns
+  _uid: columns_1584909809951_876
+- 
+  visible: 'true'
+  media:
+    - 2020.05.23-14.35.png
+    - 2020.05.23-14.26.png
+    - 2020.05.23-16.13.web.mp4
+  _key: image-grid
+  _uid: image-grid_1590245041265_4590
+- 
+  visible: 'true'
+  superheading: ""
+  columns:
+    - 
       preheading: Über uns
       heading: Kalangu
       text: |
         *KALANGU* ist ein  Künstler-Pseudonym unter dem seit 2015 verschiedene überwiegend musikalische Projekte entstehen. Dahinter stecken wechselnde Studio- oder Livebesetzungen.
         Die Musik ist meist durch einen synthesizerlastigen Sound geprägt. Stilistisch variiert sie je nach Projekt, pendelt sich jedoch meist zwischen Pop und experimentellem Lounge-Sound ein.
-      infos: [ ]
+      infos:
+        - 
+          text: instagram.com/thekalanguhood
+          url: >
+            https://www.instagram.com/thekalanguhood/
       _key: column
       _uid: column_1584909902661_1395
     - 
@@ -85,56 +154,30 @@ Blocks:
         - 
           text: www.pendeloque.de
           url: https://www.pendeloque.de
+        - 
+          text: instagram.com/pendeloquelichtkunst
+          url: >
+            https://www.instagram.com/pendeloquelichtkunst/
       _key: column
       _uid: column_1584909976599_1586
   _key: columns
   _uid: columns_1584909900961_1329
 - 
   visible: 'true'
-  media:
-    - 2020.05.23-14.35.png
-    - 2020.05.23-14.26.png
-    - 2020.05.23-16.13.web.mp4
-  _key: image-grid
-  _uid: image-grid_1590245041265_4590
-- 
-  visible: 'true'
-  superheading: ""
-  columns:
+  headline: Kooperationen
+  logos:
     - 
-      preheading: 'Infos & neues'
-      heading: Updates
-      text: Bald erfahrt ihr mehr...
-      infos: [ ]
-      _key: column
-      _uid: column_1584905712500_330
+      link: https://thearticle.hypotheses.org/
+      logo:
+        - logo-the-article.svg
+      description: 'Online-Magazin für Kunstwissenschaft '
     - 
-      preheading: Schreib uns
-      heading: Kontakt
-      text: 'Habt ihr Anregungen, Fragen oder andere Ideen bezüglich ***mixing senses***? Vielleicht wollt ihr euren kerativen Kopf mit ins Projekt einbingen? Wir sind am Besten erreichbar per Mail an (email: hello { at } mixing-senses.art text: hello@mixing-senses.art). Wir freuen uns auf deine Nachricht!'
-      infos: [ ]
-      _key: column
-      _uid: column_1584905808607_316
-  _key: columns
-  _uid: columns_1584905711662_284
-- 
-  visible: 'false'
-  superheading: ""
-  columns:
-    - 
-      preheading: Termin
-      heading: Herbst 2020
-      text: Weitere infos folgen bald...
-      infos: [ ]
-      _key: column
-      _uid: column_1584909812537_942
-  _key: columns
-  _uid: columns_1584909809951_876
-- 
-  visible: 'true'
-  listitems: [ ]
-  _key: list
-  _uid: list_1584909884140_1214
+      link: http://www.kunstverein-hockenheim.de/
+      logo:
+        - logo-kv-hockenheim.svg
+      description: ""
+  _key: logolist
+  _uid: logolist_1592134314918_207
 
 ----
 

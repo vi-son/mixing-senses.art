@@ -6,7 +6,7 @@ vi ⋅ son
 
 Song:
 
-- dmutr.mp3
+- dmutr_20200604.mp3
 
 ----
 
@@ -22,7 +22,7 @@ Songbuttontext: Song
 
 ----
 
-Micbuttontext: Mirophone
+Micbuttontext: Microphone
 
 ----
 
