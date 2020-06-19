@@ -1,1 +1,22 @@
-Title: PDLQ x KLGU
+Title: vi • son: mixing senses
+
+----
+
+Pages:
+
+- home
+- impressum
+- datenschutzerklaerung
+- harvester
+- error
+
+----
+
+Secrets:
+
+- 
+  text: 'Unser Geheimnis? Regelmäßige Backups, abends wenig Kohlenhydrate und **Kirby CMS**'
+- 
+  text: 'Wenns um Webseiten geht — (link: https://getkirby.com/ text: Kirby CMS)'
+- 
+  text: Guten Freunden gibt man ein Kirby!

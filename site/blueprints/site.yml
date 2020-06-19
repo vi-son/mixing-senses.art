@@ -1,3 +1,30 @@
 title: Site
-preset: pages
 unlisted: true
+
+fields:
+  pages:
+    type: pages
+    layout: list
+    image:
+      query: false
+    info: "Template: {{ page.template }}"
+    create:
+      - default
+      - home
+      - harvester
+    template:
+      - default
+      - harvester
+      - home
+
+  secrets:
+    label: Kirby CMS Hinweise
+    type: structure
+    fields:
+      text:
+        type: textarea
+        buttons:
+          - bold
+          - italic
+          - '|'
+          - link
