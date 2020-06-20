@@ -1,21 +1,20 @@
 {
-    "name": "getkirby/plainkit",
-    "description": "Kirby Plainkit",
+    "name": "vi.son/mixing-senses",
+    "description": "vi.son: mixing-senses Template",
     "type": "project",
-    "keywords": ["kirby", "cms", "starterkit"],
-    "homepage": "https://getkirby.com",
+    "keywords": ["kirby", "cms", "template"],
+    "homepage": "https://mixing-senses.art",
     "authors": [
         {
-            "name": "Bastian Allgeier",
-            "email": "bastian@getkirby.com",
-            "homepage": "https://getkirby.com"
+            "name": "Guido Schmidt",
+            "email": "hello@mixing-senses.art",
+            "homepage": "https://mixing-senses.art"
         }
     ],
     "support": {
-        "email": "support@getkirby.com",
-        "issues": "https://github.com/getkirby/starterkit/issues",
-        "forum": "https://forum.getkirby.com",
-        "source": "https://github.com/getkirby/starterkit"
+        "email": "hello@mixing-senses.art",
+        "issues": "https://github.com/guidoschmidt/vi.son-mixing-senses.art/issues",
+        "source": "https://github.com/guidoschmidt/vi.son-mixing-senses.art"
     },
     "require": {
         "php": ">=7.1.0",

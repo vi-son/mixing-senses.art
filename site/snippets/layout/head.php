@@ -15,6 +15,8 @@
     <!-- Matomo -->
     <script type="text/javascript">
       var _paq = window._paq || [];
+      _paq.push(['requireConsent']);
+      _paq.push(['trackPageView']);
       /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
       _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
       _paq.push(["setCookieDomain", "*.mixing-senses.art"]);

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icons/tracking-on</title>
+    <g id="icons/tracking-on" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M24.4020122,17 C31.5359659,17 38.015515,20.2320078 43.8030965,26.6270328 L42.4594873,28 L43.8030965,29.3729672 C38.015515,35.7679922 31.5359659,39 24.4020122,39 C17.2676773,39 10.7878169,35.7676467 5,29.3719419 L6.34389076,28 L5,26.6280581 C10.7878169,20.2323533 17.2676773,17 24.4020122,17 Z M24.4020122,19.1010392 C17.9339957,19.1010392 12.0208555,22.0445366 6.62528292,28.0000554 C12.0215108,33.9557895 17.934354,36.8989608 24.4020122,36.8989608 C30.8701395,36.8989608 36.7833715,33.9553625 42.1790187,27.9996386 C36.7827043,22.0443054 30.8697747,19.1010392 24.4020122,19.1010392 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+        <circle id="Oval" stroke="#000000" stroke-width="2.4" cx="24.4020122" cy="27.8600613" r="8.5"></circle>
+        <circle id="Oval" stroke="#000000" stroke-width="2.4" cx="24.4020122" cy="27.8600613" r="3.5"></circle>
+        <polygon id="Path-2" fill="#000000" fill-rule="nonzero" transform="translate(32.973267, 12.733576) scale(-1, 1) translate(-32.973267, -12.733576) " points="32.8171639 10 34.9465342 14.6317379 33.1293703 15.4671511 31 10.8354132"></polygon>
+        <polygon id="Path-2" fill="#000000" fill-rule="nonzero" points="14.8171639 10 16.9465342 14.6317379 15.1293703 15.4671511 13 10.8354132"></polygon>
+        <polygon id="Path-2" fill="#000000" fill-rule="nonzero" transform="translate(24.000000, 11.139939) scale(-1, 1) translate(-24.000000, -11.139939) " points="25 8 25 14.2798773 23 14.2798773 23 8"></polygon>
+    </g>
+</svg>

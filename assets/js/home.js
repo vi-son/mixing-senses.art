@@ -4,13 +4,13 @@ function setCookie() {
   audioPermission.style.display = "none";
 }
 
+// Audio cookie
 window.onload = function() {
   // defining cookie
   var cookie = Cookies.getJSON("vi.son.audio");
   // Cookies.remove("vi.son.audio");
   // console.log(cookie);
   const audioPermission = document.querySelector(".audio-permission");
-
   if (cookie) {
     audioPermission.style.display = "none";
     return;
@@ -24,10 +24,33 @@ window.onload = function() {
   }
 };
 
+// Tracking cookie
+document.addEventListener("DOMContentLoaded", function() {
+  const trackingUI = document.querySelector("#tracking-consent");
+  _paq.push([
+    function() {
+      if (this.hasConsent()) {
+        trackingUI.style.display = "none";
+      }
+    }
+  ]);
+  const buttonOk = document.querySelector("#button-track-ok");
+  const buttonOptOut = document.querySelector("#button-track-optout");
+  buttonOk.addEventListener("click", () => {
+    _paq.push(["setConsentGiven"]);
+    _paq.push(["forgetUserOptOut"]);
+    trackingUI.style.display = "none";
+  });
+  buttonOptOut.addEventListener("click", () => {
+    _paq.push(["forgetConsentGiven"]);
+    _paq.push(["optUserOut"]);
+    trackingUI.style.display = "none";
+  });
+});
+
+// Lazy video loading
 document.addEventListener("DOMContentLoaded", function() {
   var lazyVideos = [].slice.call(document.querySelectorAll("video.lazy"));
-  // console.log(lazyVideos);
-
   if ("IntersectionObserver" in window) {
     var lazyVideoObserver = new IntersectionObserver(function(
       entries,
@@ -50,7 +73,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
       });
     });
-
     lazyVideos.forEach(function(lazyVideo) {
       lazyVideoObserver.observe(lazyVideo);
     });

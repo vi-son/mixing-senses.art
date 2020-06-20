@@ -2,13 +2,15 @@ Title: vi • son: mixing senses
 
 ----
 
-Pages:
+Bannertext: We use cookies!
 
-- home
-- impressum
-- datenschutzerklaerung
-- harvester
-- error
+----
+
+Buttontext-allow: Yow, auf geht's
+
+----
+
+Buttontext-optout: Ne, lieber nicht
 
 ----
 
@@ -19,4 +21,26 @@ Secrets:
 - 
   text: 'Wenns um Webseiten geht — (link: https://getkirby.com/ text: Kirby CMS)'
 - 
-  text: Guten Freunden gibt man ein Kirby!
+  text: Nur echt mit Kirby CMS
+- 
+  text: 'Außen Kirby - Innen Geschmack'
+- 
+  text: >
+    Kirby CMS macht Admins froh und die User
+    ebenso!
+- 
+  text: 'Kirby CMS - die zarteste Versuchung seit es Content Management Systeme gibt'
+- 
+  text: >
+    Papa, wenn ich groß bin, will ich auch
+    mal Kirby CMS verwenden
+
+----
+
+Pages:
+
+- home
+- impressum
+- datenschutzerklaerung
+- harvester
+- error

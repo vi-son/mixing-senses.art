@@ -71,6 +71,11 @@ Blocks:
       infos:
         - 
           text: >
+            📰 Wie sieht Musik aus? (Blogpost bei
+            The ARTicle)
+          url: https://thearticle.hypotheses.org/8757
+        - 
+          text: >
             📻 Playlist "looking at" auf
             Soundcloud
           url: >

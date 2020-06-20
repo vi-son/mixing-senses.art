@@ -1,0 +1,34 @@
+title: Datenschutz
+
+fields:
+  trackingactive:
+    label: Tracking ist aktiv
+    type: text
+    width: 1/2
+  trackinginactive:
+    label: Tracking ausgeschaltet
+    type: text
+    width: 1/2
+  disabletracking:
+    label: Button Tracking ausschalten
+    type: text
+    width: 1/2
+  enabletracking:
+    label: Button Tracking einschalten
+    type: text
+    width: 1/2
+  trackingtext:
+    label: Hinweis Tracking
+    type: textarea
+    size: medium
+    buttons:
+      - bold
+      - italic
+      - "|"
+      - link
+      - email
+
+  text:
+    label: Text
+    type: textarea
+    size: large

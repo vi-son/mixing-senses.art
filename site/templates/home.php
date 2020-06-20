@@ -15,6 +15,12 @@ endif;
 <?= js("assets/js/logo.js") ?>
 <?= js("assets/js/home.js") ?>
 
+<div class="cookie-banner" id="tracking-consent">
+  <article><?= $site->bannertext()->kt() ?></article>
+  <button id="button-track-ok"><?= $site->buttontext_allow()->kt() ?></button>
+  <button id="button-track-optout"><?= $site->buttontext_optout()->kt() ?></button>
+</div>
+
 <header>
   <div class="audio-permission">
     <?= $page->usemicrophonetext()->kt() ?>

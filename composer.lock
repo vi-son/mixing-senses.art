@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fcb9ad3d67713e5312bf01720d17347d",
+    "content-hash": "fd734c3514d2edd03e9379dbf100753c",
     "packages": [
         {
             "name": "bnomei/kirby3-janitor",
