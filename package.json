@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "(php -S 127.0.0.1:8888 kirby/router.php)",
     "dev:css": "npx sass --watch assets.src/sass/style.sass assets/css/style.css",
-    "dev:js": "npx parcel watch assets.src/js/logo/src/logo.js --out-dir assets/js/build/"
+    "build:css": "npx sass assets.src/sass/style.sass assets/css/style.css",
+    "build:js": "cp assets.src/js/logo/src/logo.js assets/js/logo.js"
   },
   "keywords": [],
   "author": "",
