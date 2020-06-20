@@ -44,9 +44,7 @@ jobs:
       run: npm run build:js
 
     - name: Deploy to uberspace
-      run: rsync -e ssh -azvhP -r . --exclude .cache --exclude node_modules
-      --exclude .git --exclude assets.src
-      uberspace:/var/www/virtual/guido/mixing-senses.art/
+      run: rsync -e ssh -azvhP -r . --exclude .cache --exclude node_modules --exclude .git --exclude assets.src uberspace:/var/www/virtual/guido/mixing-senses.art/
 
     - name: Install dependencies
       run: ssh uberspace "cd /var/www/virtual/guido/mixing-senses.art/; composer install"
