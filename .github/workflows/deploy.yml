@@ -25,6 +25,9 @@ jobs:
         key: ${{ secrets.SSH_KEY }}
         known_hosts: ${{ secrets.KNOWN_HOSTS }}
 
+    - name: webfactory/ssh-agent
+      uses: webfactory/ssh-agent@v0.3.0
+
     - name: Checkout submodules
       uses: textbook/git-checkout-submodule-action@2.1.1
 
