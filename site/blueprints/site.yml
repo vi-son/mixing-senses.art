@@ -46,6 +46,14 @@ tabs:
 
       - width: 1/3
         sections:
+          janitor:
+            type: fields
+            fields:
+              janitor:
+                type: janitor
+                label: Clean Cache
+                progress: Cleaning Cache...
+                job: cleanCache
           footer:
             label: Footer
             type: fields
