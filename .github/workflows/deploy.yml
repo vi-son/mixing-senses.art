@@ -27,6 +27,8 @@ jobs:
 
     - name: webfactory/ssh-agent
       uses: webfactory/ssh-agent@v0.3.0
+      width:
+        ssh-private-key: ${{ secrets.SSH_KEY }}
 
     - name: Checkout submodules
       uses: textbook/git-checkout-submodule-action@2.1.1
