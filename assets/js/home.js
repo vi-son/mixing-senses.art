@@ -31,6 +31,8 @@ document.addEventListener("DOMContentLoaded", function() {
     function() {
       if (this.hasConsent()) {
         trackingUI.style.display = "none";
+      } else {
+        trackingUI.style.display = "inline";
       }
     }
   ]);
