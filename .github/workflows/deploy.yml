@@ -24,6 +24,7 @@ jobs:
       with:
         key: ${{ secrets.SSH_KEY }}
         known_hosts: ${{ secrets.KNOWN_HOSTS }}
+        config: ${{ secrets.SSH_CONFIG }}
 
     - name: webfactory/ssh-agent
       uses: webfactory/ssh-agent@v0.3.0
@@ -41,3 +42,6 @@ jobs:
 
     - name: JS
       run: npm run build:js
+
+    - name: Deploy to uberspace
+      run: rsync -e ssh -azvhP -r . --exclude .cache --exclude node_modules --exclude .git --exclude assets.src uberspace:/var/www/virtual/guido/mixing-senses.art/
