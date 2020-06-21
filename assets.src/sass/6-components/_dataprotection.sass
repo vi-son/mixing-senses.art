@@ -10,23 +10,28 @@
       display: flex
       align-items: center
       b
-        margin-top: 8px
-        margin-left: 20px
+        +from($tablets)
+          margin-top: 8px
+          margin-left: 20px
     .tracking-state
       display: none
+      +until($tablets)
+        flex-direction: column
+        justify-content: center
+        align-items: center
     .button-change
-      padding: 0
+      +from($tablets)
+        margin-top: 8px
+        margin-left: 40px
       margin: 0
-      margin-top: 8px
-      margin-left: 40px
-      background: var(--color-darkness)
       padding: 6px 20px
+      background: var(--color-darkness)
       color: var(--color-snow)
       &:hover
         background: var(--color-curacao)
 
 .dataprotection
-  line-height: 1.4
+  line-height: 1.6
   font-size: 1rem
   .index
     +from($tablets)
@@ -40,15 +45,24 @@
       background: var(--color-curacao)
       color: var(--color-snow)
 
-  h2
+  h3
     line-height: 1
     margin-top: 60px
     margin-bottom: 40px
 
-  h3
+  h4
     line-height: 1
     margin-top: 40px
     margin-bottom: 20px
+
+  h5
+    line-height: 1
+    margin-top: 40px
+    margin-bottom: 10px
+
+  ul
+    list-style-type: square
+    list-style-position: inside
 
   .seal
     margin-top: 100px
