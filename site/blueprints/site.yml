@@ -69,3 +69,17 @@ tabs:
                       - italic
                       - '|'
                       - link
+
+  exhibition:
+    columns:
+      - width: 1
+        sections:
+          exhibitions:
+            type: pages
+            layout: list
+            image:
+              query: false
+            create:
+              - exhibit
+            template:
+              - exhibit

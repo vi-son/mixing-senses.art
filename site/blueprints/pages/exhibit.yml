@@ -1,0 +1,43 @@
+title: Exponat
+
+tabs:
+  description:
+    label: Beschreibung
+    icon: text
+    fields:
+      blocks:
+        label: Contentblöcke
+        type: builder
+        columns: 1
+        fieldsets:
+
+          textblock:
+            label: Textblock
+            fields:
+              heading:
+                type: text
+                label: Überschrift
+              text:
+                type: textarea
+                size: medium
+                label: Text
+
+          image:
+            label: Bild
+            fields:
+              image:
+                type: files
+                max: 1
+
+          image-grid:
+            label: Bildergrid
+            fields:
+              images:
+                type: files
+                max: 12
+
+          social:
+            label: Share
+
+          references:
+            label: Referenzen/Quellen

@@ -2,38 +2,56 @@ Title: vi • son: mixing senses
 
 ----
 
-Bannertext: We use cookies!
+Bannertext: Bevor es losgehen kann: Wir erheben eine anonyme Nutzungsstatistik. Dies hilft uns, unser Online-Angebot künftig zu verbessern. Bitte triff eine Auswahl - diese kannst du jederzeit unter (link: https://mixing-senses.art/de/datenschutzerklaerung text: Datenschutz) ändern.
 
 ----
 
-Buttontext-allow: Yow, auf geht's
+Buttontext-allow: OK, auf geht's!
 
 ----
 
-Buttontext-optout: Ne, lieber nicht
+Buttontext-optout: Nee, lieber nicht!
 
 ----
 
 Secrets:
 
 - 
-  text: 'Unser Geheimnis? Regelmäßige Backups, abends wenig Kohlenhydrate und **Kirby CMS**'
+  text: 'Unser Geheimnis? Regelmäßige Backups, drei Mal Obst am Tag und **Kirby CMS**'
 - 
-  text: 'Wenns um Webseiten geht — (link: https://getkirby.com/ text: Kirby CMS)'
+  text: 'Unser Geheminis? Wenns um Webseiten geht — (link: https://getkirby.com/ text: Kirby CMS)'
 - 
-  text: Nur echt mit Kirby CMS
+  text: Diese Website? Nur echt mit Kirby CMS
 - 
-  text: 'Außen Kirby - Innen Geschmack'
-- 
-  text: >
-    Kirby CMS macht Admins froh und die User
-    ebenso!
-- 
-  text: 'Kirby CMS - die zarteste Versuchung seit es Content Management Systeme gibt'
+  text: 'Diese Website? Außen Kirby - Innen Geschmack'
 - 
   text: >
-    Papa, wenn ich groß bin, will ich auch
-    mal Kirby CMS verwenden
+    Unser Geheimnis? Kirby CMS macht Admins
+    froh und die User ebenso!
+- 
+  text: 'Unser Geheminis? Kirby CMS - die zarteste Versuchung seit es Content Management Systeme gibt'
+- 
+  text: >
+    Diese Website? Quadratisch, praktisch,
+    Kirby!
+- 
+  text: >
+    Unser Geheminis? Vorsprung durch Kirby
+    CMS
+- 
+  text: >
+    Unser Geheimnis? Kirby CMS verleiht
+    Uuusability!
+- 
+  text: >
+    Ist die Website neu? Nein, mit Kirby CMS
+    gewaschen!
+- 
+  text: 'Diese Website? Alles Kirby CMS - oder was?'
+- 
+  text: >
+    Unser Geheimnis? Kirby CMS repariert,
+    Kirby CMS tauscht aus.
 
 ----
 

@@ -1,0 +1,16 @@
+# -*- restclient -*-
+
+# GET http://localhost:8888/api/pages/harvester
+# Content-Type: application/json
+# Authorization: Basic aGFydmVzdGVyQG1peGluZy1zZW5zZXMuYXJ0OiViRnM0TXI1SmNyfW9YcjVScERSQE5EcHNgUHpUYg==
+# X-Language: en
+
+# GET https://mixing-senses.art/api/pages/harvester
+# Content-Type: application/json
+# Authorization: Basic aGFydmVzdGVyQG1peGluZy1zZW5zZXMuYXJ0OiViRnM0TXI1SmNyfW9YcjVScERSQE5EcHNgUHpUYg==
+# X-Language: en
+
+GET http://127.0.0.1:8888/api/pages/testexponat
+Content-Type: application/json
+Authorization: Basic aGFydmVzdGVyQG1peGluZy1zZW5zZXMuYXJ0OiViRnM0TXI1SmNyfW9YcjVScERSQE5EcHNgUHpUYg==
+X-Language: en
