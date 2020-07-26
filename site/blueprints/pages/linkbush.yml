@@ -1,0 +1,18 @@
+title: Linkbusch
+
+tabs:
+  content:
+    sections:
+      links:
+        type: fields
+        fields:
+          links:
+            label: Links
+            type: structure
+            fields:
+               title:
+                 label: Text
+                 type: text
+               url:
+                 label: URL
+                 type: url
