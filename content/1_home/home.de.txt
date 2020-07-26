@@ -81,6 +81,11 @@ Blocks:
           url: >
             https://soundcloud.com/mixing-senses/sets/looking-at
         - 
+          text: >
+            🧭 Kreativität auf Distanz (Blogpost
+            bei The ARTicle)
+          url: https://thearticle.hypotheses.org/8918
+        - 
           text: 📥 Download Projektpräsentation
           url: >
             https://drive.google.com/file/d/1_WMDScDfd9zg2Hp5lfnwb4uc_dSaefqu/view
