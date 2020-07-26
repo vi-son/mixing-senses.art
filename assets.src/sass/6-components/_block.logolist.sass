@@ -2,11 +2,18 @@
   .logos
     display: grid
     grid-template-columns: repeat(2, 1fr)
+    +until($tablets)
+      grid-template-columns: 1fr
 
     .logo-item
       display: flex
+      flex-grow: 1
+      width: 100%
       a
+        width: 100%
+        flex-grow: 1
         img
+          width: 100%
           opacity: 0.75
           transition: opacity 500ms linear
       a:hover
