@@ -16,11 +16,13 @@ tabs:
               - home
               - harvester
               - dataprotection
+              - linkbush
             template:
               - default
               - harvester
               - home
               - dataprotection
+              - linkbush
           privacy:
             type: fields
             label: Cookie Banner
