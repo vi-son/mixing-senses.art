@@ -41,15 +41,15 @@ Blocks:
     **vi•son ist eine audioreaktive Digitalkunst-Performance.** Im Projekt werden verschiedene Phänomene rund um die multisensorische Wahrnehmung thematisiert. Dabei liegt der Fokus auf der Visualisierung von Musik.
     Im November 2020 werden wir eine Online-Ausstellung gestalten, aus der dann im Frühjahr 2021 in der Region Rhein-Neckar und Frankfurt physisch umgesetzt werden soll.
     <br><br><br><br>
-    Musik nämlich ist eine gängige Weise, Emotionen und Stimmungen zu kodieren und zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Mehrdimensionale Emotion wird durch Musik auf eine Ebene (*Audio*) verdichtet. **Wir versuchen, den Code der Musik wieder aufzufächern.** Wir wollen erfahren, was Menschen tun, sehen und fühlen, wenn sie etwas bestimmtes hören - und umgekehrt. **An der Schnittstelle von *Creative Coding*, Musikproduktion und Sozialwissenschaft wollen wir intensive Darstellungsweisen von Klang und Emotion erkunden.**
+    Musik nämlich ist eine gängige Weise Emotionen und Stimmungen zu kodieren und zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Mehrdimensionale Emotion wird durch Musik auf eine Ebene (*Audio*) verdichtet. **Wir versuchen, den Code der Musik wieder aufzufächern.** Wir wollen erfahren, was Menschen tun, sehen und fühlen, wenn sie etwas bestimmtes hören - und umgekehrt. **An der Schnittstelle von *Creative Coding*, Musikproduktion und Sozialwissenschaft wollen wir intensive Darstellungsweisen von Klang und Emotion erkunden.**
   _key: textblock
   _uid: textblock_1583077809843_281
 - 
   visible: 'true'
   media:
-    - 2020.05.23-13.24.web.mp4
-    - 2020.05.23-13-03.png
-    - 2020.05.23-13-09.png
+    - 2020.06.22-22.41.polarlightsketch.mp4
+    - 2020.07.19-14.19.momentum-particles.mp4
+    - 2020.06.22-23.03.mp4
   columns: ""
   images:
     - 2020.05.23-13-20.png
@@ -64,15 +64,29 @@ Blocks:
     - 
       preheading: 'Infos & neues'
       heading: Updates
-      text: >
-        Aktuelle Neuigkeiten, Einblick in den
-        Projektstand, Hintergrundinfos,
-        Textbeiträge und Visualisierungen
+      text: |
+        **2020-09-05: vi·son beim Z2X**
+        
+        Wir sind dieses Jahr dabei beim Z2X Festival der Zeit. Am 5.9. um 11:30 Uhr dürfen uns alle Z2X-Teilnehmer*innen in einer "Frag-mich-alles-Session" eine Stunde lang über das Projekt ausfragen.
       infos:
         - 
+          text: 🌌 vi·son bei nextmuseum.io
+          url: 'https://www.nextmuseum.io/submissions/vi-%e2%80%a2-son-mixing-senses/'
+        - 
+          text: 🎪 vi·son beim Z2X
+          url: https://z2x.zeit.de/z2x20-programm
+        - 
+          text: 📺 "momentum particles" auf Vimeo
+          url: https://vimeo.com/441251126
+        - 
           text: >
-            📰 Wie sieht Musik aus? (Blogpost bei
-            The ARTicle)
+            👩🏽‍💻 Generative Art
+            (Blogpost@The ARTicle)
+          url: https://thearticle.hypotheses.org/9128
+        - 
+          text: >
+            📰 Wie sieht Musik aus? (Blogpost@The
+            ARTicle)
           url: https://thearticle.hypotheses.org/8757
         - 
           text: >
@@ -82,8 +96,8 @@ Blocks:
             https://soundcloud.com/mixing-senses/sets/looking-at
         - 
           text: >
-            🧭 Kreativität auf Distanz (Blogpost
-            bei The ARTicle)
+            🧭 Kreativität auf Distanz
+            (Blogpost@The ARTicle)
           url: https://thearticle.hypotheses.org/8918
         - 
           text: 📥 Download Projektpräsentation
@@ -124,9 +138,9 @@ Blocks:
 - 
   visible: 'true'
   media:
-    - 2020.05.23-14.35.png
-    - 2020.05.23-14.26.png
-    - 2020.05.23-16.13.web.mp4
+    - 2020.05.23-13-03.png
+    - 2020.05.23-13.24.embryo.mp4
+    - 2020.05.23-13-09.png
   _key: image-grid
   _uid: image-grid_1590245041265_4590
 - 
@@ -172,6 +186,14 @@ Blocks:
       _uid: column_1584909976599_1586
   _key: columns
   _uid: columns_1584909900961_1329
+- 
+  visible: 'true'
+  media:
+    - 0028.png
+    - 2020.07.19-14.19_momentum-005.png
+    - 0015.png
+  _key: image-grid
+  _uid: image-grid_1596289372630_23471
 - 
   visible: 'true'
   headline: Kooperationen

@@ -1,0 +1,24 @@
+Title: Linkbusch
+
+----
+
+Links:
+
+- 
+  title: about
+  url: https://mixing-senses.art/de
+- 
+  title: audio sketches | soundcloud
+  url: >
+    https://soundcloud.com/mixing-senses/sets/looking-at
+- 
+  title: articles | the ARTicle
+  url: >
+    https://thearticle.hypotheses.org/category/projekte/visonmixingsenses
+- 
+  title: pdf-download | project info
+  url: >
+    https://drive.google.com/file/d/1_WMDScDfd9zg2Hp5lfnwb4uc_dSaefqu/view
+- 
+  title: codes | github
+  url: https://github.com/vi-son
