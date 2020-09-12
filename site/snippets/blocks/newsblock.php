@@ -16,7 +16,7 @@
       <article
         class="text"
         data-columns="<?= $data->columns() ?>">
-        <?= $data->text() ?>
+        <?= $data->text()->kt() ?>
       </article>
         <h4>
            <a href="<?= $data->newslink()->url() ?>">

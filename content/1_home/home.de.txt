@@ -116,6 +116,17 @@ Blocks:
   _uid: columns_1584905711662_284
 - 
   visible: 'true'
+  preheadline: 2020.09.05
+  headline: vi · son / mixing-senses beim Z2X
+  text: 'Wir waren dieses Jahr beim Z2X Festival von (link: https://zeit.de text: zeit.de). Am 5.9. um 11:30 Uhr diskutierten wir mit den Z2X-TeilnehmerInnen in einer *Frag-mich-alles-Session* eine Stunde lang über unser Projekt und Ideen für die geplante Onlineausstelung.'
+  image:
+    - screenshot-2020-09-05-at-11.23.31.png
+  newslink: https://z2x.mixing-senses.art/
+  newslinktext: Zu den Z2X Slides
+  _key: newsblock
+  _uid: newsblock_1599893456606_1664
+- 
+  visible: 'true'
   media:
     - keagan-henman-5ptwaufiacy-unsplash.jpg
     - david-anderson-fahhgnl16im-unsplash.jpg
