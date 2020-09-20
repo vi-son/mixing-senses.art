@@ -1,6 +1,6 @@
 {
   "name": "kirby.guidoschmidt.cc",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Kirby is a file-based CMS. Easy to setup. Easy to use. Flexible as hell.",
   "main": "index.js",
   "scripts": {
@@ -9,9 +9,9 @@
     "build:css": "npx sass assets.src/sass/style.sass assets/css/style.css",
     "build:js": "cp assets.src/js/logo/src/logo.js assets/js/logo.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["kirby", "website", "vison", "mixing-senses", "audio-reactive"],
+  "author": "Guido Schmidt <vison@guidoschmidt.cc>",
+  "license": "CC-BY-4.0",
   "devDependencies": {
     "sass": "^1.26.8"
   }
