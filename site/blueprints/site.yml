@@ -71,3 +71,16 @@ tabs:
                       - italic
                       - '|'
                       - link
+
+  exhibition:
+    sections:
+      exhibitions:
+        type: pages
+        layout: cards
+        image:
+          query: false
+        info: "Template: {{ page.template }}"
+        create:
+          - exhibit
+        template:
+          - exhibit

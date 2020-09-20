@@ -1,0 +1,100 @@
+title: Exhibit
+icon:
+
+tabs:
+  audiofiles:
+    sections:
+      audio:
+        label: Audio Samples
+        type: files
+        template: audio
+
+  content:
+    label: Description
+    icon: text
+    type: fields
+    fields:
+      blocks:
+        width: 1
+        label: Content
+        type: builder
+        columns: 1
+        fieldsets:
+
+          textblock:
+            label: Textblock
+            fields:
+              preheadline:
+                label: Überüberschrift
+                type: text
+              headline:
+                label: Überschrift
+                type: text
+              text:
+                label: Textblock
+                type: textarea
+                size: medium
+                maxlength: 350
+
+          imageblock:
+            label: Bild + Beschreibung
+            fields:
+              image:
+                width: 1/2
+                label: Bild
+                type: files
+                max: 1
+              text:
+                width: 1/2
+                label: Bildbeschreibung
+                type: textarea
+                size: medium
+                maxlength: 250
+
+          videoblock:
+            label: Video + Beschreibung
+            fields:
+              video:
+                width: 1/2
+                label: Video
+                type: files
+                max: 1
+              text:
+                width: 1/2
+                label: Videobeschreibung
+                type: textarea
+                size: medium
+                maxlength: 250
+
+          imagegrid:
+            label: Bilderraster
+            fields:
+              image:
+                width: 1/2
+                label: Bild
+                type: files
+                max: 10
+
+          social:
+            label: Soziale Netzwerke
+
+          references:
+            label: Quellenangabe
+            fields:
+              referencesruct:
+                type: structure
+                fields:
+                  footnote:
+                    width: 1/4
+                    label: Fußnote
+                    type: number
+                  labeltext:
+                    width: 2/4
+                    label: Label
+                    type: text
+                  source:
+                    width: 1/4
+                    label: Quelle
+                    type: url
+
+
