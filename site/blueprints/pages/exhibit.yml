@@ -78,6 +78,22 @@ tabs:
           social:
             label: Soziale Netzwerke
 
+          audioblock:
+            label: Audio
+            fields:
+              image:
+                width: 1/2
+                label: Audio
+                type: files
+                max: 1
+              text:
+                width: 1/2
+                label: Audiobeschreibung
+                type: textarea
+                size: medium
+                maxlength: 550
+              
+
           references:
             label: Quellenangabe
             fields:
