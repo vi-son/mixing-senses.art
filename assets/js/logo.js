@@ -1,11 +1,10 @@
-p5.disableFriendlyErrors = true;
 let canvas;
 let song;
 let fft;
 let mic;
 let sizeX;
 let center = 0;
-let binSize = 16;
+let binSize = 32;
 let spectrum;
 let spectrumAverages;
 let logAverages;
@@ -15,32 +14,24 @@ let buttonMic;
 let brandcolor;
 let backgroundColor;
 let fadeIn = 0;
-let dotColor;
-let time;
-let breathe;
-let invBreathe;
-let spectrumAveragesRev;
-var waveRadius = 50;
-var radius;
-var point;
-var angle;
-let spectralIndex;
-var amp, energy;
-var distance;
-var wavePoint;
-var distanceWavePoint;
-var distancePointToWavePoint;
-let circleRadius;
 let circleCenterRadius;
+let innerRadius;
+let outerRadius;
+let points;
+let poissonWidth;
 
-let poissonWidth = 500;
-let p = new PoissonDiskSampling({
-  shape: [poissonWidth, poissonWidth],
-  minDistance: 5,
-  maxDistance: 30,
-  tries: 1
-});
-let points = p.fill();
+function setupParameters(radius = 15) {
+  poissonWidth = 500;
+  innerRadius = radius;
+  outerRadius = innerRadius * 10;
+  let p = new PoissonDiskSampling({
+    shape: [poissonWidth, poissonWidth],
+    minDistance: innerRadius,
+    maxDistance: outerRadius,
+    tries: 5
+  });
+  points = p.fill();
+}
 
 function preload() {
   const wrapper = document.querySelector("#logo-canvas-wrapper");
@@ -70,10 +61,13 @@ function switchToMic() {
 }
 
 function setup() {
+  frameRate(60);
+  // canvas = createCanvas(900, 900);
   canvas = createCanvas(window.innerWidth, 800);
   canvas.parent("logo-canvas-wrapper");
   brandColor = color(50, 48, 69);
   backgroundColor = color(241, 239, 238);
+  setupParameters(8);
 
   // FFT
   fft = new p5.FFT(0.0, binSize);
@@ -106,26 +100,27 @@ function setup() {
 }
 
 function draw() {
-  let fps = frameRate();
-  fill(255);
-  stroke(0);
-  text("FPS: " + fps.toFixed(2), 10, 10);
-
   // Fade in
-  fadeIn = map(frameCount, 0, 60, 0.0, 1.0);
-  dotColor = lerpColor(backgroundColor, brandColor, fadeIn);
+  fadeIn = 1.0; //map(frameCount, 0, 60, 0.0, 1.0);
+  var dotColor = lerpColor(backgroundColor, brandColor, fadeIn);
   // Breathing
-  time = frameCount / 15.0;
-  breathe = 0.75 + (sin(time) * cos(time) + 1.0) / 3.0;
-  invBreathe = 0.75 + (1.0 - (sin(time) * cos(time) + 1.0) / 2.0) * 10.0;
+  let time = frameCount / 30.0;
+  let breathe = 0.75 + (sin(time) * cos(time) + 1.0) / 3.0;
+  let invBreathe = 0.75 + (1.0 - (sin(time) * cos(time) + 1.0) / 2.0) * 10.0;
 
   // FFT
   spectrum = fft.analyze();
   spectrumAverages = fft.linAverages();
-  spectrumAveragesRev = spectrumAverages.slice().reverse();
+  var spectrumAveragesRev = spectrumAverages.slice().reverse();
   spectrumAverages = spectrumAverages.concat(spectrumAveragesRev);
   center = fft.getEnergy("bass");
-  circleCenterRadius = map(pow(center, 2), 0, 255 * 255, 5, 30);
+  circleCenterRadius = map(
+    pow(center, 2),
+    0,
+    255 * 255,
+    innerRadius,
+    innerRadius * 6
+  );
 
   background(backgroundColor);
 
@@ -147,10 +142,11 @@ function draw() {
   //// Debugging
 
   translate(width / 2 - 20, height / 2 - 40);
-  radius = breathe * waveRadius;
+  var waveRadius = outerRadius;
+  var radius = breathe * waveRadius;
   for (var p = 0; p < points.length; p++) {
-    point = points[p];
-    angle = atan2(point[1] - poissonWidth / 2, point[0] - poissonWidth / 2);
+    var point = points[p];
+    var angle = atan2(point[1] - poissonWidth / 2, point[0] - poissonWidth / 2);
 
     //// Visualization description
     // fill(0);
@@ -161,20 +157,20 @@ function draw() {
     //   vizRadius * sin(angle)
     // );
 
-    spectralIndex = Math.floor(
+    let spectralIndex = Math.floor(
       ((((angle + time) % PI) + PI) / TWO_PI) * spectrumAverages.length
     );
-    amp = spectrumAverages[spectralIndex] / 255;
-    energy = waveRadius * amp + amp * 50.0;
+    var amp = spectrumAverages[spectralIndex] / 255;
+    var energy = waveRadius * amp + amp * 50.0;
 
-    distance = dist(poissonWidth / 2, poissonWidth / 2, point[0], point[1]);
-    if (distance > 200 || distance < circleCenterRadius) continue;
-    wavePoint = [
+    var distance = dist(poissonWidth / 2, poissonWidth / 2, point[0], point[1]);
+    if (distance > innerRadius * 40 || distance < circleCenterRadius) continue;
+    var wavePoint = [
       (radius + energy) * cos(angle),
       (radius + energy) * sin(angle)
     ];
-    distanceWavePoint = dist(0, 0, wavePoint[0], wavePoint[1]);
-    distancePointToWavePoint = dist(
+    var distanceWavePoint = dist(0, 0, wavePoint[0], wavePoint[1]);
+    var distancePointToWavePoint = dist(
       wavePoint[0],
       wavePoint[1],
       point[0] - poissonWidth / 2,
@@ -187,12 +183,12 @@ function draw() {
 
     //// Poisson points
     noStroke();
-    circleRadius = map(
+    let circleRadius = map(
       0.5 - distancePointToWavePoint / waveRadius,
       0.3,
       0.5,
       0,
-      5
+      innerRadius
     );
     fill(lerpColor(dotColor, color(241, 239, 238), 255 - circleRadius * 255));
     circle(
