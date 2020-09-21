@@ -77,6 +77,10 @@ tabs:
 
           social:
             label: Soziale Netzwerke
+            fields:
+              url:
+                label: Link
+                type: url
 
           audioblock:
             label: Audio
@@ -92,7 +96,7 @@ tabs:
                 type: textarea
                 size: medium
                 maxlength: 550
-              
+
 
           references:
             label: Quellenangabe
@@ -112,5 +116,3 @@ tabs:
                     width: 1/4
                     label: Quelle
                     type: url
-
-
