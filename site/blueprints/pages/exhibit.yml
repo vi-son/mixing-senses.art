@@ -35,6 +35,11 @@ tabs:
                 type: textarea
                 size: medium
                 maxlength: 350
+                # buttons:
+                #   - bold
+                #   - italic
+                #   - link
+                #   - email
 
           imageblock:
             label: Bild + Beschreibung
@@ -85,7 +90,7 @@ tabs:
           audioblock:
             label: Audio
             fields:
-              image:
+              audiofile:
                 width: 1/2
                 label: Audio
                 type: files
