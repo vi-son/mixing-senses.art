@@ -9,8 +9,17 @@ tabs:
         type: files
         template: audio
 
+  details:
+    label: Beschreibung
+    type: fields
+    fields:
+      shortdescription:
+        label: Kurzbeschreibung
+        type: textarea
+        size: small
+
   content:
-    label: Description
+    label: Inhalt
     icon: text
     type: fields
     fields:
