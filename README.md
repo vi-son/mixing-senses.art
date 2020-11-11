@@ -2,6 +2,7 @@
 
 # mixing-senses.art
 ## vi • son project page
+
 ### Running on [Kirby CMS](https://getkirby.com/)
 
 Implementation of [mixing-senses.art](https://mixing-senses.art)
