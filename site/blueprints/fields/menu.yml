@@ -1,0 +1,5 @@
+label: Menü
+type: select
+options:
+  main: Hauptmenü
+  sub: Ausstellungsräume

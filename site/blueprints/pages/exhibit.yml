@@ -2,17 +2,23 @@ title: Exhibit
 icon:
 
 tabs:
-  audiofiles:
-    sections:
-      audio:
-        label: Audio Samples
-        type: files
-        template: audio
-
   details:
     label: Beschreibung
     type: fields
     fields:
+      order:
+        label: Anordnungsposition
+        type: number
+        min: 0
+        default: 0
+      active:
+        label: Aktiviert
+        type: toggle
+      titleimage:
+        width: 1/2
+        label: Titelbild
+        type: files
+        max: 1
       shortdescription:
         label: Kurzbeschreibung
         type: textarea
@@ -130,3 +136,10 @@ tabs:
                     width: 1/4
                     label: Quelle
                     type: url
+
+  audiofiles:
+    sections:
+      audio:
+        label: Audio Samples
+        type: files
+        template: audio
