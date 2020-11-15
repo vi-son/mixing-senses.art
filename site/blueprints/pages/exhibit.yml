@@ -23,6 +23,9 @@ tabs:
         label: Kurzbeschreibung
         type: textarea
         size: small
+      exhibitionComponent:
+        label: React Import
+        type: text
 
   content:
     label: Inhalt
