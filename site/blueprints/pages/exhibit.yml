@@ -113,6 +113,22 @@ tabs:
                 type: files
                 max: 10
 
+          hyperlinks:
+            label: Hyperlinks
+            fields:
+              links:
+                label: Links
+                type: structure
+                fields:
+                  link:
+                    label: Link
+                    type: url
+                    width: 1/2
+                  text:
+                    label: Description
+                    type: text
+                    width: 1/2
+
           social:
             label: Soziale Netzwerke
             fields:
