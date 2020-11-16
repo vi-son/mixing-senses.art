@@ -89,6 +89,21 @@ tabs:
                 size: medium
                 maxlength: 250
 
+          videoembed:
+            label: Video (Embedded) + Beschreibung
+            fields:
+              video:
+                width: 1
+                label: Video (Embedded)
+                help: "YT/Vimeo: Teilen und dann einbetten auswählen. Dort die url aus dem iframe kopieren"
+                type: url
+              text:
+                width: 1
+                label: Videobeschreibung
+                type: textarea
+                size: medium
+                maxlength: 250
+
           imagegrid:
             label: Bilderraster
             fields:
