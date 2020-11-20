@@ -42,7 +42,7 @@ jobs:
         flags: '-avzr --delete'
         options: ''
         ssh_options: ''
-        src: 'build/'
+        src: '.'
         dest: 'guido@kohoutek.uberspace.de:/var/www/virtual/guido/mixing-senses.art/'
 
     - name: Display status from deploy
