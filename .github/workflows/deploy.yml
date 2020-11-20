@@ -21,18 +21,6 @@ jobs:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
 
-    - name: Install SSH key
-      uses: shimataro/ssh-key-action@v2
-      with:
-        key: ${{ secrets.SSH_KEY }}
-        known_hosts: ${{ secrets.KNOWN_HOSTS }}
-        config: ${{ secrets.SSH_CONFIG }}
-
-    - name: webfactory/ssh-agent
-      uses: webfactory/ssh-agent@v0.3.0
-      with:
-        ssh-private-key: ${{ secrets.SSH_KEY }}
-
     - name: Checkout submodules
       uses: snickerbockers/submodules-init@v4
 
@@ -45,5 +33,17 @@ jobs:
     - name: JS
       run: npm run build:js
 
-    - name: Deploy to uberspace
-      run: rsync -e ssh -azvhP -r . --exclude .cache --exclude node_modules --exclude .git --exclude assets.src uberspace:/var/www/virtual/guido/mixing-senses.art/
+    - name: Deploy to server
+      id: deploy
+      uses: Pendect/action-rsyncer@v1.1.0
+      env:
+        DEPLOY_KEY: ${{secrets.SSH_KEY}}
+      with:
+        flags: '-avzr --delete'
+        options: ''
+        ssh_options: ''
+        src: 'build/'
+        dest: 'guido@kohoutek.uberspace.de:/var/www/virtual/guido/mixing-senses.art/'
+
+    - name: Display status from deploy
+      run: echo "${{ steps.deploy.outputs.status }}"
