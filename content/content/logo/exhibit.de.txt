@@ -1,0 +1,27 @@
+Title: Logo
+
+----
+
+Order: 1
+
+----
+
+Active: true
+
+----
+
+Titleimage:
+
+- dot.colored@3x.png
+
+----
+
+Shortdescription: Audioreaktives Logo
+
+----
+
+Exhibitioncomponent: Logo
+
+----
+
+Blocks: 

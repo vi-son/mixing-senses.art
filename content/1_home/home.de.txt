@@ -70,9 +70,6 @@ Blocks:
         Wir sind dieses Jahr dabei beim Z2X Festival der Zeit. Am 5.9. um 11:30 Uhr dürfen uns alle Z2X-Teilnehmer*innen in einer "Frag-mich-alles-Session" eine Stunde lang über das Projekt ausfragen.
       infos:
         - 
-          text: 🌌 vi·son bei nextmuseum.io
-          url: 'https://www.nextmuseum.io/submissions/vi-%e2%80%a2-son-mixing-senses/'
-        - 
           text: 🎪 vi·son beim Z2X
           url: https://z2x.zeit.de/z2x20-programm
         - 

@@ -1,0 +1,49 @@
+Title: Audiovis i/o
+
+----
+
+Order: 1
+
+----
+
+Active: true
+
+----
+
+Titleimage:
+
+- 2020.10.24-12.32.50.png
+
+----
+
+Shortdescription: Mapping von Sound zu X
+
+----
+
+Exhibitioncomponent: AudiovisIO
+
+----
+
+Blocks:
+
+- 
+  video: https://player.vimeo.com/video/479795804
+  text: >
+    Lorem ipsum dolor sit amet, consectetuer
+    adipiscing elit. Aenean commodo ligula
+    eget dolor. Aenean massa. Cum sociis
+    natoque penatibus et magnis dis
+    parturient montes, nascetur ridiculus
+    mus.
+  _key: videoembed
+  _uid: videoembed_1605555613185_827
+- 
+  links:
+    - 
+      link: https://www.google.com
+      text: Güügle
+    - 
+      link: https://mixing-senses.art
+      text: Mixing Senses
+  _key: hyperlinks
+  _uid: hyperlinks_1605557322794_703

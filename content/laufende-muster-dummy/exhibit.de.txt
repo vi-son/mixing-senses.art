@@ -1,0 +1,23 @@
+Title: Laufende Muster-dummy
+
+----
+
+Order: 4
+
+----
+
+Active: false
+
+----
+
+Titleimage:
+
+- 2020.10.24-12.32.30.png
+
+----
+
+Shortdescription: 
+
+----
+
+Blocks: 

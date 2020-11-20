@@ -19,6 +19,13 @@ tabs:
         label: Titelbild
         type: files
         max: 1
+      type:
+        width: 1/2
+        label: Typ
+        type: select
+        options:
+          meta: Begleitprogramm
+          art: Ausstellungsraum
       shortdescription:
         label: Kurzbeschreibung
         type: textarea
