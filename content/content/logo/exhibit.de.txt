@@ -12,7 +12,7 @@ Active: true
 
 Titleimage:
 
-- dot.colored@3x.png
+- dot.colored@3x-turquoise.png
 
 ----
 
