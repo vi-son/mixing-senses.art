@@ -24,4 +24,12 @@ Exhibitioncomponent: Logo
 
 ----
 
-Blocks: 
+Blocks:
+
+- 
+  video: https://player.vimeo.com/video/441251126
+  text: >
+    Sound Data Sculpture momentum particles
+    / 2020.07.19-14.19
+  _key: videoembed
+  _uid: videoembed_1605889651699_2422

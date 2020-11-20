@@ -42,13 +42,19 @@ Blocks:
   _key: textblock
   _uid: textblock_1605542204107_4230
 - 
-  image: [ ]
+  links:
+    - 
+      link: https://thearticle.hypotheses.org/8757
+      text: >
+        Können wir Musik sehen? Auf diese Frage
+        gibt es mehrere Antworten
+  _key: hyperlinks
+  _uid: hyperlinks_1605729948469_3449
+- 
+  image:
+    - nils-schirmer-0mdcslwd8tm-unsplash.jpg
   _key: imagegrid
   _uid: imagegrid_1605544124230_7066
-- 
-  url: https://thearticle.hypotheses.org/8757
-  _key: social
-  _uid: social_1605542729105_4230
 - 
   preheadline: Farben hören
   headline: Das Phänomen Synästhesie ...
