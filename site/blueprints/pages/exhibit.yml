@@ -168,6 +168,16 @@ tabs:
                 maxlength: 550
 
 
+          podcastblock:
+            label: Podcast <script>
+            fields:
+              src:
+                help: "zum Beispiel 'https://cdn.podigee.com/podcast-player/podigee-podcast-player.html?configuration=https://mixing-senses.podigee.io/t1-neue-episode/embed?context=external'"
+                label: URL aus dem <script> code
+                type: url
+                size: medium
+
+
           references:
             label: Quellenangabe
             fields:
