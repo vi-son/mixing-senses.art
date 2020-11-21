@@ -46,6 +46,20 @@ tabs:
         columns: 1
         fieldsets:
 
+          citeblock:
+            label: Zitatblock
+            fields:
+              cite:
+                label: Zitattext
+                type: textarea
+                size: medium
+              link:
+                label: Quelle
+                type: url
+              author:
+                label: Autor
+                type: text
+
           textblock:
             label: Textblock
             fields:
@@ -59,12 +73,7 @@ tabs:
                 label: Textblock
                 type: textarea
                 size: medium
-                maxlength: 350
-                # buttons:
-                #   - bold
-                #   - italic
-                #   - link
-                #   - email
+                maxlength: 600
 
           imageblock:
             label: Bild + Beschreibung
