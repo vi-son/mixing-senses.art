@@ -155,3 +155,15 @@ Blocks:
     sondern auch sehen können?
   _key: textblock
   _uid: textblock_1605974040520_3417
+- 
+  image:
+    - dot.colored@3x.png
+  text: >
+    Unser Logo, der “Dot”, haben wir als
+    audioreaktive Grafik angelegt. Er bietet
+    daher eine gute Gelegenheit zu
+    erklären, wie Musik in digitalen Code
+    und digitaler Code in Visualisierungen
+    übersetzt werden kann.
+  _key: imageblock
+  _uid: imageblock_1605974058423_3417
