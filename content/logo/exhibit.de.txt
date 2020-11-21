@@ -28,4 +28,130 @@ Exhibitioncomponent: Logo
 
 ----
 
-Blocks: 
+Blocks:
+
+- 
+  preheadline: Musik sehen, fühlen, erleben
+  headline: Die digitale Gesellschaft und ihre Musik
+  text: |
+    Wie sieht Musik aus? Im ersten Augenblick mag diese Frage verwirren, denn Musik ist erst einmal nicht dafür gemacht, irgendwie auszusehen. Sie soll sich vor allem nach etwas anhören. Tatsächlich kennen wir eine Reihe visuelle Formen und Symbolsysteme, die Musik repräsentieren; denken wir an Noten, Musikvideos und Albencover.
+    <br>
+    Gehen wir aber weiter und fragen: Wie sieht Musik wirklich aus? Welche Farbe hat sie, welche Form, ist sie groß oder klein? Natürlich ist das schwer zu fassen, denn Ohren können nicht sehen und Augen nicht hören.
+  _key: textblock
+  _uid: textblock_1605962922152_581
+- 
+  links:
+    - 
+      link: https://thearticle.hypotheses.org/8757
+      text: Unser Essay auf the ARTicle lesen
+  _key: hyperlinks
+  _uid: hyperlinks_1605962960412_581
+- 
+  preheadline: ""
+  headline: ""
+  text: |
+    Diese Ausstellung ist ein lebendiger, wachsender Ort. Nach und nach werden neue Inhalte und kreative Beiträge einpflegen. Wir werden uns selbst vor die Aufgabe stellen, Musik unter einem bestimmten Gesichtspunkt zu visualisieren.
+    <br>
+    In diesem Kapitel wollen wir uns mit einigen Grundkonzepten auseinandersetzen und zeigen, wie unsere kreativen Beiträge funktionieren. Wir gehen damit auf die Methoden ein, die unsere kreativen Erkundungen leiten:  Wie wir Datenverarbeitung und -Visualisierung künstlerisch einsetzen, wollen wir hier klären.
+  _key: textblock
+  _uid: textblock_1605963048136_581
+- 
+  image:
+    - >
+      web-david-anderson-fahhgnl16im-unsplash.jpg
+  text: >
+    Zunächst zeigen wir an zwei Beispielen,
+    dass unser Musikerleben ziemlich stark
+    von digitaler Technologie abhängt. Und
+    nein, wir meinen nicht nur das Aufkommen
+    von Musikdownloads und Streamingdiensten
+    damit. Die Zusammenhänge liegen viel
+    tiefer.
+  _key: imageblock
+  _uid: imageblock_1605963103430_581
+- 
+  preheadline: 'Musik & Technik'
+  headline: Einblicke in die Grundlagen
+  text: |
+    Die Musik, die wir täglich hören, ensteht in modernen Tonstudios, die üblicherweise voller Technik stecken. Nicht nur Instrumente, sondern auch sogenannte Sampler, Effektgeräte, … und nicht zuletzt Computer. Die Bearbeitung passiert letztlich in Softwarelösungen, die unter der Bezeichnung DAW bekannt sind. Aber wie kommt der Ton von einem Gerät zum anderen?
+    <br>
+    Auftritt: MIDI. Das ist der Schnittstellenstandard, der es erlaubt, dass Geräte wie Computer, Instrumente und sonstige Hardware miteinander kommunizieren können. Über MIDI werden digitale Signale in eine Audioausgabe übersetzt.
+  _key: textblock
+  _uid: textblock_1605963151548_581
+- 
+  links:
+    - 
+      link: >
+        https://qz.com/1788828/how-will-midi-2-0-change-music/
+      text: Alles zum Thema hier lesen
+  _key: hyperlinks
+  _uid: hyperlinks_1605963183941_581
+- 
+  cite: '»Ob Sie es wissen oder nicht, MIDI hat Ihr Musikerleben verändert. MIDI ist das Protokoll, mit dem digitalisierte Informationen in Audio umgewandelt werden. Wenn ein Musiker in ein MIDI-fähiges Gerät wie einen Synthesizer oder einen Drumcomputer spielt, wird MIDI dazu verwendet, die verschiedenen Elemente der Musik zu digitalisieren, wie die Note und die Kraft, mit der sie gespielt wurde (z.B. ein leise gezupftes C oder ein Fortissimo Fis). Dies ermöglicht es Musikproduzenten und Technikern, Musik später anzupassen. So können sie beispielsweise die Tonhöhe bestimmter Noten ändern oder sogar den Klang von einem Keyboard auf Trompete oder Gitarre umschalten. Im Grunde ist es dies, was Musiker zur Bearbeitung von Musik verwenden.«[1]'
+  link: >
+    https://qz.com/1788828/how-will-midi-2-0-change-music/
+  author: Dan Kopf (eigene Übersetzung)
+  _key: citeblock
+  _uid: citeblock_1605963230832_581
+- 
+  preheadline: ""
+  headline: ""
+  text: 'MIDI wurde schon 1983 eingeführt und hat seitdem einen wahren Siegeszug erlebt. Vom international gefeierten Studio bis zum experimentellsten Bedroomproducer: der Industriestandard MIDI kommt millionenfach zum Einsatz. Die moderne Musikproduktion basiert wenn man so will auf einer nahtlosen Kommunikation zwischen Geräten. Nun ist es so, dass diese Technik zwar viel dazu beigetragen hat, Musikproduktion und Musikgenuss zu digitalisieren. Allerdings gibt es auch hier Nachteile zu beklagen:'
+  _key: textblock
+  _uid: textblock_1605972997243_3417
+- 
+  cite: '»Obwohl MIDI in den letzten 37 Jahren bei der Digitalisierung von Musik außergewöhnliche Arbeit geleistet hat, ist es nicht perfekt. MIDI quantifiziert Musik, d.h. es zwingt Musikkomponenten in einen bestimmten Wert. In MIDI 1.0 waren alle Daten in 7-Bit-Werten angelegt. Das bedeutet, dass musikalische Qualitäten auf einer Skala von 0 bis 127 klassifiziert wurden. Merkmale wie Lautstärke, Tonhöhe und wie viel des Tons aus dem rechten oder linken Lautsprecher kommen sollte, werden alle auf dieser Skala mit 128 möglichen Punkten gemessen. Das ist keine sehr hohe Auflösung. Einige wirklich anspruchsvolle Zuhörer können die Schritte zwischen diesen Punkten deutlich hören.«[2]'
+  link: >
+    https://qz.com/1788828/how-will-midi-2-0-change-music/
+  author: Dan Kopf (eigene Übersetzung)
+  _key: citeblock
+  _uid: citeblock_1605973074327_3417
+- 
+  preheadline: >
+    Technische Möglichkeiten beeinflussen,
+    wie Musik klingt
+  headline: >
+    Der unsichtbare Einfluss von
+    Schnittstellen und
+    Komprimierungsverfahren
+  text: 'Das heißt nichts anderes als dass wir die Welt der Musik gewissermaßen seit Jahrzehnten in geringer Auflösung erleben. Dieses und eine Reihe weiterer Unzulänglichkeiten soll allerdings ein Update lösen. Seit Jahresanfang 2020 ist MIDI 2.0 verfügbar - und damit eine höhere Datenauflösung. Um einen etwas schiefen Vergleich zu bemühen: Der Sprung von der VHS zur BlueRay ist damit geschafft.'
+  _key: textblock
+  _uid: textblock_1605973171853_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Neben MIDI sind z.B. auch Komprimierungsverfahren ein wichtiger Bestandteil heutiger, digitaler Musikproduktion und Musikkonsums. Komprimierung wird eingesetzt, um “überschüssige” Datenfragmente aus Dateien zu entfernen, um die Übertragung zu optimieren, zu vereinfachen und zu beschleunigen. Beinahe alles, was wir im Web hören, klingt damit nicht so, wie es ursprünglich geklungen hat - auch, wenn wir es meistens nicht bemerken.'
+  _key: textblock
+  _uid: textblock_1605973342166_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Mehr zu diesem Thema hat der Journalist und Podcaster (link: https://twitter.com/chgrasse text: Christian Conradi) (link: https://viertausendhertz.de/ text: (Viertausendhertz)) in einer Podcastepisode aufbereitet. Dort geht es um die Geschichte der "Mutter von MP3" und den verlorenen Ton der MP3-Geister. Für uns interessant: U.a. der Song “Tom’s Diner” von Suzanne Vega diente als Referenz in den Tests bei der Entwicklung des MP3-Formats.'
+  _key: textblock
+  _uid: textblock_1605973621856_3417
+- 
+  links:
+    - 
+      link: https://viertausendhertz.de/sf02/
+      text: >
+        Die Mutter von MP3 und Geister im Ton
+        (Systemfehler Podcast)
+  _key: hyperlinks
+  _uid: hyperlinks_1605973786468_3417
+- 
+  preheadline: Audioreaktives Logo
+  headline: Musikvisualisierung mit drei Parametern
+  text: 'Schnittstellenprotokolle, Komprimierungsverfahren und eine Reihe anderer Techniken sorgen dafür, dass Musik digital ist. Musik ist heute nicht nur Song und Album, sondern insbesondere Datei, Datensatz. Damit ist sie einerseits allgegenwärtig. Wir kennen es aus unserem Alltag: es ist geradezu lächerlich einfach geworden, jederzeit Musik zu hören. Wenn Musik Datensatz ist, bedeutet das auch, dass wir sie auf verschiedene Arten verarbeiten können. Das ist üblicherweise das, was man mit Datensätzen macht - man kopiert sie, überträgt sie, analysiert sie, speichert sie in eine Datenbank, usw.'
+  _key: textblock
+  _uid: textblock_1605973862161_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: >
+    Musikdatensätze werden normalerweise
+    mit einer geeigneten Software geöffnet
+    und angehört. Was muss passieren, damit
+    wir die digitale Musik nicht nur hören,
+    sondern auch sehen können?
+  _key: textblock
+  _uid: textblock_1605974040520_3417
