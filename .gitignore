@@ -52,3 +52,6 @@ assets/css/
 # ---------------
 /kirby
 /vendor
+
+# rsync Backups
+BACKUPS/
