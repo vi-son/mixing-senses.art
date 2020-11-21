@@ -62,19 +62,57 @@ Blocks:
   superheading: ""
   columns:
     - 
-      preheading: Digitale Ausstellung
-      heading: 22. November 2020
-      text: 'Die digitale Ausstellung setzt sich mit multisensorischer Wahrnehmung von Musik im digitalen Zeitalter auseinander - also mit der Frage, welche sinnlichen Qualität Musik hat und wie digitale Technik sie sichtbar machen kann. Im Zentrum stehen vielfältige Weisen der Musikvisualisierung. Wir wollen erkunden, inwiefern Musik auditiv, visuell, emotional und haptisch erlebt wird. Die Ausstellung behandelt Denkanstöße dazu auf kreative Weise.'
+      preheading: 'Infos & neues'
+      heading: Updates
+      text: |
+        **2020-09-05: vi·son beim Z2X**
+        
+        Wir sind dieses Jahr dabei beim Z2X Festival der Zeit. Am 5.9. um 11:30 Uhr dürfen uns alle Z2X-Teilnehmer*innen in einer "Frag-mich-alles-Session" eine Stunde lang über das Projekt ausfragen.
       infos:
         - 
-          text: 👉 Weitere Infos
-          url: https://thearticle.hypotheses.org/9954
+          text: 🎪 vi·son beim Z2X
+          url: https://z2x.zeit.de/z2x20-programm
+        - 
+          text: 📺 "momentum particles" auf Vimeo
+          url: https://vimeo.com/441251126
+        - 
+          text: >
+            👩🏽‍💻 Generative Art
+            (Blogpost@The ARTicle)
+          url: https://thearticle.hypotheses.org/9128
+        - 
+          text: >
+            📰 Wie sieht Musik aus? (Blogpost@The
+            ARTicle)
+          url: https://thearticle.hypotheses.org/8757
+        - 
+          text: >
+            📻 Playlist "looking at" auf
+            Soundcloud
+          url: >
+            https://soundcloud.com/mixing-senses/sets/looking-at
+        - 
+          text: >
+            🧭 Kreativität auf Distanz
+            (Blogpost@The ARTicle)
+          url: https://thearticle.hypotheses.org/8918
+        - 
+          text: 📥 Download Projektpräsentation
+          url: >
+            https://drive.google.com/file/d/1_WMDScDfd9zg2Hp5lfnwb4uc_dSaefqu/view
       _key: column
-      _uid: column_1584909812537_942
+      _uid: column_1584905712500_330
+    - 
+      preheading: Schreib uns
+      heading: Kontakt
+      text: 'Habt ihr Anregungen, Fragen oder andere Ideen bezüglich ***mixing senses***? Vielleicht wollt ihr euren kerativen Kopf mit ins Projekt einbingen? Wir sind am Besten erreichbar per Mail an (email: hello { at } mixing-senses.art text: hello@mixing-senses.art). Wir freuen uns auf deine Nachricht!'
+      infos: [ ]
+      _key: column
+      _uid: column_1584905808607_316
   _key: columns
-  _uid: columns_1584909809951_876
+  _uid: columns_1584905711662_284
 - 
-  visible: 'false'
+  visible: 'true'
   preheadline: 2020.09.05
   headline: vi · son / mixing-senses beim Z2X
   text: 'Wir waren dieses Jahr beim Z2X Festival von (link: https://zeit.de text: zeit.de). Am 5.9. um 11:30 Uhr diskutierten wir mit den Z2X-TeilnehmerInnen in einer *Frag-mich-alles-Session* eine Stunde lang über unser Projekt und Ideen für die geplante Onlineausstelung.'
@@ -97,59 +135,14 @@ Blocks:
   superheading: ""
   columns:
     - 
-      preheading: 'Infos & neues'
-      heading: Updates
-      text: |
-        **2020-11-18: Digitale Ausstellung steht in Kürze bereit**
-        
-        Ab dem 22. November stehen die Inhalte der digitalen Ausstellung zur Verfügung. Wir freuen uns jederzeit über Erfahrungsberichte, Lob, Kritik, Anregungen und Kommentare. Dazu stellen wir in Kürze ein Dashboard bereit, auf dem wir alle weiteren Pläne und die Möglichkeit, Feedback zu geben, ablegen.
-      infos:
-        - 
-          text: 📺 "momentum particles" auf Vimeo
-          url: https://vimeo.com/441251126
-        - 
-          text: >
-            📻 Playlist "looking at" auf
-            Soundcloud
-          url: >
-            https://soundcloud.com/mixing-senses/sets/looking-at
-        - 
-          text: 🎪 vi·son beim Z2X
-          url: https://z2x.zeit.de/z2x20-programm
-        - 
-          text: >
-            👩🏽‍💻 Generative Art
-            (Blogpost@The ARTicle)
-          url: https://thearticle.hypotheses.org/9128
-        - 
-          text: >
-            📰 Wie sieht Musik aus? (Blogpost@The
-            ARTicle)
-          url: https://thearticle.hypotheses.org/8757
-        - 
-          text: >
-            🧭 Kreativität auf Distanz
-            (Blogpost@The ARTicle)
-          url: https://thearticle.hypotheses.org/8918
+      preheading: Digitale Ausstellung
+      heading: Herbst 2020
+      text: '*Social Distancing*, Gesellschaft auf Distanz, ist eine Herausforderung, der wir uns ebenfalls stellen. Daher soll mit den Ergebnissen eine ansprechende, interaktive Online-Ausstellung gestaltet werden. Außerdem lassen wir uns von den Methoden moderner Softwareentwicklung leiten: neben frei zugänglichem Code werden wir im Entwicklungsprozess auch Zwischenergebnisse - sozusagen Beta-Versionen unserer Exponate - präsentieren.'
+      infos: [ ]
       _key: column
-      _uid: column_1584905712500_330
-    - 
-      preheading: Schreib uns
-      heading: Kontakt
-      text: 'Habt ihr Anregungen, Fragen oder andere Ideen bezüglich ***mixing senses***? Vielleicht wollt ihr euren kerativen Kopf mit ins Projekt einbingen? Wir sind am Besten erreichbar per Mail an (email: hello { at } mixing-senses.art text: hello@mixing-senses.art). Wir freuen uns auf deine Nachricht!'
-      infos:
-        - 
-          text: '👁‍🗨 Info-Dashboard: Feedback & Roadmap'
-          url: >
-            https://www.notion.so/vi-son-Wie-geht-s-weiter-d28a07a4c6ea46e287b7841543c41c2a
-        - 
-          text: 📥 Download Projektpräsentation
-          url: >
-            https://drive.google.com/file/d/1_WMDScDfd9zg2Hp5lfnwb4uc_dSaefqu/view
-      _key: column
-      _uid: column_1584905808607_316
+      _uid: column_1584909812537_942
   _key: columns
-  _uid: columns_1584905711662_284
+  _uid: columns_1584909809951_876
 - 
   visible: 'true'
   media:
@@ -197,9 +190,6 @@ Blocks:
           text: instagram.com/pendeloquelichtkunst
           url: >
             https://www.instagram.com/pendeloquelichtkunst/
-        - 
-          text: Twitter
-          url: https://twitter.com/pendeloque_art
       _key: column
       _uid: column_1584909976599_1586
   _key: columns

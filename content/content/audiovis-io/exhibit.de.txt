@@ -20,7 +20,7 @@ Type: art
 
 ----
 
-Shortdescription: Mapping von Audio zu X
+Shortdescription: Audiovisuelle Assoziation
 
 ----
 
