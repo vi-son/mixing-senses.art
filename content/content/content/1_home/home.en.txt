@@ -1,0 +1,37 @@
+Title:
+
+vi ⋅ son
+
+----
+
+Song:
+
+- dmutr_20200604.mp3
+
+----
+
+Usemicrophonetext: Welcome, we're glad you're here. You are about to make art! Please give us permission to access your microphone - and then we're good to go.
+
+----
+
+Allowmicbuttontext: Allow
+
+----
+
+Songbuttontext: Song
+
+----
+
+Micbuttontext: Microphone
+
+----
+
+Headline: Eine audiovisual installation
+
+----
+
+Blocks: 
+
+----
+
+Files: 

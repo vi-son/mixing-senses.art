@@ -1,0 +1,45 @@
+Title: Linkbusch
+
+----
+
+Links:
+
+- 
+  title: >
+    🎧 Podcast hören und abonnieren |
+    RSS, Spotify, Apple Podcasts
+  url: https://mixing-senses.podigee.io/
+- 
+  title: "💡 über's projekt"
+  url: https://mixing-senses.art/de
+- 
+  title: >
+    👉 Zur digitalen Ausstellung | Hier
+    entlang
+  url: https://mixing-senses.art/de
+- 
+  title: 🎶 audio skizzen | soundcloud
+  url: >
+    https://soundcloud.com/mixing-senses/sets/looking-at
+- 
+  title: 📜 aufsätze | the ARTicle
+  url: >
+    https://thearticle.hypotheses.org/category/projekte/visonmixingsenses
+- 
+  title: '📰 Presse: Können wir Musik sehen?'
+  url: >
+    https://www.morgenweb.de/schwetzinger-zeitung_artikel,-hockenheim-koennen-wir-musik-sehen-_arid,1717795.html
+- 
+  title: 👁‍🗨 projektinfo | pdf download
+  url: >
+    https://drive.google.com/file/d/1_WMDScDfd9zg2Hp5lfnwb4uc_dSaefqu/view
+- 
+  title: 👩🏽‍💻 codes | github
+  url: https://github.com/vi-son
+- 
+  title: ⏱ @Z2X
+  url: https://z2x.mixing-senses.art
+- 
+  title: 💎 pendeloque dossier | website
+  url: >
+    https://pendeloque.de/dossier/vi-son-mixing-senses
