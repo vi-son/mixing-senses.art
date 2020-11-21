@@ -24,5 +24,5 @@
            </a>
         </h4>
     </div>
-  </div>  
+  </div>
 </section>

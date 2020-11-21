@@ -18,6 +18,7 @@
           </li>
         <?php endforeach ?>
       </ul>
+      <div><?= $column->scripttag()->text() ?></div>
     </div>
   <?php endforeach ?>
 </section>
