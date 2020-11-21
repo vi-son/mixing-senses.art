@@ -167,3 +167,9 @@ Blocks:
     übersetzt werden kann.
   _key: imageblock
   _uid: imageblock_1605974058423_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Im Exponat-Space rechts kann ihn sich genauer anschauen - und danach hier hier zurückkehren. 👉'
+  _key: textblock
+  _uid: textblock_1605974101528_3417
