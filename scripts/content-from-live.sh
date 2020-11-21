@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -avzr uberspace:/var/www/virtual/guido/mixing-senses.art/content content/
+rsync -chavbrzP --backup-dir=../BACKUPS/content/ --stats uberspace:/var/www/virtual/guido/mixing-senses.art/content/ content
