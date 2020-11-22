@@ -12,7 +12,7 @@ Active: true
 
 Titleimage:
 
-- dot.colored@3x.png
+- sound-202011.png
 
 ----
 
@@ -20,7 +20,7 @@ Type: art
 
 ----
 
-Shortdescription: Audioreaktives Logo
+Shortdescription: Einführung, Grundüberlegungen und unser audioreaktives Logo
 
 ----
 
@@ -75,7 +75,7 @@ Blocks:
   text: |
     Die Musik, die wir täglich hören, ensteht in modernen Tonstudios. Diese stecken üblicherweise voller Technik. Das sind nicht nur nur die Instrumente, sondern zum Beispiel auch sogenannte Sampler, Effektgeräte, … und nicht zuletzt Computer. Die Bearbeitung von Musik passiert heutzutage vorwiegend in Softwarelösungen, die unter der Bezeichnung DAW bekannt sind.
     
-    Im Studio passiert auf technischer Seite einiges. Zum Beispiel müssen Geräte, Instrumente und sonstige Hardware miteinander kommunizieren können. Dazu sind sogenannte Schnittstellenstandards notwendig.
+    Im Studio passiert auf technischer Seite einiges. Geräte und Instrumente müssen gesteuert werden und miteinander kommunizieren können. Dazu sind sogenannte Schnittstellenstandards notwendig.
   _key: textblock
   _uid: textblock_1605963151548_581
 - 
@@ -88,7 +88,7 @@ Blocks:
 - 
   preheadline: ""
   headline: ""
-  text: 'Über den Standard MIDI werden beispielsweise digitale Steuersignale in eine Audioausgabe übersetzt. MIDI wurde schon 1983 eingeführt und hat seitdem einen wahren Siegeszug erlebt. Vom international gefeierten Studio bis zum experimentellsten Bedroomproducer: der Industriestandard MIDI kommt millionenfach zum Einsatz. Nun ist es so, dass diese Technik zwar viel zur modernen Musikproduktion beigetragen hat. Allerdings gibt es auch hier Nachteile zu beklagen:'
+  text: 'Über das Protokoll MIDI werden beispielsweise digitale Steuersignale in eine Audioausgabe übersetzt. MIDI wurde schon 1983 eingeführt und hat seitdem einen wahren Siegeszug erlebt. Vom international gefeierten Studio bis zum experimentellsten Bedroomproducer: der Industriestandard MIDI kommt millionenfach zum Einsatz. Nun ist es so, dass diese Technik zwar viel zur modernen Musikproduktion beigetragen hat. Allerdings gibt es auch hier Nachteile zu beklagen:'
   _key: textblock
   _uid: textblock_1605972997243_3417
 - 
@@ -120,19 +120,19 @@ Blocks:
 - 
   preheadline: ""
   headline: ""
-  text: 'Neben MIDI sind z.B. auch Komprimierungsverfahren ein wichtiger Bestandteil heutiger, digitaler Musikproduktion und Musikkonsums. Komprimierung wird eingesetzt, um “überschüssige” Datenfragmente aus Dateien zu entfernen, um die Übertragung zu optimieren, zu vereinfachen und zu beschleunigen. Beinahe alles, was wir im Web hören, klingt damit nicht so, wie es ursprünglich geklungen hat - auch, wenn wir es meistens nicht bemerken.'
+  text: 'Neben Schnittstellen sind z.B. auch Komprimierungsverfahren ein wichtiger Bestandteil der heutigen Musikproduktion und des digitalen Musikkonsums. Komprimierung wird eingesetzt, um “überschüssige” Datenfragmente aus Dateien zu entfernen, um die Übertragung zu optimieren, zu vereinfachen und zu beschleunigen. Beinahe alles, was wir im Web hören, klingt damit nicht so, wie es ursprünglich geklungen hat - auch, wenn wir es meistens nicht bemerken.'
   _key: textblock
   _uid: textblock_1605973342166_3417
 - 
   preheadline: ""
   headline: ""
-  text: 'Wir wollen uns nicht mit weiteren Details hierzu aufhalten. Die zentrale Botschaft lautet: **(Digitale) Technik vermittelt, strukturiert und beeinflusst die Art und Weise, wie wir Musik machen und wahrnehmen. **'
+  text: 'Wir wollen uns nicht mit weiteren Details hierzu aufhalten. Die zentrale Botschaft lautet: **(Digitale) Technik vermittelt, strukturiert und beeinflusst die Art und Weise, wie wir Musik machen und wahrnehmen.**'
   _key: textblock
   _uid: textblock_1605976359826_3417
 - 
   preheadline: ""
   headline: ""
-  text: 'Mehr zu diesem Thema hat der Journalist und Podcaster (link: https://twitter.com/chgrasse text: Christian Conradi) (link: https://viertausendhertz.de/ text: (Viertausendhertz)) in einer Podcastepisode aufbereitet. Dort geht es um die Geschichte der "Mutter von MP3" und den verlorenen Ton der MP3-Geister. Für uns interessant: U.a. der Song “Tom’s Diner” von Suzanne Vega diente als Referenz in den Tests bei der Entwicklung des MP3-Formats.'
+  text: 'Mehr zu diesem Thema hat der Journalist und Podcaster (link: https://twitter.com/chgrasse text: Christian Conradi) (link: https://viertausendhertz.de/ text: [Viertausendhertz]) in einer Podcastepisode aufbereitet. Dort geht es um die Geschichte der "Mutter von MP3" und den verlorenen Ton der MP3-Geister. Für uns interessant: U.a. der Song “Tom’s Diner” von Suzanne Vega diente als Referenz in den Tests bei der Entwicklung des MP3-Formats.'
   _key: textblock
   _uid: textblock_1605973621856_3417
 - 
