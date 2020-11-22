@@ -55,9 +55,9 @@ endif;
   </div>
 
 <?php if ($site->open()->toBool() === true) { ?>
-  <button class="btn-opening">
-  <a href="https://exhibition.mixing-senses.art">Zur digitalen Ausstellung</a>
-  </button>
+  <a class="btn-opening" href="https://exhibition.mixing-senses.art">
+    Zur digitalen Ausstellung
+  </a>
 <?php } ?>
 
 </header>
