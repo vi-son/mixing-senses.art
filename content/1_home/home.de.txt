@@ -63,24 +63,13 @@ Blocks:
   columns:
     - 
       preheading: Digitale Ausstellung
-      heading: 22. November 2020
-      text: >
-        Die digitale Ausstellung setzt sich mit
-        multisensorischer Wahrnehmung von Musik
-        im digitalen Zeitalter auseinander, also
-        mit der Frage, welche sinnlichen
-        Qualität Musik hat und wie digitale
-        Technik sie sichtbar machen kann. Im
-        Zentrum stehen vielfältige Weisen der
-        Musikvisualisierung, welche die Anregung
-        zur Erkundung lieferten, inwiefern Musik
-        auditiv, visuell, emotional und haptisch
-        erlebt wird. Die Ausstellung behandelt
-        Denkanstöße dazu auf kreative Weise.
+      heading: "Heute: bald geht's los!"
+      text: 'Ab dem 22. November 2020: Die digitale Ausstellung setzt sich mit multisensorischer Wahrnehmung von Musik im digitalen Zeitalter auseinander, also mit der Frage, welche sinnlichen Qualität Musik hat und wie digitale Technik sie sichtbar machen kann. Im Zentrum stehen vielfältige Weisen der Musikvisualisierung, welche die Anregung zur Erkundung lieferten, inwiefern Musik auditiv, visuell, emotional und haptisch erlebt wird. Die Ausstellung behandelt Denkanstöße dazu auf kreative Weise.'
       infos:
         - 
           text: 👉 Weitere Infos
           url: https://thearticle.hypotheses.org/9954
+      scripttag: ""
       _key: column
       _uid: column_1584909812537_942
   _key: columns
@@ -145,6 +134,7 @@ Blocks:
         - 
           text: 🎪 vi·son beim Z2X
           url: https://z2x.zeit.de/z2x20-programm
+      scripttag: ""
       _key: column
       _uid: column_1584905712500_330
     - 
@@ -160,6 +150,7 @@ Blocks:
           text: 📥 Download Projektpräsentation
           url: >
             https://drive.google.com/file/d/1_WMDScDfd9zg2Hp5lfnwb4uc_dSaefqu/view
+      scripttag: '<script class="podlove-subscribe-button" src="https://cdn.podigee.com/subscribe-button/javascripts/app.js" data-json-url="https://mixing-senses.podigee.io/embed/subscribe_button"></script>'
       _key: column
       _uid: column_1584905808607_316
   _key: columns
@@ -187,6 +178,7 @@ Blocks:
           text: instagram.com/thekalanguhood
           url: >
             https://www.instagram.com/thekalanguhood/
+      scripttag: ""
       _key: column
       _uid: column_1584909902661_1395
     - 
@@ -211,6 +203,7 @@ Blocks:
           text: instagram.com/pendeloquelichtkunst
           url: >
             https://www.instagram.com/pendeloquelichtkunst/
+      scripttag: ""
       _key: column
       _uid: column_1584909976599_1586
   _key: columns

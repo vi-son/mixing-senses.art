@@ -31,73 +31,265 @@ Exhibitioncomponent: AudiovisIO
 Blocks:
 
 - 
-  preheadline: Wie sieht Musik eigentlich aus?
-  headline: Musik, Sinne, Wahrnehmung
+  preheadline: 'Musik ist auch nur Code - und den können wir verarbeiten'
+  headline: Musik, Gefühle, Assoziationen
   text: >
-    Wie sieht Musik aus? Welche Farbe hat
-    sie, welche Form, ist sie groß oder
-    klein? Natürlich ist das schwer zu
-    fassen, denn Ohren können nicht sehen
-    und Augen nicht hören. Und trotzdem
-    können wir mit Musik ausgeklügelte
-    visuelle Symbolsysteme (Noten) und
-    ästhetische Bilder (Albencover)
-    verbinden.
+    Im Einführungskapitel haben wir die
+    Bandbreite der technischen Vermittlung
+    von Musik skizziert und festgestellt,
+    wie sehr unser Musikerleben von Technik
+    bestimmt ist. Und wir haben gezeigt, wie
+    wir uns dies zunutze machen können, um
+    Informationen und sinnliche Qualitäten,
+    die in Songs und Klängen eingebettet
+    sind, sichtbar zu machen.
   _key: textblock
   _uid: textblock_1605542204107_4230
 - 
-  image: [ ]
-  _key: imagegrid
-  _uid: imagegrid_1605544124230_7066
-- 
-  url: https://thearticle.hypotheses.org/8757
-  _key: social
-  _uid: social_1605542729105_4230
-- 
-  preheadline: Farben hören
-  headline: Das Phänomen Synästhesie ...
-  text: >
-    "... bezeichnet eine Variante der
-    Kognition, basierend auf einer
-    neuronalen Gehirnstruktur, bei der
-    verschiedene Gehirnareale auf besondere
-    Art und Weise miteinander in Verbindung
-    stehen. Dadurch werden bestimmte
-    Wahrnehmungsphänomene und Denkprozesse
-    ermöglicht werden, die in einem
-    „neuro-typischen“ Gehirn nicht
-    möglich bzw. anders geartet sind."
+  preheadline: ""
+  headline: ""
+  text: |
+    Aber was sind diese Qualitäten? Wie funktioniert der Code der Musik? Wie sieht Musik aus? In diesem Kapitel werden wir auf kreative Weise der Frage nachgehen, wie wir Musik wahrnehmen und verarbeiten und wie sie uns emotional berührt und in Bewegung versetzt. Mit musikalischen Impulsen, so werden wir festellen, lassen sich bestimmte Eindrücke verbinden. Sieht Musik so aus, wie die Sinneseindrücke, die wir mit ihr assoziieren?
+    
+    Mit unserem Exponat audiovis I/O kann man selbst ausprobieren, welche Assoziationen einzelne Höreindrücke in der eigenen Wahrnehmung wach rufen. 👉
   _key: textblock
   _uid: textblock_1605543288597_7066
 - 
-  preheadline: >
-    Digitalisierung und multisensorische
-    Musik
-  headline: Musik ist auch nur Code
-  text: >
-    Das vermischte Nebeneinander der
-    Verarbeitung visueller, auditiver und
-    emotionaler Reize durch Mensch und
-    Maschine wollen wir in diesem Kapitel
-    thematisieren und erkunden. Dafür haben
-    wir rechts einen audiovisuellen Mapper
-    gestaltet.
+  links:
+    - 
+      link: >
+        https://www.notion.so/vi-son-Wie-geht-s-weiter-d28a07a4c6ea46e287b7841543c41c2a
+      text: '⚡ Aktueller Hinweis: Zur Nutzung von audiovis I/O beachte bitte unser Infoboard'
+  _key: hyperlinks
+  _uid: hyperlinks_1606040068539_14737
+- 
+  links:
+    - 
+      link: https://thearticle.hypotheses.org/9842
+      text: 📰 So haben wir das Exponat entwickelt
+  _key: hyperlinks
+  _uid: hyperlinks_1606034929183_2700
+- 
+  preheadline: Sonic Vocabulary
+  headline: Wie aus Emotionen Sound wird
+  text: 'Es gibt Weisen, Musik zu hören, die mehrere Sinne ansprechen: das Rock-Konzert etwa reißt uns körperlich mit; die Schallplatte ist ein schönes Objekt mit besonderer Haptik, mit dem man behutsam umgehen muss. Bei anderen Weisen ist das nicht so eindeutig. Digitales Musikhören begnügt sich oftmals mit dem Doppelklick auf ein Item in einer Tabelle. Mit intelligenten Lautsprechern ist sogar nicht einmal mehr ein Display als visuelles Interface nötig. Musikhören wird zum reinen Audio-Erlebnis, der Austausch von Schallwellen („Alexa, spiel Jazz!“). Musik wird auf sich selbst reduziert.'
   _key: textblock
-  _uid: textblock_1605544355486_7066
+  _uid: textblock_1606034986063_2700
 - 
   preheadline: ""
   headline: ""
-  text: 'Mapping kommt eigentlich vom Kartieren, erhält im Bereich der Computergrafik und Computertechnik eine erweiterte Bedeutung:'
+  text: 'Wir können Musik als eine Methode verstehen Emotionen oder Stimmungen zu codieren und zu kommunizieren. Bei dieser Codierung gehen jedoch Teile verloren, Aspekte werden akzentuiert, andere vernachlässigt. Musik fühlt sich nicht exakt so an wie Gefühle - Gefühle spielen beim Musikhören jedoch eine wichtige Rolle. Die mehrdimensionale Emotion wird durch Musik auf eine Ebene (Audio) verdichtet. Doch trotz dieser Verdichtung (oder gerade deswegen?) ist Musikhören weiterhin ein sehr intensives Erlebnis. Woran könnte das liegen?'
   _key: textblock
-  _uid: textblock_1605544395252_7066
+  _uid: textblock_1606035191519_2700
 - 
-  video: https://player.vimeo.com/video/479534606
+  links:
+    - 
+      link: https://thearticle.hypotheses.org/8757
+      text: ✒ Unser Essay zum Thema
+  _key: hyperlinks
+  _uid: hyperlinks_1606035225300_2700
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Musiker*innen gelingt es, ihre eigenen Gefühle und Erfahrungen in den Code der Musik zu überführen. Diese Übersetzungsleistung können wir uns vorstellen als das übereinanderlegen von Schichten, als das Zusammenfügen einzelner Bausteine, als das Abstimmen verschiedener künstlerischer Ideen, experimenteller Eingebungen und bewährter Konventionen. Als Übersetzende verfeinern Musiker*innen ihre Arbeitsweise, entwickeln eine Handschrift, stoßen an Grenzen und verschieben diese. Sie bedienen sich einer Klangsprache, die viele Akzente kennt, aber in ihrer Struktur stets ähnlich funktioniert.'
+  _key: textblock
+  _uid: textblock_1606035273123_2700
+- 
+  preheadline: ""
+  headline: ""
   text: >
-    Lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. Aenean commodo ligula
-    eget dolor. Aenean massa. Cum sociis
-    natoque penatibus et magnis dis
-    parturient montes, nascetur ridiculus
-    mus.
+    Der Klang an und für sich trägt dabei
+    erst einmal keine Bedeutung. D-Moll ist
+    nicht per se traurig, wie es die
+    Musikerin Claudio im Vortrag “How to
+    translate feeling into sound”
+    ausdrückt. Die Trauer, die D-Moll
+    anspricht, ist viel eher bereits in uns
+    vorhanden. D-Moll stimmt eine zutiefst
+    menschliche Grundempfindung an. Dem
+    Klang wohnt diese Emotion nicht inne.
+    Aber er hat die Fähigkeit, Empfindungen
+    und Reaktionen in uns hervorzurufen. Das
+    ist ein Unterschied.
+  _key: textblock
+  _uid: textblock_1606035513177_2700
+- 
+  preheadline: ""
+  headline: ""
+  text: 'So wird ein komplexes Erlebnis zusammengestellt (sprich: komponiert), das uns auf vierlerlei Arten anspricht und sogar körperliche Reaktionen hervorruft. In diesem Sinne macht nicht der Ton die Musik - unsere Wahrnehmung macht es. Und in der Wahrnehmung müssen die sinnlichen Qualitäten der Musik nicht auf emotionales Erleben beschränkt sein. Wir verbinden mit Musik auch Bilder, Ideen, Erinnerungen. Der Klang allerdings bleibt immer Klang, wie ein Datensatz immer Datensatz bleibt. Erst in unserer Wahrnehmung wird er ein Erleben.'
+  _key: textblock
+  _uid: textblock_1606035567824_2700
+- 
+  video: >
+    https://www.youtube.com/embed/q5yxIzs5Wug
+  text: 'TED Talk: How to translate the feeling into sound | Claudio'
   _key: videoembed
-  _uid: videoembed_1605557008356_101
+  _uid: videoembed_1606035710851_2700
+- 
+  preheadline: Musik ruft Assoziationen in uns hervor
+  headline: >
+    Unsere Wahrnehmung macht Musik zu dem,
+    was sie ist
+  text: 'Vertiefen wir diesen Gedanken, mit einem Blick in die Philosophie. Edmund Husserl beschreibt in seiner Schrift Zur Phänomenologie des inneren Zeitbewusstseins das Hören einer Melodie als Abfolge von Einzeleindrücken: Wenn der zweite Ton der Melodie erklingt, dann hören wir den ersten schon nicht mehr. Wir nehmen nur den gegenwärtigen Ton wahr, das jeweilige Tonjetzt; der Klang der vorangegangenen Töne ist eigentlich nur Erinnerung.[1] Man nennt diese Art zu Philosophieren Phänomenologie. Diese Beschreibung veranlasst den Soziologen Armin Nassehi zur Feststellung:'
+  _key: textblock
+  _uid: textblock_1606035779059_2700
+- 
+  cite: '»Was Husserl hier beschreibt, ist die Tatsache, dass […] das jeweilige Tonjetzt in seiner konkreten […] physikalischen Gestalt, weder Ton noch Melodie ist und letztlich keine Bedeutung hat. Diese wird ihm erst durch das wahrnehmende […] Bewusstsein gegeben.« [2]'
+  link: >
+    https://www.chbeck.de/nassehi-muster/product/27704288
+  author: Armin Nassehi
+  _key: citeblock
+  _uid: citeblock_1606035827457_2700
+- 
+  preheadline: ""
+  headline: ""
+  text: >
+    Die Melodie, oder genauer die Musik
+    selbst, ist so etwas wie eine
+    Aneinanderreihung von Daten, die darauf
+    angewiesen ist, verarbeitet zu werden.
+    Wir, als Hörende, prozessieren die
+    Musik. Wir machen aus ihr ein Erleben.
+    Wir hören die Musik, aber fühlen sie
+    auch, können Situationen, Eindrücke
+    und Bilder mit ihr assoziieren.
+  _key: textblock
+  _uid: textblock_1606035935756_2700
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Unter Umständen fühlen wir Musik und können das Gefühl auch beschreiben. Das ist dann aber nicht mehr das, was zuvor im Ohr angekommen ist. So lässt sich nicht nur Musikhören verstehen, sondern die gesamte Sinneswahrnehmung. Nochmal Nassehi: »Das Gehirn verarbeitet letztlich keine analogen Informationen, keine Abbildungen eines Außen, sondern selbst erzeugte innere Erregungszustände.« [3]'
+  _key: textblock
+  _uid: textblock_1606035942887_2700
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Das ist zugegebenermaßen eine sehr technische Schilderung, jedoch kommen wir nicht darum herum überrascht festzustellen: Unsere sinnliche Wahrnehmung, wie das Musikhören, ist vielleicht gar nicht so verschieden von der Datenverarbeitung digitaler Technik, die wir hier unter anderem betrachten.'
+  _key: textblock
+  _uid: textblock_1606036111732_2700
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Im Gegenteil: es finden sich in der nüchternen Beschreibung der Abläufe erstaunliche strukturelle Ähnlichkeiten. Der Klang, der als Datum in unserer Wahrnehmung eingeht trifft auf (kognitiv) voreingestellte oder (kulturell) eingeübte Verarbeitungsregeln, die dem Klang nach der Registrierung eine Bedeutung geben: “Das klingt ja toll!”; “Das nervt mich jetzt aber.”; “Der Song passt perfekt zum Moment!”'
+  _key: textblock
+  _uid: textblock_1606036133923_2700
+- 
+  image:
+    - web-jason-leung-wmye5ibiomo-unsplash.jpg
+  text: 'Verfolgen wir diesen Gedanken also vorerst weiter: Digitale Musikdatenverarbeitung ist vielleicht gar nicht so weit von dem entfernt, wie wir mit unseren Ohren Musik wahrnehmen.'
+  _key: imageblock
+  _uid: imageblock_1606036157685_2700
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Ein Gedankenspiel: konzentrieren wir uns auf eine spezifische Ähnlichkeit zwischen unserer Wahrnehmung und der digitalen Verarbeitung von Musik. Bei beiden wird Musik nämlich in einzelne Einheiten zerlegt prozessiert (Stichwort: Tonjetzt). Die Wahrnehmung erzeugt erst in der “Verarbeitung” einen “Output”, beispielsweise den Drang mit dem Fuß zu wippen. Dem Code der Musik sind Anreize eingeschrieben, die wir erst in unserer Wahrnehmung entfalten. Die Musik wird von einem Äußeren zu einem Inneren, ein Hör- und Fühlbares, das uns in Aufregung und Bewegung versetzt.'
+  _key: textblock
+  _uid: textblock_1606036347870_2700
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Um dieses Gedankenspiel in die Realität zu übertragen, haben wir mit audiovis I/O ein passendes Exponat entwickelt: Es soll ermöglichen, Höreindrücke bewusst in andere Sinneseindrücke zu konvertieren.'
+  _key: textblock
+  _uid: textblock_1606036353760_2700
+- 
+  cite: '»Synästhesie ist ein neurologisches Phänomen, bei dem die Stimulation einer Sinnesqualität eine andere hervorruft, die nicht mit der ersten assoziiert ist.« [4]'
+  link: >
+    https://synaesthesie.org/de/synaesthesie/was-ist-synaesthesie-wissenschaftliche-version
+  author: Deutsche Synästhesie Gesellschaft e.V.
+  _key: citeblock
+  _uid: citeblock_1606036378507_2700
+- 
+  preheadline: 'Synästhesie - ein faszinierendes Phänomen'
+  headline: Die Fähigkeit Musik zu sehen
+  text: >
+    Stellen wir uns unsere verarbeitende
+    Wahrnehmung mit Blick auf die
+    philosophische Schilderung als
+    Abmischung unterschiedlicher Spuren vor.
+    Die verschiedenen Eindrücke des
+    musikalischen Vokabulars treffen auf
+    unsere Wahrnehmung, werden decodiert und
+    stimmen verschiedene potenzielle
+    Erregungszustände an. Sie erzeugen eine
+    gemeinsame Wirkung, gehen ineinander
+    über und setzen sich voneinander ab.
+    Ein seltsames aber durch und durch
+    ästhetisches Verhältnis, welches
+    unsere Wahrnehmung der Welt erzeugt und
+    spannende Phänomene mit sich bringt.
+  _key: textblock
+  _uid: textblock_1606036421375_2700
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Ein inspirierendes Beispiel heißt Synästhesie: Eine Synästhesie ist die gleichzeitige Wahrnehmung mehrerer Sinnesmodalitäten. Für Menschen, die diese Eigenschaft besitzen, haben Töne beispielsweise bestimmte Farben, Geschmack eine Form und Buchstaben können eine Position im umgebenden Raum einnehmen. Synästhesien sind der Re-Mix unter den Sinneswahrnehmungen.'
+  _key: textblock
+  _uid: textblock_1606036486026_2700
+- 
+  cite: >
+    »Bei Synästhesie handelt es sich um
+    Verknüpfungen von Wahrnehmungen, die
+    zwar jeder kennt, die sich aber bei
+    Synästhetikern auf unerwartete Weise
+    miteinander verbinden. Dadurch enstehen
+    Wahrnehmungskombinationen, die für
+    Nicht-Synästhetiker interessant bis
+    sonderbar wirken mögen.«
+  link: https://youtu.be/FfF3Aee3YeA
+  author: Dr. Jasmin Sinha
+  _key: citeblock
+  _uid: citeblock_1606036514522_2700
+- 
+  video: >
+    https://www.youtube.com/embed/FfF3Aee3YeA
+  text: >
+    Dokumentation zum Thema Synästhesie auf
+    YouTube
+  _key: videoembed
+  _uid: videoembed_1606036723840_2700
+- 
+  links:
+    - 
+      link: https://synaesthesie.org/de/synaesthesie
+      text: >
+        📚 Weitere Informationen zum Thema
+        Synästhesie
+  _key: hyperlinks
+  _uid: hyperlinks_1606036753742_2700
+- 
+  image:
+    - totem-03-20201121.png
+    - totem-04-20201121.png
+    - 2020.10.25-15.14.23-totem.png
+  _key: imagegrid
+  _uid: imagegrid_1606036793996_2700
+- 
+  preheadline: Zum Exponat
+  headline: Was steckt hinter audiovis I/O?
+  text: |
+    Mit audiovis I/O wollen wir eine Möglichkeit anbieten, die eigene Musikwahrnehmung zu beobachten und den individuellen Sinnes-Mix zu ergründen.
+    
+    Wie funktioniert das? Als Ausgangspunkt dient eine der zentralen Einheiten der Popmusik: das Sample. Ein Sample ist ein Ausschnitt aus einer bestehenden Tonaufnahme, der beliebig kurz oder lang sein kann und in andere Kontexte überführt wird – das nennt sich dann musikalische Weiterverarbeitung. Hierzu bieten wir eine Auswahl von drei verschiedenen assoziierbaren Kategorien an: Gefühl, Farbe und Form.
+  _key: textblock
+  _uid: textblock_1606036972113_2700
+- 
+  referencesruct:
+    - 
+      footnote: 1
+      labeltext: 'vgl. Husserl, Edmund: Zur Phänomenologie des inneren Zeitbewusstseins (1893-1917):. Husserliana, Band X, Den Haag: Martinus Nijhoff, 1966, S. 23. Zitiert nach: Nassehi (2019), S. 76.'
+      source: ""
+    - 
+      footnote: 2
+      labeltext: 'Nassehi, Armin: Muster. Theorie der digitalen Gesellschaft. München: C.H. Beck, 2019. S. 77.'
+      source: ""
+    - 
+      footnote: 3
+      labeltext: ebd.
+      source: ""
+    - 
+      footnote: 4
+      labeltext: 'Deutsche Synästhesie Gesellschaft e.V.: Was ist Synästhesie (Wissenschaftliche Version)'
+      source: >
+        https://synaesthesie.org/de/synaesthesie/was-ist-synaesthesie-wissenschaftliche-version
+  _key: references
+  _uid: references_1606037353380_2700

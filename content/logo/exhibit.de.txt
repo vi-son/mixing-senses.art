@@ -43,7 +43,7 @@ Blocks:
   links:
     - 
       link: https://thearticle.hypotheses.org/8757
-      text: Unser Essay auf the ARTicle lesen
+      text: 📰 Unser Essay auf the ARTicle lesen
   _key: hyperlinks
   _uid: hyperlinks_1605962960412_581
 - 
@@ -114,7 +114,7 @@ Blocks:
     - 
       link: >
         https://qz.com/1788828/how-will-midi-2-0-change-music/
-      text: 'Alles zum Thema: »How MIDI 2.0 will change Music«'
+      text: '🎷 Alles zum Thema: »How MIDI 2.0 will change Music«'
   _key: hyperlinks
   _uid: hyperlinks_1605976621356_3417
 - 
@@ -140,8 +140,8 @@ Blocks:
     - 
       link: https://viertausendhertz.de/sf02/
       text: >
-        Die Mutter von MP3 und Geister im Ton
-        (Systemfehler Podcast)
+        🎧 Die Mutter von MP3 und Geister im
+        Ton (Systemfehler Podcast)
   _key: hyperlinks
   _uid: hyperlinks_1605973786468_3417
 - 
@@ -224,7 +224,7 @@ Blocks:
   _key: textblock
   _uid: textblock_1605974384766_3417
 - 
-  cite: '»In den letzten 50 Jahren hat sich unsere Welt in rasender Geschwindigkeit digitalisiert. Keine Kunstform hat diese Übergangszeit - unsere Zeit - besser erfasst als die Generative Art. Die Generative Art nutzt alles, was die Informatik zu bieten hat und produziert elegante und überzeugende Kunstwerke, die dieselben Prinzipien und Ziele verfolgen, die Künstler seit den Anfängen der modernen Kunst anstreben.«'
+  cite: '»In den letzten 50 Jahren hat sich unsere Welt in rasender Geschwindigkeit digitalisiert. Keine Kunstform hat diese Übergangszeit - unsere Zeit - besser erfasst als die Generative Art. Die Generative Art nutzt alles, was die Informatik zu bieten hat und produziert elegante und überzeugende Kunstwerke, die dieselben Prinzipien und Ziele verfolgen, die Künstler seit den Anfängen der modernen Kunst anstreben.« [3]'
   link: >
     https://www.artnome.com/news/2018/8/8/why-love-generative-art
   author: Jason Bailey (eigene Übersetzung)
@@ -233,13 +233,13 @@ Blocks:
 - 
   preheadline: ""
   headline: ""
-  text: 'Kurator und Digitalkunstexperte Jason Bailey definiert diese Art Kunst zu machen so: Generative Art “is art programmed using a computer that intentionally introduces randomness as part of its creation process.“ Generative Art ist also programmierte Kunst mit gezielt eingesetzten Zufallsmechanismen.'
+  text: 'Kurator und Digitalkunstexperte Jason Bailey definiert diese Art Kunst zu machen so: Generative Art “is art programmed using a computer that intentionally introduces randomness as part of its creation process.“ [4] Generative Art ist also programmierte Kunst mit gezielt eingesetzten Zufallsmechanismen.'
   _key: textblock
   _uid: textblock_1605976535417_3417
 - 
   preheadline: ""
   headline: ""
-  text: 'Der Prozess zufallsbasierter Kunstprogrammierung in Baileys Sinne bedeutet dabei weder die völlige Autonomie des Computers noch eine vollständige Kontrolle über ihn: “The truth is that generative artists skillfully control both the magnitude and the locations of randomness introduced into the artwork.“ Der künstlerische Wert dieser Kunst liegt also nur zum Teil des entstehenden Produkts - vor allem liegt er in der Verarbeitungsregel, die den eigentlichen Kern der kreativen Arbeit ausmacht.'
+  text: 'Der Prozess zufallsbasierter Kunstprogrammierung in Baileys Sinne bedeutet dabei weder die völlige Autonomie des Computers noch eine vollständige Kontrolle über ihn: “The truth is that generative artists skillfully control both the magnitude and the locations of randomness introduced into the artwork.“ [5] Der künstlerische Wert dieser Kunst liegt also nur zum Teil des entstehenden Produkts - vor allem liegt er in der Verarbeitungsregel, die den eigentlichen Kern der kreativen Arbeit ausmacht.'
   _key: textblock
   _uid: textblock_1605976558815_3417
 - 
@@ -283,7 +283,7 @@ Blocks:
     - 
       link: https://thearticle.hypotheses.org/9128
       text: >
-        So sind die Sound Data Sculpture
+        💎 So sind die Sound Data Sculpture
         Sketches entstanden
   _key: hyperlinks
   _uid: hyperlinks_1605976900265_3417
@@ -344,3 +344,32 @@ Blocks:
     verfolgen wir in Kapitel 2 weiter.
   _key: textblock
   _uid: textblock_1605977367035_3417
+- 
+  referencesruct:
+    - 
+      footnote: 1
+      labeltext: 'Dan Kopf (2020): An update to a 37-year-old digital protocol could profoundly change the way music sounds. Quartz.'
+      source: >
+        https://qz.com/1788828/how-will-midi-2-0-change-music/
+    - 
+      footnote: 2
+      labeltext: ebd.
+      source: >
+        https://qz.com/1788828/how-will-midi-2-0-change-music/
+    - 
+      footnote: 3
+      labeltext: 'Jason Bailey (2018): Why Love Generative Art? Artnome.'
+      source: >
+        https://www.artnome.com/news/2018/8/8/why-love-generative-art
+    - 
+      footnote: 4
+      labeltext: ebd.
+      source: >
+        https://www.artnome.com/news/2018/8/8/why-love-generative-art
+    - 
+      footnote: 5
+      labeltext: ebd.
+      source: >
+        https://www.artnome.com/news/2018/8/8/why-love-generative-art
+  _key: references
+  _uid: references_1606037949011_8490

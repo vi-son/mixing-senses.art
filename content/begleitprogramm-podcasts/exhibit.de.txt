@@ -18,7 +18,7 @@ Type: meta
 
 ----
 
-Shortdescription: Wir ballern die Pods übern Cast.
+Shortdescription: Die Podcastserie zu vi.son
 
 ----
 
@@ -26,4 +26,27 @@ Exhibitioncomponent:
 
 ----
 
-Blocks: 
+Blocks:
+
+- 
+  preheadline: "Hier geht's weiter mit Gedankenanstößen"
+  headline: Jetzt reinhören
+  text: >
+    Dieser Podcast begleitet unsere digitale
+    Ausstellung und wirft Schlaglichter auf
+    einzelne inhaltliche Gesichtspunkte. In
+    jeder Episode tauschen wir uns mit
+    Fachleuten, interessanten Personen oder
+    im Projektteam zu einem Thema aus.
+  _key: textblock
+  _uid: textblock_1606038482951_13068
+- 
+  src: >
+    https://cdn.podigee.com/podcast-player/podigee-podcast-player.html?configuration=https://mixing-senses.podigee.io/embed?context=external
+  _key: podcastblock
+  _uid: podcastblock_1606038010571_613
+- 
+  src: >
+    https://mixing-senses.podigee.io/t1-neue-episode/embed?context=external
+  _key: podcastblock
+  _uid: podcastblock_1606038218124_13068
