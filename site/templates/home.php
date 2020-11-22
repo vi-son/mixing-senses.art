@@ -53,6 +53,11 @@ endif;
     <div class="logo"><?= svg("assets/svg/logo.svg") ?></div>
     <div class="subline"><?= svg("assets/svg/subline.svg") ?></div>
   </div>
+
+<?php if ($site->open()->toBool() === true) { ?>
+  <button class="btn-opening"><b>Zur digitalen Ausstellung</b></button>
+<?php } ?>
+
 </header>
 
 <?php foreach($page->blocks()->toBuilderBlocks() as $block): ?>

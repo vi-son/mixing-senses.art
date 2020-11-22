@@ -56,6 +56,15 @@ tabs:
                 label: Clean Cache
                 progress: Cleaning Cache...
                 job: cleanCache
+
+          opening:
+            type: fields
+            fields:
+              open:
+                label: Austellung Eröffnet
+                type: toggle
+                width: 2/4
+
           footer:
             label: Footer
             type: fields
