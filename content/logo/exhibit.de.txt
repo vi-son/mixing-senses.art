@@ -34,7 +34,7 @@ Blocks:
   preheadline: Musik sehen, fühlen, erleben
   headline: Die digitale Gesellschaft und ihre Musik
   text: |
-    Wie sieht Musik aus? Im ersten Augenblick mag diese Frage verwirren, denn Musik ist erst einmal nicht dafür gemacht, irgendwie auszusehen. Sie soll sich vor allem nach etwas anhören. Tatsächlich kennen wir eine Reihe visuelle Formen und Symbolsysteme, die Musik repräsentieren; denken wir an Noten, Musikvideos und Albencover.
+    Wie sieht Musik aus? Im ersten Augenblick mag diese Frage verwirren, denn Musik ist erst einmal nicht dafür gemacht, irgendwie auszusehen. Sie soll sich vor allem nach etwas anhören. Tatsächlich kennen wir eine Reihe visueller Formen und Symbolsysteme, die Musik repräsentieren; denken wir an Noten, Musikvideos und Albencover.
     <br>
     Gehen wir aber weiter und fragen: Wie sieht Musik wirklich aus? Welche Farbe hat sie, welche Form, ist sie groß oder klein? Natürlich ist das schwer zu fassen, denn Ohren können nicht sehen und Augen nicht hören.
   _key: textblock
@@ -50,9 +50,9 @@ Blocks:
   preheadline: ""
   headline: ""
   text: |
-    Diese Ausstellung ist ein lebendiger, wachsender Ort. Nach und nach werden neue Inhalte und kreative Beiträge einpflegen. Wir werden uns selbst vor die Aufgabe stellen, Musik unter einem bestimmten Gesichtspunkt zu visualisieren.
+    Diese Ausstellung ist ein lebendiger, wachsender Ort. Nach und nach werden neue Inhalte und kreative Beiträge eingepflegt. Wir werden uns selbst vor die Aufgabe stellen, Musik unter einem bestimmten Gesichtspunkt zu visualisieren.
     <br>
-    In diesem Kapitel wollen wir uns mit einigen Grundkonzepten auseinandersetzen und zeigen, wie unsere kreativen Beiträge funktionieren. Wir gehen damit auf die Methoden ein, die unsere kreativen Erkundungen leiten:  Wie wir Datenverarbeitung und -Visualisierung künstlerisch einsetzen, wollen wir hier klären.
+    In diesem Kapitel wollen wir uns mit einigen Grundkonzepten auseinandersetzen und zeigen, wie unsere kreativen Beiträge funktionieren.
   _key: textblock
   _uid: textblock_1605963048136_581
 - 
@@ -73,7 +73,7 @@ Blocks:
   preheadline: 'Musik & Technik'
   headline: Einblicke in die Grundlagen
   text: |
-    Die Musik, die wir täglich hören, ensteht in modernen Tonstudios. Diese stecken üblicherweise voller Technik. Das sind nicht nur nur die Instrumente, sondern zum Beispiel auch sogenannte Sampler, Effektgeräte, … und nicht zuletzt Computer. Die Bearbeitung von Musik passiert heutzutage vorwiegend in Softwarelösungen, die unter der Bezeichnung DAW bekannt sind.
+    Die Musik, die wir täglich hören, entsteht in modernen Tonstudios. Diese stecken üblicherweise voller Technik. Das sind nicht nur die Instrumente, sondern zum Beispiel auch sogenannte Sampler, Effektgeräte, … und nicht zuletzt Computer. Die Bearbeitung von Musik passiert heutzutage vorwiegend in Softwarelösungen, die unter der Bezeichnung DAW bekannt sind.
     
     Im Studio passiert auf technischer Seite einiges. Geräte und Instrumente müssen gesteuert werden und miteinander kommunizieren können. Dazu sind sogenannte Schnittstellenstandards notwendig.
   _key: textblock
@@ -132,7 +132,7 @@ Blocks:
 - 
   preheadline: ""
   headline: ""
-  text: 'Mehr zu diesem Thema hat der Journalist und Podcaster (link: https://twitter.com/chgrasse text: Christian Conradi) (link: https://viertausendhertz.de/ text: [Viertausendhertz]) in einer Podcastepisode aufbereitet. Dort geht es um die Geschichte der "Mutter von MP3" und den verlorenen Ton der MP3-Geister. Für uns interessant: U.a. der Song “Tom’s Diner” von Suzanne Vega diente als Referenz in den Tests bei der Entwicklung des MP3-Formats.'
+  text: 'Mehr zu diesem Thema hat der Journalist und Podcaster (link: https://twitter.com/chgrasse text: Christian Conradi) (link: https://viertausendhertz.de/ text: [Viertausendhertz]) in einer Podcastepisode aufbereitet.'
   _key: textblock
   _uid: textblock_1605973621856_3417
 - 
@@ -147,7 +147,7 @@ Blocks:
 - 
   preheadline: Audioreaktives Logo
   headline: Musikvisualisierung mit drei Parametern
-  text: 'Schnittstellenprotokolle, Komprimierungsverfahren und eine Reihe anderer Techniken sorgen dafür, dass Musik digital ist. Musik ist heute nicht nur Song und Album, sondern insbesondere Datei, Datensatz. Damit ist sie einerseits allgegenwärtig. Wir kennen es aus unserem Alltag: es ist geradezu lächerlich einfach geworden, jederzeit Musik zu hören. Wenn Musik Datensatz ist, bedeutet das auch, dass wir sie auf verschiedene Arten verarbeiten können. Das ist üblicherweise das, was man mit Datensätzen macht - man kopiert sie, überträgt sie, analysiert sie, speichert sie in eine Datenbank, usw.'
+  text: 'Schnittstellen, Komprimierungsverfahren und eine Reihe anderer Techniken sorgen dafür, dass Musik digital ist. Musik ist heute nicht nur Song und Album, sondern insbesondere Datei, Datensatz. Damit ist sie einerseits allgegenwärtig. Wir kennen es aus unserem Alltag: es ist geradezu lächerlich einfach geworden, jederzeit Musik zu hören. Wenn Musik Datensatz ist, bedeutet das auch, dass wir sie auf verschiedene Arten verarbeiten können. Das ist üblicherweise das, was man mit Datensätzen macht - man kopiert sie, überträgt sie, analysiert sie, speichert sie in eine Datenbank, usw.'
   _key: textblock
   _uid: textblock_1605973862161_3417
 - 
@@ -164,26 +164,20 @@ Blocks:
 - 
   image:
     - dot.colored@3x.png
-  text: >
-    Unser Logo, der “Dot”, haben wir als
-    audioreaktive Grafik angelegt. Er bietet
-    daher eine gute Gelegenheit zu
-    erklären, wie Musik in digitalen Code
-    und digitaler Code in Visualisierungen
-    übersetzt werden kann.
+  text: 'Unser Logo - den »Dot« - haben wir als audioreaktive Grafik angelegt. Er bietet eine gute Gelegenheit zu erklären, wie Musik in digitalen Code und digitaler Code in Visualisierungen übersetzt werden kann.'
   _key: imageblock
   _uid: imageblock_1605974058423_3417
 - 
   preheadline: ""
   headline: ""
-  text: 'Im Exponat-Space rechts kann ihn sich genauer anschauen - und danach hier hier zurückkehren. 👉'
+  text: 'Im Exponat-Space rechts könnt ihr es euch genauer anschauen - und danach hier her zurückkehren. 👉'
   _key: textblock
   _uid: textblock_1605974101528_3417
 - 
   preheadline: Am Anfang steht die Musik
   headline: Wie wird aus Ton ein visueller Inhalt?
   text: |
-    Töne und Klänge können anhand verschiedener Parameter analysiert werden. Das lässt sich auch ganz gut bildlich erklären: Nehmen wir uns beispielsweise eine klassische Wellenform, wie man sie von der Musikplattform Soundcloud kennt. Solch eine Wellenform zeigt die Lautstärke eines Songs über die Spielzeit. Genauer: Die x-Achse zeigt die Zeit in Sekunden (s), die y-Achse die Lautstärke - meist in Dezibel (dB).
+    Töne und Klänge können anhand verschiedener Parameter analysiert werden. Das lässt sich auch ganz gut bildlich erklären: Nehmen wir beispielsweise eine klassische Wellenform, wie man sie von der Musikplattform Soundcloud kennt. Solch eine Wellenform zeigt die Lautstärke eines Songs über die Spielzeit. Genauer: Die x-Achse zeigt die Zeit in Sekunden (s), die y-Achse die Lautstärke - meist in Dezibel (dB).
     <br>
     Wir haben nun also schon einmal zwei Parameter: erstens: Zeit; zweitens: Lautstärke (oder genauer: Schalldruck).
   _key: textblock
@@ -197,18 +191,18 @@ Blocks:
 - 
   preheadline: ""
   headline: ""
-  text: 'So weit, so gut. Aus diesen Informationen ergibt sich schnell ein dritter Parameter: die Frequenz. Jeder Ton hat eine Frequenz. Der “Kammerton A” zum Beispiel 440 Hz (1 Hz = 1 Schwingung pro Sekunde). Der Ton macht also 440 Schwingungen pro Sekunde. Auf einem Balken liegen nun aber viele Töne übereinander. Um diese wieder in einzelne Frequenzen aufzudröseln bedarf es einem mathematischen Algorithmus: Der Fouriertransformation (FT).'
+  text: 'So weit, so gut. Aus diesen Informationen ergibt sich schnell ein dritter Parameter: die Frequenz. Jeder Ton hat eine Frequenz. Der “Kammerton A” zum Beispiel 440 Hz (1 Hz = 1 Schwingung pro Sekunde). Der Ton macht also 440 Schwingungen pro Sekunde. Auf einem Balken liegen nun aber viele Töne übereinander. Um diese wieder in einzelne Frequenzen aufzudröseln, bedarf es eines mathematischen Algorithmus: Der Fouriertransformation (FT).'
   _key: textblock
   _uid: textblock_1605974200528_3417
 - 
   preheadline: ""
   headline: ""
   text: |
-    Wichtig zu wissen, ist: Wenn man ein Audiosignal einer FT unterzieht, erhält man nicht mehr den Schalldruck über die Zeit, sondern den Schalldruck über die Frequenz. Die Einheit der x-Achse sind dann nichtmehr Sekunden, sondern 1/s. Man kann damit also für jede Säule (vgl. Beispiel 1 Säule = 1 Sekunde) die Frequenzverteilung betrachten.
+    Wichtig zu wissen ist: Wenn man ein Audiosignal einer FT unterzieht, erhält man nicht mehr den Schalldruck über die Zeit, sondern den Schalldruck über die Frequenz. (Die Einheit der x-Achse sind dann nicht mehr Sekunden, sondern 1/s.) Man kann damit also für jede Säule (Beispiel 1 Säule = 1 Sekunde) die Frequenzverteilung betrachten.
     <br>
-    Nun haben wir drei Parameter, mithilfe derer wir erstens Musik analysieren und beschreiben und die wir zweitens digital erfassen, speichern und weiterverarbeiten können.
+    Nun haben wir drei Parameter, mithilfe derer wir erstens Musik analysieren und beschreiben sowie zweitens digital erfassen, speichern und weiterverarbeiten können.
     <br>
-    Der “Dot” wird maßgeblich von diesen drei Parametern gesteuert.
+    Der »Dot« wird maßgeblich von diesen drei Parametern gesteuert.
   _key: textblock
   _uid: textblock_1605974254894_3417
 - 
@@ -224,7 +218,7 @@ Blocks:
   _key: textblock
   _uid: textblock_1605974384766_3417
 - 
-  cite: '»In den letzten 50 Jahren hat sich unsere Welt in rasender Geschwindigkeit digitalisiert. Keine Kunstform hat diese Übergangszeit - unsere Zeit - besser erfasst als die Generative Art. Die Generative Art nutzt alles, was die Informatik zu bieten hat und produziert elegante und überzeugende Kunstwerke, die dieselben Prinzipien und Ziele verfolgen, die Künstler seit den Anfängen der modernen Kunst anstreben.« [3]'
+  cite: '»In den letzten 50 Jahren hat sich unsere Welt in rasender Geschwindigkeit digitalisiert. Keine Kunstform hat diese Übergangszeit - unsere Zeit - besser erfasst als die Generative Art. Die Generative Art nutzt alles, was die Informatik zu bieten hat und produziert elegante und überzeugende Kunstwerke, die dieselben Prinzipien und Ziele verfolgen, die Kunstschaffende seit den Anfängen der modernen Kunst anstreben.« [3]'
   link: >
     https://www.artnome.com/news/2018/8/8/why-love-generative-art
   author: Jason Bailey (eigene Übersetzung)
@@ -239,7 +233,7 @@ Blocks:
 - 
   preheadline: ""
   headline: ""
-  text: 'Der Prozess zufallsbasierter Kunstprogrammierung in Baileys Sinne bedeutet dabei weder die völlige Autonomie des Computers noch eine vollständige Kontrolle über ihn: “The truth is that generative artists skillfully control both the magnitude and the locations of randomness introduced into the artwork.“ [5] Der künstlerische Wert dieser Kunst liegt also nur zum Teil des entstehenden Produkts - vor allem liegt er in der Verarbeitungsregel, die den eigentlichen Kern der kreativen Arbeit ausmacht.'
+  text: 'Der Prozess zufallsbasierter Kunstprogrammierung in Baileys Sinne bedeutet dabei weder die völlige Autonomie des Computers noch eine vollständige Kontrolle über ihn: “The truth is that generative artists skillfully control both the magnitude and the locations of randomness introduced into the artwork.“ [5] Der künstlerische Wert dieser Kunst liegt somit nur zum Teil im entstehenden Produkt - vor allem liegt er in der Verarbeitungsregel, die den eigentlichen Kern der kreativen Arbeit ausmacht.'
   _key: textblock
   _uid: textblock_1605976558815_3417
 - 
@@ -247,7 +241,7 @@ Blocks:
     - 
       link: >
         https://www.artnome.com/news/2018/8/8/why-love-generative-art
-      text: 'Eine tolle Einführung zu diesem Thema: Why Love Generative Art? '
+      text: 'Mehr zu diesem Thema: Why Love Generative Art? '
   _key: hyperlinks
   _uid: hyperlinks_1605976581383_3417
 - 
@@ -332,16 +326,15 @@ Blocks:
   preheadline: ""
   headline: ""
   text: >
-    Versuchen wir den Code der Musik zu
-    entschlüsseln und neu abzumischen.
-    Generative Art ist eine Methode, dies zu
-    erreichen. Die Serie Sound Data
-    Sculpture Sketches ist erstes Experiment
-    dazu. Den Gedanken aber, welche
-    Eindrücke und Emotionen aber in die
-    Datenstruktur der Musik eingebettet sind
-    und wir dies aufbrechen können,
-    verfolgen wir in Kapitel 2 weiter.
+    Starten wir nun den Versuch, den Code
+    der Musik zu entschlüsseln und neu
+    abzumischen. Generative Art ist eine
+    Methode, dies zu erreichen. Den Gedanken
+    aber, welche Eindrücke und Emotionen in
+    die Datenstruktur der Musik eingebettet
+    sind und wie wir dies aufbrechen
+    können, verfolgen wir in Kapitel 2
+    weiter.
   _key: textblock
   _uid: textblock_1605977367035_3417
 - 

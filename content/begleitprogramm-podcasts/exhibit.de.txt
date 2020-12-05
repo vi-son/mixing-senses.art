@@ -50,3 +50,8 @@ Blocks:
     https://mixing-senses.podigee.io/t1-neue-episode/embed?context=external
   _key: podcastblock
   _uid: podcastblock_1606038218124_13068
+- 
+  src: >
+    https://mixing-senses.podigee.io/3-musik-sehen-synaesthesie/embed?context=external
+  _key: podcastblock
+  _uid: podcastblock_1606939136056_649

@@ -34,18 +34,6 @@ Blocks:
 
 - 
   visible: 'true'
-  columns: two
-  preheadline: idee
-  headline: audiovisuelles erleben
-  text: |
-    **vi•son ist eine audioreaktive Digitalkunst-Performance.** Im Projekt werden verschiedene Phänomene rund um die multisensorische Wahrnehmung thematisiert. Dabei liegt der Fokus auf der Visualisierung von Musik.
-    Im November 2020 werden wir eine Online-Ausstellung gestalten, aus der dann im Frühjahr 2021 in der Region Rhein-Neckar und Frankfurt physisch umgesetzt werden soll.
-    <br><br><br><br>
-    Musik nämlich ist eine gängige Weise Emotionen und Stimmungen zu kodieren und zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Mehrdimensionale Emotion wird durch Musik auf eine Ebene (*Audio*) verdichtet. **Wir versuchen, den Code der Musik wieder aufzufächern.** Wir wollen erfahren, was Menschen tun, sehen und fühlen, wenn sie etwas bestimmtes hören - und umgekehrt. **An der Schnittstelle von *Creative Coding*, Musikproduktion und Sozialwissenschaft wollen wir intensive Darstellungsweisen von Klang und Emotion erkunden.**
-  _key: textblock
-  _uid: textblock_1583077809843_281
-- 
-  visible: 'true'
   media:
     - 2020.06.22-22.41.polarlightsketch.mp4
     - 2020.07.19-14.19.momentum-particles.mp4
@@ -63,7 +51,7 @@ Blocks:
   columns:
     - 
       preheading: Digitale Ausstellung
-      heading: "Heute: bald geht's los!"
+      heading: Es geht los!
       text: 'Ab dem 22. November 2020: Die digitale Ausstellung setzt sich mit multisensorischer Wahrnehmung von Musik im digitalen Zeitalter auseinander, also mit der Frage, welche sinnlichen Qualität Musik hat und wie digitale Technik sie sichtbar machen kann. Im Zentrum stehen vielfältige Weisen der Musikvisualisierung, welche die Anregung zur Erkundung lieferten, inwiefern Musik auditiv, visuell, emotional und haptisch erlebt wird. Die Ausstellung behandelt Denkanstöße dazu auf kreative Weise.'
       infos:
         - 
@@ -76,42 +64,26 @@ Blocks:
   _uid: columns_1584909809951_876
 - 
   visible: 'true'
-  media:
-    - 2020.05.23-13-03.png
-    - 2020.05.23-13.24.embryo.mp4
-    - 2020.05.23-13-09.png
-  _key: image-grid
-  _uid: image-grid_1590245041265_4590
-- 
-  visible: 'false'
-  preheadline: 2020.09.05
-  headline: vi · son / mixing-senses beim Z2X
-  text: 'Wir waren dieses Jahr beim Z2X Festival von (link: https://zeit.de text: zeit.de). Am 5.9. um 11:30 Uhr diskutierten wir mit den Z2X-TeilnehmerInnen in einer *Frag-mich-alles-Session* eine Stunde lang über unser Projekt und Ideen für die geplante Onlineausstelung.'
-  image:
-    - screenshot-2020-09-05-at-11.23.31.png
-  newslink: https://z2x.mixing-senses.art/
-  newslinktext: Zu den Z2X Slides
-  _key: newsblock
-  _uid: newsblock_1599893456606_1664
-- 
-  visible: 'true'
   superheading: ""
   columns:
     - 
       preheading: 'Infos & neues'
       heading: Updates
       text: |
-        **2020-11-18: Digitale Ausstellung steht in Kürze bereit**
+        **2020-11-23: Podcast begleitet Ausstellung**
         
-        Ab dem 22. November stehen die Inhalte der digitalen Ausstellung zur Verfügung. Wir freuen uns jederzeit über Erfahrungsberichte, Lob, Kritik, Anregungen und Kommentare. Dazu stellen wir in Kürze ein Dashboard bereit, auf dem wir alle weiteren Pläne und die Möglichkeit, Feedback zu geben, ablegen.
+        Ab sofort kann auch unser Audio-Podcast angehört und abonniert werden. In jeder Episode tauschen wir uns mit Fachleuten, interessanten Personen oder im Projektteam zu einem bestimmten Thema aus.
       infos:
         - 
           text: '🎧 Audio-Podcast: Mixing Senses'
           url: https://mixing-senses.podigee.io
         - 
-          text: '💬 Pressebericht: Können wir Musik sehen?'
+          text: '💫Digital Culture-Blog ART&AKTEN zur Ausstellung'
+          url: 'https://artakten.wordpress.com/2020/11/22/digitale-kunstausstellung-vi·son-mixing-senses%e2%80%8b/'
+        - 
+          text: '💬 Presse: Im Kunstraum lernt das Ohr zu sehen'
           url: >
-            https://www.morgenweb.de/schwetzinger-zeitung_artikel,-hockenheim-koennen-wir-musik-sehen-_arid,1717795.html
+            https://www.morgenweb.de/schwetzinger-zeitung_artikel,-hockenheim-im-kunstraum-lernt-das-ohr-zu-sehen-_arid,1720052.html
         - 
           text: 📺 "momentum particles" auf Vimeo
           url: https://vimeo.com/441251126
@@ -155,6 +127,37 @@ Blocks:
       _uid: column_1584905808607_316
   _key: columns
   _uid: columns_1584905711662_284
+- 
+  visible: 'true'
+  media:
+    - 2020.05.23-13-03.png
+    - 2020.05.23-13.24.embryo.mp4
+    - 2020.05.23-13-09.png
+  _key: image-grid
+  _uid: image-grid_1590245041265_4590
+- 
+  visible: 'false'
+  preheadline: 2020.09.05
+  headline: vi · son / mixing-senses beim Z2X
+  text: 'Wir waren dieses Jahr beim Z2X Festival von (link: https://zeit.de text: zeit.de). Am 5.9. um 11:30 Uhr diskutierten wir mit den Z2X-TeilnehmerInnen in einer *Frag-mich-alles-Session* eine Stunde lang über unser Projekt und Ideen für die geplante Onlineausstelung.'
+  image:
+    - screenshot-2020-09-05-at-11.23.31.png
+  newslink: https://z2x.mixing-senses.art/
+  newslinktext: Zu den Z2X Slides
+  _key: newsblock
+  _uid: newsblock_1599893456606_1664
+- 
+  visible: 'true'
+  columns: two
+  preheadline: idee
+  headline: audiovisuelles erleben
+  text: |
+    **vi•son ist eine audioreaktive Digitalkunst-Performance.** Im Projekt werden verschiedene Phänomene rund um die multisensorische Wahrnehmung thematisiert. Dabei liegt der Fokus auf der Visualisierung von Musik.
+    Im November 2020 werden wir eine Online-Ausstellung gestalten, aus der dann im Frühjahr 2021 in der Region Rhein-Neckar und Frankfurt physisch umgesetzt werden soll.
+    <br><br><br><br>
+    Musik nämlich ist eine gängige Weise Emotionen und Stimmungen zu kodieren und zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Mehrdimensionale Emotion wird durch Musik auf eine Ebene (*Audio*) verdichtet. **Wir versuchen, den Code der Musik wieder aufzufächern.** Wir wollen erfahren, was Menschen tun, sehen und fühlen, wenn sie etwas bestimmtes hören - und umgekehrt. **An der Schnittstelle von *Creative Coding*, Musikproduktion und Sozialwissenschaft wollen wir intensive Darstellungsweisen von Klang und Emotion erkunden.**
+  _key: textblock
+  _uid: textblock_1583077809843_281
 - 
   visible: 'true'
   media:

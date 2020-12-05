@@ -11,8 +11,11 @@ Links:
   title: '👉 Zur digitalen Ausstellung: Hier entlang'
   url: https://mixing-senses.art/de
 - 
-  title: ⏱ @Z2X
-  url: https://z2x.mixing-senses.art
+  title: '✨ Videotipp: How to translate feeling into sound? (YT)'
+  url: https://youtu.be/q5yxIzs5Wug
+- 
+  title: '🎧 Podcast: Mixing Senses'
+  url: https://mixing-senses.podigee.io/
 - 
   title: 🎶 audio skizzen | soundcloud
   url: >
@@ -36,3 +39,6 @@ Links:
   title: 💎 pendeloque dossier | website
   url: >
     https://pendeloque.de/dossier/vi-son-mixing-senses
+- 
+  title: ⏱ @Z2X
+  url: https://z2x.mixing-senses.art
