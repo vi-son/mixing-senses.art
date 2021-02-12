@@ -33,6 +33,9 @@ tabs:
       exhibitionComponent:
         label: React Import
         type: text
+      subdomain:
+        label: Subdomain des Exponats
+        type: url
 
   content:
     label: Inhalt
