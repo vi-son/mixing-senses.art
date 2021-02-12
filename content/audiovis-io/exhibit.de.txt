@@ -255,9 +255,9 @@ Blocks:
   _uid: hyperlinks_1606036753742_2700
 - 
   image:
-    - totem-03-20201121.png
-    - totem-04-20201121.png
     - 2020.10.25-15.14.23-totem.png
+    - 7bc4feddfc31dbc02a71441773d9913c.png
+    - f6f2f2298abe88164604e4d4b6e3e468.png
   _key: imagegrid
   _uid: imagegrid_1606036793996_2700
 - 
