@@ -16,8 +16,11 @@
     font-size: 1.25rem
     +until($tablets)
       align-items: flex-start
+      font-size: 1.125rem
     li
       margin-bottom: 30px
+      +until($tablets)
+        margin-bottom: 15px
       a
         background: var(--color-curacao)
         color: var(--color-snow)
