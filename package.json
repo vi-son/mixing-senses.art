@@ -5,14 +5,21 @@
   "main": "index.js",
   "scripts": {
     "dev": "(php -S 127.0.0.1:8888 kirby/router.php)",
-    "dev:css": "npx sass --watch assets.src/sass/style.sass assets/css/style.css",
+    "dev:css": "npx sass -I ./node_modules/ --watch assets.src/sass/style.sass assets/css/style.css",
     "build:css": "npx sass assets.src/sass/style.sass assets/css/style.css",
     "build:js": "cp assets.src/js/logo/src/logo.js assets/js/logo.js"
   },
-  "keywords": ["kirby", "website", "vison", "mixing-senses", "audio-reactive"],
+  "keywords": [
+    "kirby",
+    "website",
+    "vison",
+    "mixing-senses",
+    "audio-reactive"
+  ],
   "author": "Guido Schmidt <vison@guidoschmidt.cc>",
   "license": "CC-BY-4.0",
   "devDependencies": {
+    "@vi.son/rouge": "^1.0.4",
     "sass": "^1.26.8"
   }
 }

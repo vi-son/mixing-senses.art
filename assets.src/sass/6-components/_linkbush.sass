@@ -1,3 +1,6 @@
+@import @vi.son/rouge/1-settings/_breakpoints.sass
+@import @vi.son/rouge/2-tools/_media-queries.sass
+
 .linkbusch
   .logo
     display: inline-block
@@ -11,8 +14,12 @@
     align-items: center
     margin-top: 50px
     font-size: 1.25rem
+    +until($tablets)
+      align-items: flex-start
     li
       margin-bottom: 30px
       a
         background: var(--color-curacao)
         color: var(--color-snow)
+        +until($tablets)
+          line-height: 1.4
