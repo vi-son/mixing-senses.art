@@ -50,13 +50,27 @@ Blocks:
   superheading: ""
   columns:
     - 
-      preheading: Digitale Ausstellung
-      heading: Es geht los!
-      text: 'Ab dem 22. November 2020: Die digitale Ausstellung setzt sich mit multisensorischer Wahrnehmung von Musik im digitalen Zeitalter auseinander, also mit der Frage, welche sinnlichen Qualität Musik hat und wie digitale Technik sie sichtbar machen kann. Im Zentrum stehen vielfältige Weisen der Musikvisualisierung, welche die Anregung zur Erkundung lieferten, inwiefern Musik auditiv, visuell, emotional und haptisch erlebt wird. Die Ausstellung behandelt Denkanstöße dazu auf kreative Weise.'
+      preheading: 'Digitale Ausstellung: Updates in Kürze!'
+      heading: Kunst, Podcast, neue Inhalte
+      text: >
+        Die digitale Ausstellung setzt sich mit
+        multisensorischer Wahrnehmung von Musik
+        im digitalen Zeitalter auseinander, also
+        mit der Frage, welche sinnlichen
+        Qualität Musik hat und wie digitale
+        Technik sie sichtbar machen kann. Die
+        Ausstellung behandelt Denkanstöße dazu
+        auf kreative Weise. In Kürze stellen
+        wir weitere Inhalte bereit und
+        verbessern die Darstellung, vor allem
+        für mobile Geräte. In der Zwischenzeit
+        können thematische Aspekte mit unserem
+        begleitenden Audio-Podcast vertieft
+        werden.
       infos:
         - 
-          text: 👉 Weitere Infos
-          url: https://thearticle.hypotheses.org/9954
+          text: 👉 Jetzt reinhören
+          url: https://mixing-senses.podigee.io/
       scripttag: ""
       _key: column
       _uid: column_1584909812537_942
@@ -70,41 +84,46 @@ Blocks:
       preheading: 'Infos & neues'
       heading: Updates
       text: |
-        **2020-11-23: Podcast begleitet Ausstellung**
+        **2020-01-21: Blogpost in Kooperation mit Cyanite**
         
-        Ab sofort kann auch unser Audio-Podcast angehört und abonniert werden. In jeder Episode tauschen wir uns mit Fachleuten, interessanten Personen oder im Projektteam zu einem bestimmten Thema aus.
+        Das Musik-Tech Startup Cyanite hat uns eingeladen, einen Gastartikel auf dem Corporate Blog zu schreiben. Eine gute Gelegenheit für uns, tolle Einblicke in die KI-Analyse von Musik zu erhalten. Was die Arbeit von Cyanite mit unserer Kunst zu tun hat, lest ihr im Artikel von Benjamin.
       infos:
         - 
-          text: '🎧 Audio-Podcast: Mixing Senses'
+          text: >
+            📰Translating Sonic Languages
+            (Blogpost@Cyanite)
+          url: >
+            https://cyanite.ai/2021/01/21/ai-and-arts-exploring-creative-ways-to-translate-music/
+        - 
+          text: '🎧Audio-Podcast: Mixing Senses'
           url: https://mixing-senses.podigee.io
         - 
-          text: '💫Digital Culture-Blog ART&AKTEN zur Ausstellung'
-          url: 'https://artakten.wordpress.com/2020/11/22/digitale-kunstausstellung-vi·son-mixing-senses%e2%80%8b/'
+          text: '💫Wir beim Digital Culture-Blog ART&AKTEN'
+          url: >
+            https://www.artakten.de/digitale-kunstausstellung-vi·son-mixing-senses/
         - 
-          text: '💬 Presse: Im Kunstraum lernt das Ohr zu sehen'
+          text: '💬Presse: Im Kunstraum lernt das Ohr zu sehen'
           url: >
             https://www.morgenweb.de/schwetzinger-zeitung_artikel,-hockenheim-im-kunstraum-lernt-das-ohr-zu-sehen-_arid,1720052.html
         - 
-          text: 📺 "momentum particles" auf Vimeo
+          text: 📺"momentum particles" auf Vimeo
           url: https://vimeo.com/441251126
         - 
-          text: >
-            📻 Playlist "looking at" auf
-            Soundcloud
+          text: 📻Playlist "looking at" auf Soundcloud
           url: >
             https://soundcloud.com/mixing-senses/sets/looking-at
         - 
           text: >
-            📰 Wie sieht Musik aus? (Blogpost@The
+            📰Wie sieht Musik aus? (Blogpost@The
             ARTicle)
           url: https://thearticle.hypotheses.org/8757
         - 
           text: >
-            👩🏽‍💻 Generative Art
+            👩🏽‍💻Generative Art
             (Blogpost@The ARTicle)
           url: https://thearticle.hypotheses.org/9128
         - 
-          text: 🎪 vi·son beim Z2X
+          text: 🎪vi·son beim Z2X
           url: https://z2x.zeit.de/z2x20-programm
       scripttag: ""
       _key: column
@@ -153,7 +172,7 @@ Blocks:
   headline: audiovisuelles erleben
   text: |
     **vi•son ist eine audioreaktive Digitalkunst-Performance.** Im Projekt werden verschiedene Phänomene rund um die multisensorische Wahrnehmung thematisiert. Dabei liegt der Fokus auf der Visualisierung von Musik.
-    Im November 2020 werden wir eine Online-Ausstellung gestalten, aus der dann im Frühjahr 2021 in der Region Rhein-Neckar und Frankfurt physisch umgesetzt werden soll.
+    Im November 2020 haben wir eine Online-Ausstellung gestaltet, die dann in Zukunft in der Region Rhein-Neckar und Frankfurt auch in Präsenz umgesetzt werden soll.
     <br><br><br><br>
     Musik nämlich ist eine gängige Weise Emotionen und Stimmungen zu kodieren und zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Mehrdimensionale Emotion wird durch Musik auf eine Ebene (*Audio*) verdichtet. **Wir versuchen, den Code der Musik wieder aufzufächern.** Wir wollen erfahren, was Menschen tun, sehen und fühlen, wenn sie etwas bestimmtes hören - und umgekehrt. **An der Schnittstelle von *Creative Coding*, Musikproduktion und Sozialwissenschaft wollen wir intensive Darstellungsweisen von Klang und Emotion erkunden.**
   _key: textblock
@@ -224,15 +243,20 @@ Blocks:
   headline: Kooperationen
   logos:
     - 
-      link: https://thearticle.hypotheses.org/
-      logo:
-        - logo-the-article.svg
-      description: 'Online-Magazin für Kunstwissenschaft '
-    - 
       link: http://www.kunstverein-hockenheim.de/
       logo:
         - logo-kv-hockenheim.svg
       description: ""
+    - 
+      link: https://cyanite.ai/
+      logo:
+        - cyanite-logo_2-full.png
+      description: 'Cyanite - Music-Tech Startup und Anbieter für KI-Musikanalyse'
+    - 
+      link: https://thearticle.hypotheses.org/
+      logo:
+        - logo-the-article.svg
+      description: 'Online-Magazin für Kunstwissenschaft '
   _key: logolist
   _uid: logolist_1592134314918_207
 

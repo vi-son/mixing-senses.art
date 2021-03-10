@@ -8,10 +8,14 @@ Links:
   title: "💡 über's projekt"
   url: https://mixing-senses.art/de
 - 
-  title: '👉 Zur digitalen Ausstellung: Hier entlang'
+  title: '👉Zur digitalen Ausstellung: Hier entlang'
   url: https://mixing-senses.art/de
 - 
-  title: '✨ Videotipp: How to translate feeling into sound? (YT)'
+  title: '✨ Translating Sonic Languages: Gast-Blogpost'
+  url: >
+    https://cyanite.ai/2021/01/21/ai-and-arts-exploring-creative-ways-to-translate-music/
+- 
+  title: '📺 Videotipp: How to translate feeling into sound? (YT)'
   url: https://youtu.be/q5yxIzs5Wug
 - 
   title: '🎧 Podcast: Mixing Senses'
@@ -21,24 +25,20 @@ Links:
   url: >
     https://soundcloud.com/mixing-senses/sets/looking-at
 - 
-  title: '📰 Presse: Können wir Musik sehen?'
-  url: >
-    https://www.morgenweb.de/schwetzinger-zeitung_artikel,-hockenheim-koennen-wir-musik-sehen-_arid,1717795.html
-- 
   title: 📜 aufsätze | the ARTicle
   url: >
     https://thearticle.hypotheses.org/category/projekte/visonmixingsenses
+- 
+  title: 👩🏽‍💻 codes | github
+  url: https://github.com/vi-son
+- 
+  title: ⏱ @Z2X
+  url: https://z2x.mixing-senses.art
 - 
   title: 👁‍🗨 projektinfo | pdf download
   url: >
     https://drive.google.com/file/d/1_WMDScDfd9zg2Hp5lfnwb4uc_dSaefqu/view
 - 
-  title: 👩🏽‍💻 codes | github
-  url: https://github.com/vi-son
-- 
   title: 💎 pendeloque dossier | website
   url: >
     https://pendeloque.de/dossier/vi-son-mixing-senses
-- 
-  title: ⏱ @Z2X
-  url: https://z2x.mixing-senses.art

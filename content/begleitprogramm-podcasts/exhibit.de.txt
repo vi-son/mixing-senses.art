@@ -26,11 +26,15 @@ Exhibitioncomponent:
 
 ----
 
+Subdomain: 
+
+----
+
 Blocks:
 
 - 
-  preheadline: "Hier geht's weiter mit Gedankenanstößen"
-  headline: Jetzt reinhören
+  preheadline: Interviews und Gespräche zum Thema
+  headline: "Hier geht's weiter mit Gedankenanstößen"
   text: >
     Dieser Podcast begleitet unsere digitale
     Ausstellung und wirft Schlaglichter auf

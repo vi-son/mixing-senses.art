@@ -1,0 +1,383 @@
+Title: Dot
+
+----
+
+Order: 1
+
+----
+
+Active: true
+
+----
+
+Titleimage:
+
+- sound-202011.png
+
+----
+
+Type: art
+
+----
+
+Shortdescription: Einführung, Grundüberlegungen und unser audioreaktives Logo
+
+----
+
+Exhibitioncomponent: Logo
+
+----
+
+Subdomain: https://dot.mixing-senses.art
+
+----
+
+Blocks:
+
+- 
+  preheadline: Musik sehen, fühlen, erleben
+  headline: 'Digitale Gesellschaft & ihre Musik'
+  text: |
+    Wie sieht Musik aus? Im ersten Augenblick mag diese Frage verwirren, denn Musik ist erst einmal nicht dafür gemacht, irgendwie auszusehen. Sie soll sich vor allem nach etwas anhören. Tatsächlich kennen wir eine Reihe visueller Formen und Symbolsysteme, die Musik repräsentieren; denken wir an Noten, Musikvideos und Albencover.
+    <br>
+    Gehen wir aber weiter und fragen: Wie sieht Musik wirklich aus? Welche Farbe hat sie, welche Form, ist sie groß oder klein? Natürlich ist das schwer zu fassen, denn Ohren können nicht sehen und Augen nicht hören.
+  _key: textblock
+  _uid: textblock_1605962922152_581
+- 
+  links:
+    - 
+      link: https://thearticle.hypotheses.org/8757
+      text: >
+        "Wie sieht eigentlich Musik aus?" auf
+        the ARTicle
+  _key: hyperlinks
+  _uid: hyperlinks_1605962960412_581
+- 
+  preheadline: ""
+  headline: ""
+  text: |
+    Diese Ausstellung ist ein lebendiger, wachsender Ort. Nach und nach werden neue Inhalte und kreative Beiträge eingepflegt. Wir werden uns selbst vor die Aufgabe stellen, Musik unter einem bestimmten Gesichtspunkt zu visualisieren.
+    <br>
+    In diesem Kapitel wollen wir uns mit einigen Grundkonzepten auseinandersetzen und zeigen, wie unsere kreativen Beiträge funktionieren.
+  _key: textblock
+  _uid: textblock_1605963048136_581
+- 
+  preheadline: 'Musik & Technik'
+  headline: Einblicke in die Grundlagen
+  text: |
+    Die Musik, die wir täglich hören, entsteht in modernen Tonstudios. Diese stecken üblicherweise voller Technik. Das sind nicht nur die Instrumente, sondern zum Beispiel auch sogenannte Sampler, Effektgeräte, … und nicht zuletzt Computer. Die Bearbeitung von Musik passiert heutzutage vorwiegend in Softwarelösungen, die unter der Bezeichnung DAW bekannt sind.
+    
+    Im Studio passiert auf technischer Seite einiges. Geräte und Instrumente müssen gesteuert werden und miteinander kommunizieren können. Dazu sind sogenannte Schnittstellenstandards notwendig.
+  _key: textblock
+  _uid: textblock_1605963151548_581
+- 
+  cite: >
+    "Ob Sie es wissen oder nicht, MIDI hat
+    Ihr Musikerleben verändert. MIDI ist
+    das Protokoll, mit dem digitalisierte
+    Informationen in Audio umgewandelt
+    werden. Wenn ein Musiker in ein
+    MIDI-fähiges Gerät wie einen
+    Synthesizer oder einen Drumcomputer
+    spielt, wird MIDI dazu verwendet, die
+    verschiedenen Elemente der Musik zu
+    digitalisieren, wie die Note und die
+    Kraft, mit der sie gespielt wurde (z.B.
+    ein leise gezupftes C oder ein
+    Fortissimo Fis). Dies ermöglicht es
+    Musikproduzenten und Technikern, Musik
+    später anzupassen. So können sie
+    beispielsweise die Tonhöhe bestimmter
+    Noten ändern oder sogar den Klang von
+    einem Keyboard auf Trompete oder Gitarre
+    umschalten. Im Grunde ist es dies, was
+    Musiker zur Bearbeitung von Musik
+    verwenden." ₁
+  link: >
+    https://qz.com/1788828/how-will-midi-2-0-change-music/
+  author: Dan Kopf (eigene Übersetzung)
+  _key: citeblock
+  _uid: citeblock_1605963230832_581
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Über das Protokoll MIDI werden beispielsweise digitale Steuersignale in eine Audioausgabe übersetzt. MIDI wurde schon 1983 eingeführt und hat seitdem einen wahren Siegeszug erlebt. Vom international gefeierten Studio bis zum experimentellsten Bedroomproducer: der Industriestandard MIDI kommt millionenfach zum Einsatz. Nun ist es so, dass diese Technik zwar viel zur modernen Musikproduktion beigetragen hat. Allerdings gibt es auch hier Nachteile zu beklagen:'
+  _key: textblock
+  _uid: textblock_1605972997243_3417
+- 
+  cite: >
+    "Obwohl MIDI in den letzten 37 Jahren
+    bei der Digitalisierung von Musik
+    außergewöhnliche Arbeit geleistet hat,
+    ist es nicht perfekt. MIDI quantifiziert
+    Musik, d.h. es zwingt Musikkomponenten
+    in einen bestimmten Wert. In MIDI 1.0
+    waren alle Daten in 7-Bit-Werten
+    angelegt. Das bedeutet, dass
+    musikalische Qualitäten auf einer Skala
+    von 0 bis 127 klassifiziert wurden.
+    Merkmale wie Lautstärke, Tonhöhe und
+    wie viel des Tons aus dem rechten oder
+    linken Lautsprecher kommen sollte,
+    werden alle auf dieser Skala mit 128
+    möglichen Punkten gemessen. Das ist
+    keine sehr hohe Auflösung. Einige
+    wirklich anspruchsvolle Zuhörer können
+    die Schritte zwischen diesen Punkten
+    deutlich hören" ₂
+  link: >
+    https://qz.com/1788828/how-will-midi-2-0-change-music/
+  author: Dan Kopf (eigene Übersetzung)
+  _key: citeblock
+  _uid: citeblock_1605973074327_3417
+- 
+  preheadline: >
+    Technische Möglichkeiten beeinflussen,
+    wie Musik klingt
+  headline: >
+    Der unsichtbare Einfluss von
+    Schnittstellen und Komprimierung
+  text: 'Das heißt nichts anderes als dass wir diesen Teil der musikalischen Welt gewissermaßen seit Jahrzehnten in geringer Auflösung erleben. Diese Unzulänglichkeit soll allerdings ein Update lösen. Seit Jahresanfang 2020 ist MIDI 2.0 verfügbar - und damit eine höhere Datenauflösung. Um einen etwas schiefen Vergleich zu bemühen: Der Sprung von der VHS zur BlueRay ist damit geschafft.'
+  _key: textblock
+  _uid: textblock_1605973171853_3417
+- 
+  links:
+    - 
+      link: >
+        https://qz.com/1788828/how-will-midi-2-0-change-music/
+      text: »How MIDI 2.0 will change Music«
+  _key: hyperlinks
+  _uid: hyperlinks_1605976621356_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: |
+    Neben Schnittstellen sind z.B. auch Komprimierungsverfahren ein wichtiger Bestandteil der heutigen Musikproduktion und des digitalen Musikkonsums. Komprimierung wird eingesetzt, um “überschüssige” Datenfragmente aus Dateien zu entfernen, um die Übertragung zu optimieren, zu vereinfachen und zu beschleunigen. Beinahe alles, was wir im Web hören, klingt damit nicht so, wie es ursprünglich geklungen hat - auch, wenn wir es meistens nicht bemerken.
+    Wir wollen uns nicht mit weiteren Details hierzu aufhalten. Die zentrale Botschaft lautet: **(Digitale) Technik vermittelt, strukturiert und beeinflusst die Art und Weise, wie wir Musik machen und wahrnehmen.**
+    
+    Mehr zu diesem Thema hat der Journalist und Podcaster (link: https://twitter.com/chgrasse text: Christian Conradi) (link: https://viertausendhertz.de/ text: [Viertausendhertz]) in einer Podcastepisode aufbereitet.
+  _key: textblock
+  _uid: textblock_1605973342166_3417
+- 
+  links:
+    - 
+      link: https://viertausendhertz.de/sf02/
+      text: >
+        Die Mutter von MP3 und Geister im Ton /
+        Systemfehler Podcast
+  _key: hyperlinks
+  _uid: hyperlinks_1605973786468_3417
+- 
+  preheadline: Audioreaktives Logo
+  headline: Musikvisualisierung mit drei Parametern
+  text: |
+    Schnittstellen, Komprimierungsverfahren und eine Reihe anderer Techniken sorgen dafür, dass Musik digital ist. Musik ist heute nicht nur Song und Album, sondern insbesondere Datei, Datensatz. Damit ist sie einerseits allgegenwärtig. Wir kennen es aus unserem Alltag: es ist geradezu lächerlich einfach geworden, jederzeit Musik zu hören. Wenn Musik Datensatz ist, bedeutet das auch, dass wir sie auf verschiedene Arten verarbeiten können. Das ist üblicherweise das, was man mit Datensätzen macht - man kopiert sie, überträgt sie, analysiert sie, speichert sie in eine Datenbank, usw.
+    
+    Musikdatensätze werden normalerweise mit einer geeigneten Software geöffnet und angehört. Was muss passieren, damit wir die digitale Musik nicht nur hören, sondern auch sehen können?
+  _key: textblock
+  _uid: textblock_1605973862161_3417
+- 
+  image:
+    - dot.colored@3x-turquoise.png
+  text: >
+    Unser Logoelement »Dot« haben wir als
+    audioreaktive Grafik umgesetzt. Er
+    bietet eine gute Gelegenheit zu
+    erklären, wie Musik in digitalen Code
+    und digitaler Code in Visualisierungen
+    übersetzt werden kann.
+  _key: imageblock
+  _uid: imageblock_1605974058423_3417
+- 
+  preheadline: Am Anfang steht die Musik
+  headline: Wie wird aus Ton ein visueller Inhalt?
+  text: |
+    Töne und Klänge können anhand verschiedener Parameter analysiert werden. Das lässt sich auch ganz gut bildlich erklären: Nehmen wir beispielsweise eine klassische Wellenform, wie man sie von der Musikplattform Soundcloud kennt. Solch eine Wellenform zeigt die Lautstärke eines Songs über die Spielzeit. Genauer: Die x-Achse zeigt die Zeit in Sekunden (s), die y-Achse die Lautstärke - meist in Dezibel (dB).
+    <br>
+    Wir haben nun also schon einmal zwei Parameter: erstens: Zeit; zweitens: Lautstärke (oder genauer: Schalldruck).
+  _key: textblock
+  _uid: textblock_1605974125686_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Soundcloud zeigt nicht eine durchgängige Wellenform, sondern ganz viele kleine Säulen. Tatsächlich ist diese Darstellungsweise stimmig: Sobald ein Song digital gespeichert wird, muss er in viele Schnipsel unterteilt werden. Dies geschieht streng genommen auch mit der Lautstärke. Ein Song von 100 Sekunden könnte beispielsweise in 100 Säulen à 1 Sekunde unterteilt werden. In Wahrheit sind es natürlich viel mehr. Und in y-Richtung wird die Säule zudem noch in 20 Schritten abgestuft.'
+  _key: textblock
+  _uid: textblock_1605974179248_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: 'So weit, so gut. Aus diesen Informationen ergibt sich schnell ein dritter Parameter: die Frequenz. Jeder Ton hat eine Frequenz. Der “Kammerton A” zum Beispiel 440 Hz (1 Hz = 1 Schwingung pro Sekunde). Der Ton macht also 440 Schwingungen pro Sekunde. Auf einem Balken liegen nun aber viele Töne übereinander. Um diese wieder in einzelne Frequenzen aufzudröseln, bedarf es eines mathematischen Algorithmus: Der Fouriertransformation (FT).'
+  _key: textblock
+  _uid: textblock_1605974200528_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: |
+    Wichtig zu wissen ist: Wenn man ein Audiosignal einer FT unterzieht, erhält man nicht mehr den Schalldruck über die Zeit, sondern den Schalldruck über die Frequenz. (Die Einheit der x-Achse sind dann nicht mehr Sekunden, sondern 1/s.) Man kann damit also für jede Säule (Beispiel 1 Säule = 1 Sekunde) die Frequenzverteilung betrachten.
+    <br>
+    Nun haben wir drei Parameter, mithilfe derer wir erstens Musik analysieren und beschreiben sowie zweitens digital erfassen, speichern und weiterverarbeiten können.
+    <br>
+    Der »Dot« wird maßgeblich von diesen drei Parametern gesteuert.
+  _key: textblock
+  _uid: textblock_1605974254894_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Um die Mitte drehen sich zwei “Punktwolken”, welche das Frequenzspektrum darstellen. Im Uhrzeigersinn gedacht zeigen sie die Lautstärke von hohen bis zu tiefen Frequenzen an. Der Punkt in der Mitte moduliert mit der Lautstärke. Es werden also sowohl die Lautstärke, als auch die einzelnen Frequenzen erfasst und in einen entsprechenden visuellen Parameter umgesetzt. Damit haben wir für drei Kerneigenschaften der zugrundeliegenden Musik geeignete Darstellungsweisen erzeugt und voilà: **Musik sichtbar gemacht!** Das gesamte Arrangement erinnert an ein auf die Betrachtenden gerichtetes Auge.'
+  _key: textblock
+  _uid: textblock_1605974295176_3417
+- 
+  preheadline: Digitale Kunst für eine digitale Zeit
+  headline: Die Generative Art
+  text: 'Die Methode, mit Datenanalyse, Programmcode und Visualisierungstechniken kreativ umzugehen wird als (link: https://en.wikipedia.org/wiki/Creative_coding text: Creative Coding) bezeichnet. Gewissermaßen wird hier keine funktionale Software, sondern Kunst programmiert. Eine der spannendsten Strömungen innerhalb dieser Bewegung ist die **Generative Art**.'
+  _key: textblock
+  _uid: textblock_1605974384766_3417
+- 
+  cite: '»In den letzten 50 Jahren hat sich unsere Welt in rasender Geschwindigkeit digitalisiert. Keine Kunstform hat diese Übergangszeit - unsere Zeit - besser erfasst als die Generative Art. Die Generative Art nutzt alles, was die Informatik zu bieten hat und produziert elegante und überzeugende Kunstwerke, die dieselben Prinzipien und Ziele verfolgen, die Kunstschaffende seit den Anfängen der modernen Kunst anstreben.« [3]'
+  link: >
+    https://www.artnome.com/news/2018/8/8/why-love-generative-art
+  author: Jason Bailey (eigene Übersetzung)
+  _key: citeblock
+  _uid: citeblock_1605974508730_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Kurator und Digitalkunstexperte Jason Bailey definiert diese Art Kunst zu machen so: Generative Art “is art programmed using a computer that intentionally introduces randomness as part of its creation process.“ [4] Generative Art ist also programmierte Kunst mit gezielt eingesetzten Zufallsmechanismen.'
+  _key: textblock
+  _uid: textblock_1605976535417_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: 'Der Prozess zufallsbasierter Kunstprogrammierung in Baileys Sinne bedeutet dabei weder die völlige Autonomie des Computers noch eine vollständige Kontrolle über ihn: “The truth is that generative artists skillfully control both the magnitude and the locations of randomness introduced into the artwork.“ [5] Der künstlerische Wert dieser Kunst liegt somit nur zum Teil im entstehenden Produkt - vor allem liegt er in der Verarbeitungsregel, die den eigentlichen Kern der kreativen Arbeit ausmacht.'
+  _key: textblock
+  _uid: textblock_1605976558815_3417
+- 
+  links:
+    - 
+      link: >
+        https://www.artnome.com/news/2018/8/8/why-love-generative-art
+      text: 'Mehr zu diesem Thema: Why Love Generative Art? '
+  _key: hyperlinks
+  _uid: hyperlinks_1605976581383_3417
+- 
+  image:
+    - 0060.png
+    - 0028.png
+    - 0035.png
+    - 0003.png
+  _key: imagegrid
+  _uid: imagegrid_1605976741318_3417
+- 
+  preheadline: Sound Data Sculptures Sketches
+  headline: Digitale Klangskulpturen
+  text: >
+    Auf diese Weise wird aus einer
+    Datenanalyse ein neuer Inhalt generiert.
+    Wir haben uns diese Methode zunutze
+    gemacht, um digitale Klangskulpturen zu
+    programmieren. In der Serie Sound Data
+    Sculpture Sketches haben wir uns
+    verschiedene Darstellungsweisen
+    vorgenommen, die jeweils eine Auswahl
+    von Parametern eines Musikstücks
+    akzentuieren. Die zugrundeliegenden
+    Songs kommen aus unserer eigenen
+    Klangschmiede. Herausgekommen ist ein
+    Spektrum verschiedener Einblicke in die
+    Seele der Musik aus Farben, Formen und
+    Bewegung.
+  _key: textblock
+  _uid: textblock_1605976722238_3417
+- 
+  links:
+    - 
+      link: https://thearticle.hypotheses.org/9128
+      text: Entstehung der Sound Data Sculptures
+  _key: hyperlinks
+  _uid: hyperlinks_1605976900265_3417
+- 
+  image:
+    - 2020.07.19-14.19_momentum-004.png
+    - 2020.07.19-14.19_momentum-005.png
+    - 2020.07.19-14.19_momentum-001.png
+  _key: imagegrid
+  _uid: imagegrid_1605976992485_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: >
+    Der Grundgedanke, Musik als
+    Ursprungsdatensatz zu begreifen, den wir
+    verarbeiten, entschlüsseln und neu
+    abmischen können, wird uns durch dieses
+    Projekt begleiten.
+  _key: textblock
+  _uid: textblock_1605976893830_3417
+- 
+  video: https://player.vimeo.com/video/441251126
+  text: |
+    vi • son/mixing senses<br/>
+    2020.07.19-14.19<br/>
+    momentum particles<br/>
+    Guido Schmidt
+  _key: videoembed
+  _uid: videoembed_1605977221171_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: |
+    Datenskulpturen sind notwendigerweise unabgeschlossen und ihre künstlerische Idee ist nicht im Endprodukt verewigt, sondern in der diesem vorausgehenden Verarbeitungsregel. Um dem gerecht zu werden, nennen wir unsere Skulpturen Skizzen (eng. sketches). Die Sound Data Sculpture Sketches haben wir zunächst auf Instagram geteilt - (link: https://www.instagram.com/p/CDE-58qAbh2/ text: zum Beispiel hier.)
+    
+    Sollen hier mehr Infos zu den einzelnen Sound Data Sculpture Sketches stehen? (link: https://www.notion.so/vi-son-Wie-geht-s-weiter-d28a07a4c6ea46e287b7841543c41c2a text: Jetzt Feedback geben!)
+  _key: textblock
+  _uid: textblock_1605976929504_3417
+- 
+  image:
+    - 2020.05.23-13-20.png
+    - 0006.png
+  _key: imagegrid
+  _uid: imagegrid_1605977175835_3417
+- 
+  preheadline: ""
+  headline: ""
+  text: >
+    Starten wir nun den Versuch, den Code
+    der Musik zu entschlüsseln und neu
+    abzumischen. Generative Art ist eine
+    Methode, dies zu erreichen. Den Gedanken
+    aber, welche Eindrücke und Emotionen in
+    die Datenstruktur der Musik eingebettet
+    sind und wie wir dies aufbrechen
+    können, verfolgen wir in Kapitel 2
+    weiter.
+  _key: textblock
+  _uid: textblock_1605977367035_3417
+- 
+  referencesruct:
+    - 
+      footnote: 1
+      labeltext: 'Dan Kopf (2020): An update to a 37-year-old digital protocol could profoundly change the way music sounds. Quartz.'
+      source: >
+        https://qz.com/1788828/how-will-midi-2-0-change-music/
+    - 
+      footnote: 2
+      labeltext: ebd.
+      source: >
+        https://qz.com/1788828/how-will-midi-2-0-change-music/
+    - 
+      footnote: 3
+      labeltext: 'Jason Bailey (2018): Why Love Generative Art? Artnome.'
+      source: >
+        https://www.artnome.com/news/2018/8/8/why-love-generative-art
+    - 
+      footnote: 4
+      labeltext: ebd.
+      source: >
+        https://www.artnome.com/news/2018/8/8/why-love-generative-art
+    - 
+      footnote: 5
+      labeltext: ebd.
+      source: >
+        https://www.artnome.com/news/2018/8/8/why-love-generative-art
+  _key: references
+  _uid: references_1606037949011_8490

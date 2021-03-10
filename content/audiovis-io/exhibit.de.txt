@@ -28,6 +28,10 @@ Exhibitioncomponent: AudiovisIO
 
 ----
 
+Subdomain: https://audiovisio.mixing-senses.art
+
+----
+
 Blocks:
 
 - 
@@ -49,7 +53,7 @@ Blocks:
     - 
       link: >
         https://www.notion.so/vi-son-Wie-geht-s-weiter-d28a07a4c6ea46e287b7841543c41c2a
-      text: '⚡ Aktueller Hinweis: Zur Nutzung von audiovis I/O beachte unser Infoboard'
+      text: 'Aktueller Hinweis: Zur Nutzung von audiovis I/O beachte unser Infoboard'
   _key: hyperlinks
   _uid: hyperlinks_1606040068539_14737
 - 
@@ -58,14 +62,14 @@ Blocks:
   text: |
     Aber was sind diese Qualitäten? Wie funktioniert der Code der Musik? Wie sieht Musik aus? In diesem Kapitel werden wir auf kreative Weise der Frage nachgehen, wie wir Musik wahrnehmen und verarbeiten, wie sie uns emotional berührt und in Bewegung versetzt. Mit musikalischen Impulsen, so werden wir festellen, lassen sich bestimmte Eindrücke verbinden. Sieht Musik so aus, wie die Sinneseindrücke, die wir mit ihr assoziieren?
     
-    Mit unserem Exponat audiovis I/O kann man selbst ausprobieren, welche Assoziationen einzelne Höreindrücke in der eigenen Wahrnehmung wach rufen. 👉
+    Mit unserem Exponat audiovis I/O kann man selbst ausprobieren, welche Assoziationen einzelne Höreindrücke in der eigenen Wahrnehmung wach rufen.
   _key: textblock
   _uid: textblock_1605543288597_7066
 - 
   links:
     - 
       link: https://thearticle.hypotheses.org/9842
-      text: 📰 So haben wir das Exponat entwickelt
+      text: So haben wir das Exponat entwickelt
   _key: hyperlinks
   _uid: hyperlinks_1606034929183_2700
 - 
@@ -84,7 +88,7 @@ Blocks:
   links:
     - 
       link: https://thearticle.hypotheses.org/8757
-      text: ✒ Unser Essay zum Thema
+      text: Unser Essay zum Thema
   _key: hyperlinks
   _uid: hyperlinks_1606035225300_2700
 - 
@@ -238,7 +242,7 @@ Blocks:
   _uid: citeblock_1606036514522_2700
 - 
   video: >
-    https://www.youtube.com/embed/FfF3Aee3YeA
+    https://www.youtube.com/embed/FfF3Aee3YeA?start=1
   text: >
     Dokumentation zum Thema Synästhesie auf
     YouTube
@@ -249,7 +253,7 @@ Blocks:
     - 
       link: https://synaesthesie.org/de/synaesthesie
       text: >
-        📚 Weitere Informationen zum Thema
+        Weitere Informationen zum Thema
         Synästhesie
   _key: hyperlinks
   _uid: hyperlinks_1606036753742_2700

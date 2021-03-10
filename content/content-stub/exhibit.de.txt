@@ -28,6 +28,10 @@ Exhibitioncomponent:
 
 ----
 
+Subdomain: https://patterns.mixing-senses.art
+
+----
+
 Blocks:
 
 - 
