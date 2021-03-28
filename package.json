@@ -1,6 +1,6 @@
 {
   "name": "kirby.guidoschmidt.cc",
-  "version": "0.0.0",
+  "version": "1.0.4",
   "description": "Kirby is a file-based CMS. Easy to setup. Easy to use. Flexible as hell.",
   "main": "index.js",
   "scripts": {
