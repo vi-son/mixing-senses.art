@@ -11,13 +11,13 @@ Links:
   title: "💡 über's projekt"
   url: https://mixing-senses.art/de
 - 
-  title: '👁‍🗨 Projektinfos [pdf]'
-  url: >
-    https://drive.google.com/file/d/1_WMDScDfd9zg2Hp5lfnwb4uc_dSaefqu/view
-- 
   title: '✨ Translating Sonic Languages: Gast-Blogpost'
   url: >
     https://cyanite.ai/2021/01/21/ai-and-arts-exploring-creative-ways-to-translate-music/
+- 
+  title: '🎼 Inspiration: Spotify-Playlist'
+  url: >
+    https://open.spotify.com/playlist/0B770LYY6T0L2qjfoyhBh0?si=op_pQ4g0ThGhcp_Drpt0pw
 - 
   title: '🎧 Podcast: Mixing Senses'
   url: https://mixing-senses.podigee.io/
@@ -33,9 +33,13 @@ Links:
   title: 💻 github
   url: https://github.com/vi-son
 - 
-  title: ⏱ @Z2X
-  url: https://z2x.mixing-senses.art
-- 
   title: 💎 pendeloque.de projekt dossier
   url: >
     https://pendeloque.de/dossier/vi-son-mixing-senses
+- 
+  title: '👁‍🗨 Projektinfos [pdf]'
+  url: >
+    https://drive.google.com/file/d/1_WMDScDfd9zg2Hp5lfnwb4uc_dSaefqu/view
+- 
+  title: ⏱ @Z2X
+  url: https://z2x.mixing-senses.art

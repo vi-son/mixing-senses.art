@@ -3,9 +3,10 @@ title: Site
 tabs:
   content:
     columns:
-      - width: 2/3
+      - width: 1/3
         sections:
           pages:
+            headline: Seiten
             type: pages
             layout: list
             image:
@@ -45,6 +46,19 @@ tabs:
                 width: 1/2
                 type: text
                 label: Buttontext 'Opt-out'
+
+
+      - width: 1/3
+        sections:
+          exh:
+            type: pages
+            layout: cards
+            headline: Exponate
+            template:
+              - exhibit
+            image:
+              query: page.titleimage.toFile
+              cover: true
 
       - width: 1/3
         sections:
@@ -89,6 +103,9 @@ tabs:
         image:
           query: false
         info: "Template: {{ page.template }}"
+        image:
+          query: page.titleimage.toFile 
+          cover: true
         create:
           - exhibit
         template:

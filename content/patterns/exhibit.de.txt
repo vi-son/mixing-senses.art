@@ -1,0 +1,42 @@
+Title: Laufende Muster
+
+----
+
+Order: 3
+
+----
+
+Active: false
+
+----
+
+Titleimage:
+
+- laufende-muster.png
+
+----
+
+Type: art
+
+----
+
+Shortdescription: 
+
+----
+
+Exhibitioncomponent: 
+
+----
+
+Subdomain: https://patterns.mixing-senses.art
+
+----
+
+Blocks:
+
+- 
+  preheadline: Test
+  headline: test
+  text: Test
+  _key: textblock
+  _uid: textblock_1616245396021_1483
