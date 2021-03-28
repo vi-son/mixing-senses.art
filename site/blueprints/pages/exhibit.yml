@@ -49,6 +49,21 @@ tabs:
         columns: 1
         fieldsets:
 
+          detailsblock:
+            label: Details
+            fields:
+              referencesruct:
+                type: structure
+                fields:
+                  key:
+                    width: 2/4
+                    label: Label
+                    type: text
+                  value:
+                    width: 2/4
+                    label: Text
+                    type: text
+
           citeblock:
             label: Zitatblock
             fields:
