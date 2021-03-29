@@ -2,6 +2,12 @@ Title: audiovis i/o
 
 ----
 
+Titleimage:
+
+- 2020.10.25-15.14.23-totem.png
+
+----
+
 Order: 2
 
 ----
@@ -10,25 +16,36 @@ Active: true
 
 ----
 
-Titleimage:
-
-- 2020.10.25-15.14.23-totem.png
-
-----
-
 Type: art
 
 ----
 
-Shortdescription: Der Code der Musik und audiovisuelle Assoziationen
+Shortdescription:
 
-----
-
-Exhibitioncomponent: AudiovisIO
+Software, Eigenentwicklung, Web-Browser-Basiert,</br>
+JavaScript (three.js/React), HTML, SASS
+</br>
+</br>
+Audiovis I/O erforscht die assoziative Verknüpfung von Musik mit anderen Sinneseindrücken.
 
 ----
 
 Subdomain: https://audiovisio.mixing-senses.art
+
+----
+
+Artists:
+
+- 
+  artist_name: Fuchs
+- 
+  artist_name: Doubali
+- 
+  artist_name: Schmidt
+
+----
+
+Published: 2020-11-29
 
 ----
 
@@ -294,3 +311,7 @@ Blocks:
         https://synaesthesie.org/de/synaesthesie/was-ist-synaesthesie-wissenschaftliche-version
   _key: references
   _uid: references_1606037353380_2700
+
+----
+
+Exhibitioncomponent: AudiovisIO

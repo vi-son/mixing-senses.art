@@ -41,10 +41,25 @@ tabs:
             type: textarea
             size: small
             width: 1
+            buttons: false
           subdomain:
             label: Subdomain des Exponats
             type: url
             width: 1
+          artists:
+            type: structure
+            label: Künstler
+            width: 1/2
+            fields:
+              artist_name:
+                type: text
+                label: Name
+          published:
+            label: Veröffentlichung
+            type: date
+            display: MM/YYYY
+            width: 1/2
+            help: Nur Monat und Jahr werden angezeigt
 
   content:
     label: Inhalt
@@ -57,21 +72,6 @@ tabs:
         type: builder
         columns: 1
         fieldsets:
-
-          detailsblock:
-            label: Details
-            fields:
-              referencesruct:
-                type: structure
-                fields:
-                  key:
-                    width: 2/4
-                    label: Label
-                    type: text
-                  value:
-                    width: 2/4
-                    label: Text
-                    type: text
 
           citeblock:
             label: Zitatblock
