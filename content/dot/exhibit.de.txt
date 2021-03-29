@@ -2,17 +2,17 @@ Title: Dot
 
 ----
 
+Titleimage:
+
+- sound-202011.png
+
+----
+
 Order: 1
 
 ----
 
 Active: true
-
-----
-
-Titleimage:
-
-- sound-202011.png
 
 ----
 
@@ -24,11 +24,22 @@ Shortdescription: Einführung, Grundüberlegungen und unser audioreaktives Logo
 
 ----
 
-Exhibitioncomponent: Logo
+Subdomain: https://dot.mixing-senses.art
 
 ----
 
-Subdomain: https://dot.mixing-senses.art
+Artists:
+
+- 
+  artist_name: Fuchs
+- 
+  artist_name: Doubali
+- 
+  artist_name: Schmidt
+
+----
+
+Published: 2020-11-01
 
 ----
 
@@ -381,3 +392,7 @@ Blocks:
         https://www.artnome.com/news/2018/8/8/why-love-generative-art
   _key: references
   _uid: references_1606037949011_8490
+
+----
+
+Exhibitioncomponent: Logo

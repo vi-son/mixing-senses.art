@@ -42,6 +42,12 @@ tabs:
             size: small
             width: 1
             buttons: false
+          artwork_description:
+            label: Werkbeschreibung
+            type: textarea
+            size: medium
+            width: 1
+            buttons: false
           subdomain:
             label: Subdomain des Exponats
             type: url
