@@ -1,6 +1,3 @@
-[submodule "assets.src/sass/vi.son-rouge"]
-	path = assets.src/sass/vi.son-rouge
-	url = https://github.com/vi-son/rouge.git
 [submodule "assets.src/js/logo"]
 	path = assets.src/js/logo
 	url = https://github.com/vi-son/logo.git
