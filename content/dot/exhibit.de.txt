@@ -24,6 +24,16 @@ Shortdescription: Einführung, Grundüberlegungen und unser audioreaktives Logo
 
 ----
 
+Artwork-description:
+
+Software, Eigenentwicklung, Web-Browser-Basiert,</br>
+JavaScript (p5.js/React), HTML, SASS
+</br>
+</br>
+Dot ist das audioreaktive Logo der Ausstellung vi • son/mixing-senses.
+
+----
+
 Subdomain: https://dot.mixing-senses.art
 
 ----

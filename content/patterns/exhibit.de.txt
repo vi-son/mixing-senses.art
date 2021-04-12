@@ -1,4 +1,8 @@
-Title: Laufende Muster
+Title: Patterns
+
+----
+
+Titleimage: - laufende-muster.png
 
 ----
 
@@ -10,12 +14,6 @@ Active: false
 
 ----
 
-Titleimage:
-
-- laufende-muster.png
-
-----
-
 Type: art
 
 ----
@@ -24,11 +22,31 @@ Shortdescription:
 
 ----
 
-Exhibitioncomponent: 
+Artwork-description:
+
+Software, Eigenentwicklung, Web-Browser-Basiert,</br>
+JavaScript (three.js/React), HTML, SASS, GLSL
+</br>
+</br>
 
 ----
 
 Subdomain: https://patterns.mixing-senses.art
+
+----
+
+Artists:
+
+- 
+  artist_name: Fuchs
+- 
+  artist_name: Doubali
+- 
+  artist_name: Schmidt
+
+----
+
+Published: 
 
 ----
 
@@ -40,3 +58,7 @@ Blocks:
   text: Test
   _key: textblock
   _uid: textblock_1616245396021_1483
+
+----
+
+Exhibitioncomponent: 

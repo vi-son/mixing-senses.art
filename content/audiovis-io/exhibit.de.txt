@@ -20,7 +20,11 @@ Type: art
 
 ----
 
-Shortdescription:
+Shortdescription: Der Code der Musik und audiovisuelle Assoziationen
+
+----
+
+Artwork-description:
 
 Software, Eigenentwicklung, Web-Browser-Basiert,</br>
 JavaScript (three.js/React), HTML, SASS
