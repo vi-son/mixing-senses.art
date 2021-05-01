@@ -19,7 +19,7 @@
   "author": "Guido Schmidt <vison@guidoschmidt.cc>",
   "license": "CC-BY-4.0",
   "devDependencies": {
-    "@vi.son/rouge": "^1.0.4",
-    "sass": "^1.26.8"
+    "@vi.son/rouge": "file:../rouge",
+    "sass": "^1.32.8"
   }
 }
