@@ -1,0 +1,41 @@
+Title: Sketchbook
+
+----
+
+Titleimage: 
+
+----
+
+Order: 5
+
+----
+
+Active: false
+
+----
+
+Type: art
+
+----
+
+Shortdescription: 
+
+----
+
+Artwork-description: 
+
+----
+
+Subdomain: 
+
+----
+
+Artists: 
+
+----
+
+Published: 
+
+----
+
+Blocks: 

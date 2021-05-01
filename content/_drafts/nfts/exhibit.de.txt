@@ -1,0 +1,41 @@
+Title: NFTs
+
+----
+
+Titleimage: 
+
+----
+
+Order: 0
+
+----
+
+Active: false
+
+----
+
+Type: meta
+
+----
+
+Shortdescription: 
+
+----
+
+Artwork-description: 
+
+----
+
+Subdomain: https://www.hicetnunc.xyz/tz/tz1gMtojrxS7FNrNP2jYfM846AqrXvjUfURR
+
+----
+
+Artists: 
+
+----
+
+Published: 
+
+----
+
+Blocks: 

@@ -50,23 +50,23 @@ Blocks:
   superheading: ""
   columns:
     - 
-      preheading: 'Digitale Ausstellung: Updates in Kürze!'
+      preheading: Digitale Ausstellung
       heading: Kunst, Podcast, neue Inhalte
       text: >
-        Die digitale Ausstellung setzt sich mit
-        multisensorischer Wahrnehmung von Musik
-        im digitalen Zeitalter auseinander, also
-        mit der Frage, welche sinnlichen
-        Qualität Musik hat und wie digitale
-        Technik sie sichtbar machen kann. Die
-        Ausstellung behandelt Denkanstöße dazu
-        auf kreative Weise. In Kürze stellen
-        wir weitere Inhalte bereit und
-        verbessern die Darstellung, vor allem
-        für mobile Geräte. In der Zwischenzeit
-        können thematische Aspekte mit unserem
-        begleitenden Audio-Podcast vertieft
-        werden.
+        Unsere digitale Ausstellung setzt sich
+        mit multisensorischer Wahrnehmung von
+        Musik im digitalen Zeitalter
+        auseinander, also mit der Frage, welche
+        sinnlichen Qualität Musik hat und wie
+        digitale Technik sie sichtbar machen
+        kann. Die Ausstellung behandelt
+        Denkanstöße dazu auf kreative Weise.
+        In Kürze stellen wir weitere Inhalte
+        bereit und verbessern die Darstellung,
+        vor allem für mobile Geräte. In der
+        Zwischenzeit können thematische Aspekte
+        mit unserem begleitenden Audio-Podcast
+        vertieft werden.
       infos:
         - 
           text: 👉 Jetzt reinhören
@@ -84,7 +84,7 @@ Blocks:
       preheading: 'Infos & neues'
       heading: Updates
       text: |
-        **2020-01-21: Blogpost in Kooperation mit Cyanite**
+        **2020.01.21: Blogpost in Kooperation mit Cyanite**
         
         Das Musik-Tech Startup Cyanite hat uns eingeladen, einen Gastartikel auf dem Corporate Blog zu schreiben. Eine gute Gelegenheit für uns, tolle Einblicke in die KI-Analyse von Musik zu erhalten. Was die Arbeit von Cyanite mit unserer Kunst zu tun hat, lest ihr im Artikel von Benjamin.
       infos:
@@ -171,14 +171,14 @@ Blocks:
   preheadline: idee
   headline: audiovisuelles erleben
   text: |
-    **vi•son ist eine audioreaktive Digitalkunst-Performance.** Im Projekt werden verschiedene Phänomene rund um die multisensorische Wahrnehmung thematisiert. Dabei liegt der Fokus auf der Visualisierung von Musik.
+    **vi•son ist eine audiovisuelle Digitalkunst-Performance.** Im Projekt werden verschiedene Phänomene rund um die multisensorische Wahrnehmung thematisiert. Dabei liegt der Fokus auf der Visualisierung von Musik.
     Im November 2020 haben wir eine Online-Ausstellung gestaltet, die dann in Zukunft in der Region Rhein-Neckar und Frankfurt auch in Präsenz umgesetzt werden soll.
     <br><br><br><br>
     Musik nämlich ist eine gängige Weise Emotionen und Stimmungen zu kodieren und zu kommunizieren. Bei dieser Übersetzung gehen jedoch Informationen verloren, Aspekte werden akzentuiert, andere vernachlässigt. Mehrdimensionale Emotion wird durch Musik auf eine Ebene (*Audio*) verdichtet. **Wir versuchen, den Code der Musik wieder aufzufächern.** Wir wollen erfahren, was Menschen tun, sehen und fühlen, wenn sie etwas bestimmtes hören - und umgekehrt. **An der Schnittstelle von *Creative Coding*, Musikproduktion und Sozialwissenschaft wollen wir intensive Darstellungsweisen von Klang und Emotion erkunden.**
   _key: textblock
   _uid: textblock_1583077809843_281
 - 
-  visible: 'true'
+  visible: 'false'
   media:
     - keagan-henman-5ptwaufiacy-unsplash.jpg
     - david-anderson-fahhgnl16im-unsplash.jpg
@@ -197,9 +197,8 @@ Blocks:
         Die Musik ist meist durch einen synthesizerlastigen Sound geprägt. Stilistisch variiert sie je nach Projekt, pendelt sich jedoch meist zwischen Pop und experimentellem Lounge-Sound ein.
       infos:
         - 
-          text: instagram.com/thekalanguhood
-          url: >
-            https://www.instagram.com/thekalanguhood/
+          text: instagram.com/kalangu.hood
+          url: https://www.instagram.com/kalangu.hood/
       scripttag: ""
       _key: column
       _uid: column_1584909902661_1395
